@@ -1,4 +1,5 @@
-@import url(../sass/fontes.scss);
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,26 @@
 
 .header-content .navbar-office {
   height: auto;
-  width: 100vw;
+  width: auto;
   display: flex;
   font-size: 17px;
   flex-direction: row;
   font-weight: bolder;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   flex-wrap: nowrap;
+}
+
+.allitems {
+  padding-left: 4vh;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  flex-wrap: nowrap;
+  color: black;
+}
+
+.allitems:hover {
+  color: #104CBA;
+  text-decoration: none;
 }
 
 .buttoncall {
@@ -32,7 +46,7 @@
 }
 
 .PrimaryContent {
-  min-width: auto;
+  min-width: 100vw;
   min-height: 75vh;
   background-image: url("/images/background-container1.png");
   background-repeat: no-repeat;
@@ -46,7 +60,7 @@
 .PrimaryContent .first-h5 {
   text-align: center;
   font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 1.5;
@@ -54,20 +68,26 @@
   padding: 0;
   color: #ffffff;
   margin-bottom: 20px;
+  cursor: default;
 }
 
-.first-h1 {
+.typing {
+  width: auto;
   text-align: center;
-  font-size: 72px;
+  font-size: 65px;
   font-weight: bolder;
   font-family: "Nunito", sans-serif;
   line-height: 82px;
   color: #ffffff;
   line-height: 70px;
+  white-space: wrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  cursor: default;
 }
 
 @media (max-width: 1000px) {
-  .navbar-nav {
+  .allitems {
     display: none;
   }
 }

@@ -17,6 +17,7 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- ------ -->
+    <script src="../scripts/clientes.js" defer></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -28,29 +29,19 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 7vh;">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 7vh; display: flex; align-items: center;">
+        <ul class="navbar-nav" style="display: flex; align-items: center;">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="allitems" href="#">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre nós</a>
+            <a class="allitems" href="#">Sobre nós</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Serviços</a>
+            <a class="allitems" href="#">Serviços</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Fale conosco</a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Item 1</a>
-              <a class="dropdown-item" href="#">Item 2</a>
-              <a class="dropdown-item" href="#">Item 3</a>
-            </div>
+            <a class="allitems" href="#">Fale conosco</a>
           </li>
         </ul>
       </div>
@@ -71,19 +62,9 @@
   </header>
   <!-- PRIMEIRO CONTAINER -->
     <div class="PrimaryContent" style="margin-top: 0px;">
-      <h5 class="first-h5" data-aos="flip-down">SERVIÇOS DE TI</h5>
-      <h1 class="first-h1" data-aos="flip-down">Deixe a Ultra IT cuidar <br> da sua TI</h1>
+      <h5 class="first-h5 pb-4" data-aos="flip-down">SERVIÇOS DE TI</h5>
+      <div class="typing pb-5" data-aos="flip-down" >Deixe a Ultra IT cuidar da sua TI.</div>
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -110,8 +91,8 @@ crossorigin="anonymous"></script>
       </script>
       <script>
           $(".PrimaryContent").ripples({
-              resolution: 1000,
-              dropRadius: 12,
+              resolution: 1100,
+              dropRadius: 20,
               perturbance: 0.01,
           });
       </script>
