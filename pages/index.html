@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ------ -->
     <script src="../scripts/clientes.js" defer></script>
 </head>
@@ -62,17 +63,40 @@
   </header>
   <!-- PRIMEIRO CONTAINER -->
     <div class="PrimaryContent" style="margin-top: 0px;">
-      <h5 class="first-h5 pb-4" data-aos="flip-down">SERVIÇOS DE TI</h5>
-      <div class="typing pb-5" data-aos="flip-down" >Deixe a Ultra IT cuidar da sua TI.</div>
+      <h5 class="first-h5 pb-4" data-aos="zoom-in-up" data-aos-duration="2000">SERVIÇOS DE TI</h5>
+      <div class="typing pb-5"  data-aos="zoom-in-up" data-aos-duration="2000">Deixe a Ultra IT cuidar da sua TI.</div>
     </div>
 
+<!-- CLIENTES CONTAINER -->
 
+<section class="carousel">
+  <div class="carousel__slider">
+    <ul class="carousel__list">
+      <li class="carousel__item item1">
+      </li>
+      <li class="carousel__item item2">
+      </li>
+      <li class="carousel__item item3">
+      </li>
+      <li class="carousel__item item4">
+      </li>
+      <li class="carousel__item item5">
+      </li>
+      <li class="carousel__item item6">
+      </li>
+      <li class="carousel__item item7">
+      </li>
+      <li class="carousel__item item8">
+      </li>
+    </ul>
+  </div>
+</section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
 integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
 crossorigin="anonymous"></script>
 <script src="./portfolio.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
@@ -93,7 +117,7 @@ crossorigin="anonymous"></script>
           $(".PrimaryContent").ripples({
               resolution: 1100,
               dropRadius: 20,
-              perturbance: 0.01,
+              perturbance: 0.00,
           });
       </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
