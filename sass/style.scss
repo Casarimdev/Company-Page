@@ -95,7 +95,34 @@
   cursor: default;
 }
 
+.h1-middle{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+}
 
+.text-service{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  background-color: #FAFAFA;
+  .p-service{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1D71ED;
+  }
+  .h1-service{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    color: #1D71ED;
+  }
+}
 
 
 @media (max-width: 1000px) {

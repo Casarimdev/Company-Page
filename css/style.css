@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 ul {
   margin: 0;
   padding: 0;
@@ -53,6 +55,7 @@ ul {
   box-sizing: border-box;
   cursor: pointer;
   margin-left: 2vw;
+  margin-right: 2vw;
   cursor: default;
 }
 
@@ -203,6 +206,34 @@ ul {
   white-space: wrap;
   overflow: hidden;
   cursor: default;
+}
+
+.h1-middle {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.text-service {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FAFAFA;
+}
+.text-service .p-service {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1D71ED;
+}
+.text-service .h1-service {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: #1D71ED;
 }
 
 @media (max-width: 1000px) {
