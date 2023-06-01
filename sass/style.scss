@@ -103,11 +103,8 @@
 }
 
 .text-service{
+  height: 40vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  
-  flex-direction: column;
   background-color: #FAFAFA;
   .p-service{
     font-family: 'Noto Sans', sans-serif;
@@ -117,7 +114,7 @@
     color: #1D71ED;
   }
   .h1-service{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bolder;
     font-size: 60px;
     color: #1D71ED;
