@@ -1,0 +1,156 @@
+// .header-content {
+//     .navbar-office {
+//       height: auto;
+//       width: auto;
+//       display: flex;
+//       font-size: 17px;
+//       flex-direction: row;
+//       font-weight: bolder;
+//       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//       flex-wrap: nowrap;
+  
+//     }
+  
+//   }
+  
+  
+  
+//   .allitems {
+//     padding-left: 4vh;
+//     font-size: 16px;
+//     font-family: 'Rubik', sans-serif;
+//     flex-wrap: nowrap;
+//     color: black;
+//   }
+  
+//   .allitems:hover {
+//     color: #104CBA;
+//     text-decoration: none;
+//   }
+  
+//   .buttoncall {
+//     width: 8vw;
+//     height: 6vh;
+//     margin-right: 15vw;
+//     font-family: 'Nunito', sans-serif;
+//     border-radius: 5px;
+//     background-color: rgb(16, 76, 186);
+//     font-size: 16px;
+//     padding: 20px 15px;
+//     color: #fff;
+//     font-weight: 600;
+//     line-height: 1;
+//     display: inline-block;
+//     border: 0px solid rgba(255, 255, 255, 0);
+//   }
+  
+
+.logodesk{
+    text-decoration: none;
+  }
+
+
+  .logodesktop{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logodesk:hover{
+    text-decoration: none;
+  }
+  
+  
+  .linkdesktop{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.2s;
+  }
+  
+  .buttondesk {
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .navbardesktop {
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+    background: rgb(16,76,186);
+    background: linear-gradient(90deg, rgba(16,76,186,1) 30%, rgba(72,89,143,1) 28%, rgba(70,91,146,1) 100%, rgba(55,161,228,1) 100%);
+  }
+  
+  .navbardesktop .logodesktop i {
+    color: #0aa5ff;
+    font-size: 22px;
+  }
+  
+  .navbardesktop .logodesktop a {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-left: 12px;
+  }
+  
+  .menudesktop {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-right: 10vw;
+  }
+  
+  .menudesktop-links {
+    display: flex;
+    gap: 24px;
+    border-right: 1px solid white;
+    padding-inline: 24px;
+  }
+  
+  .menudesktop-links .linkdesktop {
+    font-weight: 500;
+    color: white;
+    padding: 8px 16px;
+  }
+  .menudesktop-links .linkdesktop:hover {
+    color:  white;
+    text-decoration: none;
+    background: rgb(16,76,186);
+    background: linear-gradient(90deg, rgba(16,76,186,1) 24%, rgba(16,105,186,1) 100%, rgba(72,89,143,1) 100%, rgba(70,91,146,1) 100%);
+  }
+  .log-in {
+    font-weight: 500;
+    padding: 12px 22px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.2s;
+  }
+  .log-in:hover {
+    background: rgb(16,76,186);
+    background: linear-gradient(90deg, rgba(16,76,186,1) 79%, rgba(16,105,186,1) 100%, rgba(72,89,143,1) 100%, rgba(70,91,146,1) 100%);     
+    color: white;
+    border: 2px solid white;
+    transition: 0.2s;
+  }
+  
+  .menudesktop-btn {
+    font-size: 32px;
+    color: white;
+    display: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1130px) {
+    .menudesktop{
+        padding-right: 10px;
+    }
+  }

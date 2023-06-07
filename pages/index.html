@@ -25,46 +25,38 @@
 <body>
   <!-- HEADER -->
   <header class="header-content">
-    <nav class="navbar-expand-lg navbar-light navbar-office">
-      <a href="#">
-        <img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav"
-        style="padding-left: 7vh; display: flex; align-items: center;">
-        <ul class="navbar-nav" style="display: flex; align-items: center;">
-          <li class="nav-item active">
-            <a class="allitems" href="#">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="allitems" href="#">Sobre nós</a>
-          </li>
-          <li class="nav-item active">
-            <a class="allitems" href="#">Serviços</a>
-          </li>
-          <li class="nav-item active">
-            <a class="allitems" href="#">Fale conosco</a>
-          </li>
-
-        </ul>
+  <!-- NAVBAR DESKTOP -->
+    <nav class="navbardesktop">
+      <div class="logodesktop">
+        <i class="fa-solid fa-font-awesome"></i>
+        <a href=""><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
       </div>
-      <button type="button" class="btn buttoncall mt-4" style=" width: 10vw;
-      height: 6vh;
-      margin-right: 15vw;
-      font-family: 'Nunito', sans-serif;
-      border-radius: 5px;
-      background-color: rgb( 16, 76, 186);
-      font-size: 16px;
-      padding: 20px 15px;
-      color: #fff;
-      font-weight: 600;
-      line-height: 1;
-      display: inline-block;
-      border: 0px solid rgba(255, 255, 255, 0);">Meet with Us</button>
+      <div class="menudesktop">
+        <div class="menudesktop-links">
+          <a href="#" class="linkdesktop">Home</a>
+          <a href="#" class="linkdesktop">About</a>
+          <a href="#" class="linkdesktop">Contact</a>
+          <a href="#" class="linkdesktop">Blog</a>
+        </div>
+        <button class="log-in buttondesk">Contact Us</button>
+      </div>
+      <div class="menudesktop-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+  </nav>
+  <!-- NAVBAR MOBILE -->
+  <button class="menumobile-btn"></button>
+  <div class="backdropmobile"></div>
+  <section class="sectionmobile"></section>
+  <div class="menumobile">
+    <nav class="navmobile">
+      <a href="#" class="linkmobile" style="animation-delay: 0.2s;">Home</a>
+      <a href="#" class="linkmobile" style="animation-delay: 0.3s;">About Us</a>
+      <a href="#" class="linkmobile" style="animation-delay: 0.4s;">Contact</a>
+      <a href="#" class="linkmobile" style="animation-delay: 0.5s;">Blog</a>
     </nav>
+  </div>
+  <script src="../scripts/scriptmenu.js"></script>
   </header>
   <!-- PRIMEIRO CONTAINER -->
   <section class="First-Container">
@@ -76,7 +68,7 @@
 
 
 <!-- CONTAINER SERVIÇOS -->
-<section class="container-fluid Services-container" >
+<!-- <section class="container-fluid Services-container" >
   <div class="text-service">
     <h3 class="p-service pt-5" style="overflow: hidden;" > Resolvemos problemas reais!</h3>
     <h1 class="h1-service" style="overflow: hidden;">O que podemos fazer <br> por você?</h1>
@@ -85,7 +77,7 @@
   <div class="services">
 
   </div>
-</section>
+</section> -->
 
 
 
