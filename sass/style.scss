@@ -11,22 +11,20 @@
 }
 
 .header-content {
-  .navbar-office {
-    height: auto;
-    width: auto;
-    display: flex;
-    font-size: 17px;
-    flex-direction: row;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-wrap: nowrap;
 
-  }
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
 
 }
 
+.First-Container{
+  position: relative;
+}
 
 .PrimaryContent {
+  position: relative;
   min-width: 100vw;
   min-height: 75vh;
   background-image: url('/images/background-container1.png');

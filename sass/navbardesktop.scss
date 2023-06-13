@@ -1,18 +1,4 @@
-// .header-content {
-//     .navbar-office {
-//       height: auto;
-//       width: auto;
-//       display: flex;
-//       font-size: 17px;
-//       flex-direction: row;
-//       font-weight: bolder;
-//       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-//       flex-wrap: nowrap;
-  
-//     }
-  
-//   }
-  
+
   
   
 //   .allitems {
@@ -79,13 +65,18 @@
   
   .navbardesktop {
     height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow-y: hidden;
     background: rgb(16,76,186);
-    background: linear-gradient(90deg, rgba(16,76,186,1) 30%, rgba(72,89,143,1) 28%, rgba(70,91,146,1) 100%, rgba(55,161,228,1) 100%);
+    background: linear-gradient(90deg, rgba(16,76,186,1) 21%, rgba(72,89,143,1) 28%, rgba(70,91,146,1) 100%, rgba(55,161,228,1) 100%);
+    
+
   }
   
   .navbardesktop .logodesktop i {
