@@ -3,6 +3,7 @@
 @import 'navbardesktop.scss';
 @import 'navrespons.scss';
 @import 'navbarmobile.scss';
+@import 'services.scss';
 
 *{
   margin: 0;
@@ -26,7 +27,7 @@
 .PrimaryContent {
   position: relative;
   min-width: 100vw;
-  min-height: 75vh;
+  height: 80vh;
   background-image: url('/images/background-container1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -73,22 +74,4 @@
   overflow: hidden;
 }
 
-.text-service{
-  height: 40vh;
-  width: 100vw;
-  background-color: #FAFAFA;
-  .p-service{
-    font-family: 'Noto Sans', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: #1D71ED;
-  }
-  .h1-service{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bolder;
-    font-size: 60px;
-    color: #1D71ED;
-  }
-}
 

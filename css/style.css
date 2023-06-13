@@ -199,10 +199,9 @@ ul {
 }
 
 .menudesktop-links .linkdesktop:hover {
-  color: white;
+  color: #475A91;
   text-decoration: none;
-  background: rgb(16, 76, 186);
-  background: linear-gradient(90deg, rgb(16, 76, 186) 24%, rgb(16, 105, 186) 100%, rgb(72, 89, 143) 100%, rgb(70, 91, 146) 100%);
+  background-color: white;
 }
 
 .log-in {
@@ -216,9 +215,9 @@ ul {
 }
 
 .log-in:hover {
-  background: rgb(16, 76, 186);
-  background: linear-gradient(90deg, rgb(16, 76, 186) 79%, rgb(16, 105, 186) 100%, rgb(72, 89, 143) 100%, rgb(70, 91, 146) 100%);
-  color: white;
+  color: #475A91;
+  text-decoration: none;
+  background-color: white;
   border: 2px solid white;
   transition: 0.2s;
 }
@@ -228,6 +227,20 @@ ul {
   color: white;
   display: none;
   cursor: pointer;
+}
+
+.nav-services {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #475A91;
+  margin-top: 10px;
+  text-align: center;
+  height: 10vh;
+}
+
+.nav-services:hover {
+  text-decoration: none;
+  color: #01080b;
 }
 
 @media (max-width: 1130px) {
@@ -258,6 +271,7 @@ ul {
 }
 
 .menumobile-btn {
+  background-color: black;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -350,6 +364,126 @@ body.open .backdropmobile {
   scale: 5;
 }
 
+.Services-container {
+  height: auto;
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.Services-container .p-service {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1D71ED;
+}
+.Services-container .h1-service {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: #1D71ED;
+}
+
+.text-service {
+  width: 62vw;
+  height: 28vh;
+  border-left: 15px solid #2E78FF;
+  color: white;
+}
+
+.h3-service {
+  text-align: center;
+  color: #2E78FF;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.services {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.services .card {
+  position: relative;
+  padding: 25px;
+  width: 450px;
+  height: auto;
+  background-color: #fff;
+  margin: 20px;
+  border: 3px solid #2E78FF;
+  border-radius: 20px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.services .card img {
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.services .card h1 {
+  font-size: 2rem;
+  overflow-x: hidden;
+}
+
+.services .card .content {
+  padding: 20px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.services .card .content p {
+  color: #666;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.services .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1D71ED;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+
+.services .card:hover {
+  background-color: #2E78FF;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #2E78FF;
+  border-color: #2E78FF;
+}
+
+.services .card:hover .content p {
+  color: white;
+}
+
+.services .card:hover .content a {
+  color: black;
+  background-color: white;
+}
+
+.h1-card {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -370,7 +504,7 @@ body.open .backdropmobile {
 .PrimaryContent {
   position: relative;
   min-width: 100vw;
-  min-height: 75vh;
+  height: 80vh;
   background-image: url("/images/background-container1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -414,25 +548,6 @@ body.open .backdropmobile {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   overflow: hidden;
-}
-
-.text-service {
-  height: 40vh;
-  width: 100vw;
-  background-color: #FAFAFA;
-}
-.text-service .p-service {
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  color: #1D71ED;
-}
-.text-service .h1-service {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: bolder;
-  font-size: 60px;
-  color: #1D71ED;
 }
 
 /*# sourceMappingURL=style.css.map */

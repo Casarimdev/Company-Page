@@ -111,10 +111,9 @@
     padding: 8px 16px;
   }
   .menudesktop-links .linkdesktop:hover {
-    color:  white;
+    color:  #475A91;
     text-decoration: none;
-    background: rgb(16,76,186);
-    background: linear-gradient(90deg, rgba(16,76,186,1) 24%, rgba(16,105,186,1) 100%, rgba(72,89,143,1) 100%, rgba(70,91,146,1) 100%);
+    background-color: white;
   }
   .log-in {
     font-weight: 500;
@@ -126,9 +125,9 @@
     transition: 0.2s;
   }
   .log-in:hover {
-    background: rgb(16,76,186);
-    background: linear-gradient(90deg, rgba(16,76,186,1) 79%, rgba(16,105,186,1) 100%, rgba(72,89,143,1) 100%, rgba(70,91,146,1) 100%);     
-    color: white;
+    color:  #475A91;
+    text-decoration: none;
+    background-color: white;  
     border: 2px solid white;
     transition: 0.2s;
   }
@@ -139,6 +138,21 @@
     display: none;
     cursor: pointer;
   }
+
+  .nav-services{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    color: #475A91;
+    margin-top: 10px;
+    text-align: center;
+    height: 10vh;
+  }
+
+  .nav-services:hover{
+    text-decoration: none;
+    color: #01080b;
+  }
+
 
   @media (max-width: 1130px) {
     .menudesktop{
