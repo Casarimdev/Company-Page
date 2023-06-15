@@ -86,12 +86,12 @@
     overflow-x: hidden;
 }
 
-.services .card .content a {
+.services .card .content .a-service {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: #1D71ED;
-    color: #fff;
+    color: white;
     border-radius: 40px;
     text-decoration: none;
     transition: 0.5s;
@@ -114,9 +114,9 @@
     color: white;
 }
 
-.services .card:hover .content a{
-    color:black;
-    background-color: white;
+.services .card:hover .content .a-service{
+    color:white;
+    background-color: #1D71ED;
 }
 
 .h1-card{

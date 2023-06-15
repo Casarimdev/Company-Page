@@ -18,6 +18,7 @@
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- ------ -->
   <script src="../scripts/clientes.js" defer></script>
 </head>
@@ -26,19 +27,18 @@
   <!-- HEADER -->
   <header class="header-content">
   <!-- NAVBAR DESKTOP -->
-    <nav class="navbardesktop">
+    <nav class="navbardesktop fixed-top">
       <div class="logodesktop">
-        <i class="fa-solid fa-font-awesome"></i>
         <a href=""><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
       </div>
       <div class="menudesktop">
         <div class="menudesktop-links">
           <a href="#" class="linkdesktop">Home</a>
           <a href="#" class="linkdesktop">About</a>
-            <a class="nav-link dropdown-toggle linkdesktop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle linkdesktop " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
-            <ul class="dropdown-menu" style="background-color:white; height: 30vh; width: 12vw;">
+            <ul class="dropdown-menu " style="background-color:white; height: 30vh; width: 12vw;">
               <li><a class="nav-services" href="#" style="text-align: center;">Cloud Computing</a></li>
               <hr>
               <li><a class="nav-services" href="#">Backup Offsite</a></li>
@@ -104,7 +104,7 @@
                 sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua.
             </p>
-            <a href="#">Saiba Mais!</a>
+            <a href="#" class="a-service">Saiba Mais!</a>
         </div>
     </div>
     <!-- Segundo Card -->
@@ -120,7 +120,7 @@
                 sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua.
             </p>
-            <a href="#">Saiba Mais!</a>
+            <a href="#" class="a-service">Saiba Mais!</a>
         </div>
     </div>
     <!-- Terceiro Card -->
@@ -136,7 +136,7 @@
               sed do eiusmod tempor incididunt ut labore
               et dolore magna aliqua.
           </p>
-          <a href="#">Saiba Mais!</a>
+          <a class="a-service" href="#">Saiba Mais!</a>
       </div>
   </div>
     <div class="card">
@@ -151,7 +151,7 @@
               sed do eiusmod tempor incididunt ut labore
               et dolore magna aliqua.
             </p>
-            <a href="#">Saiba Mais!</a>
+            <a href="#" class="a-service">Saiba Mais!</a>
       </div>
     </div>
   <div class="card">
@@ -166,7 +166,7 @@
           sed do eiusmod tempor incididunt ut labore
           et dolore magna aliqua.
         </p>
-        <a href="#">Saiba Mais!</a>
+        <a href="#" class="a-service">Saiba Mais!</a>
       </div>
 </div>
 <div class="card">
@@ -181,7 +181,7 @@
       sed do eiusmod tempor incididunt ut labore
       et dolore magna aliqua.
     </p>
-    <a href="#">Saiba Mais!</a>
+    <a href="#" class="a-service">Saiba Mais!</a>
   </div>
 </div>
 </div>
@@ -213,6 +213,76 @@
       </ul>
     </div>
   </section>
+
+<!-- FOOTER -->
+
+<footer>
+  <div id="footer_content">
+      <div id="footer_contacts">
+          <h1><img src="../logos/logo-ultraIT.png" alt=""></h1>
+          <p>It's all about your dreams.</p>
+
+          <div id="footer_social_media">
+              <a href="#" class="footer-link" id="instagram">
+                <i class="fa-brands fa-instagram fa-beat-fade"></i>
+              </a>
+
+              <a href="#" class="footer-link" id="facebook">
+                  <i class="fa-brands fa-facebook-f fa-beat-fade"></i>
+              </a>
+
+              <a href="#" class="footer-link" id="whatsapp">
+                  <i class="fa-brands fa-whatsapp fa-beat-fade"></i>
+              </a>
+          </div>
+      </div>
+      
+      <ul class="footer-list">
+          <li>
+              <h3>Blog</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Tech</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Adventures</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Music</a>
+          </li>
+      </ul>
+
+      <ul class="footer-list">
+          <li>
+              <h3>Products</h3>
+          </li>
+          <li>
+              <a href="#" class="footer-link">App</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Desktop</a>
+          </li>
+          <li>
+              <a href="#" class="footer-link">Cloud</a>
+          </li>
+      </ul>
+
+      <div id="footer_subscribe">
+          <h3>Contato</h3>
+
+          <p>
+              Enter your e-mail to get notified about
+              our news solutions
+          </p>
+          
+      </div>
+  </div>
+
+  <div id="footer_copyright">
+      &#169
+      2010-2023 Todos direitos reservados a Ultra IT
+  </div>
+</footer>
 
 <!-- SCRIPTS -->
 
