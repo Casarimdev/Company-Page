@@ -154,8 +154,15 @@
   }
 
 
-  @media (max-width: 1130px) {
+  @media (max-width: 1228px) {
     .menudesktop{
         padding-right: 10px;
+        gap: 3px;
+        margin: 1px;
+    }
+
+    .menudesktop-links{
+      gap: 3px;
+      margin: 1px;
     }
   }

@@ -245,9 +245,15 @@ ul {
   color: #01080b;
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1228px) {
   .menudesktop {
     padding-right: 10px;
+    gap: 3px;
+    margin: 1px;
+  }
+  .menudesktop-links {
+    gap: 3px;
+    margin: 1px;
   }
 }
 * {
@@ -508,7 +514,8 @@ footer {
 }
 
 #footer_content {
-  background-color: #104CBA;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(90deg, rgb(16, 76, 186) 38%, rgb(72, 90, 144) 72%);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
@@ -596,14 +603,24 @@ footer {
   font-weight: 400;
 }
 
+@media screen and (max-width: 1170px) {
+  #footer_content {
+    background: rgb(16, 76, 186);
+    background: linear-gradient(90deg, rgb(16, 76, 186) 31%, rgb(72, 89, 143) 50%);
+  }
+}
 @media screen and (max-width: 768px) {
   #footer_content {
+    background: rgb(16, 76, 186);
+    background: linear-gradient(90deg, rgb(16, 76, 186) 32%, rgb(72, 89, 143) 55%);
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 }
 @media screen and (max-width: 426px) {
   #footer_content {
+    background: rgb(16, 76, 186);
+    background: linear-gradient(90deg, rgb(16, 76, 186) 63%, rgb(72, 89, 143) 92%);
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
   }
