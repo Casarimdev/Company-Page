@@ -1,0 +1,17 @@
+.who-container{
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../images/Background-.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .text-who{
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        padding-top: 6%;
+        color: white;
+    }
+}
