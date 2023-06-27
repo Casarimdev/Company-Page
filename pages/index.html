@@ -25,54 +25,48 @@
 
 <body>
   <!-- HEADER -->
-  <header class="header-content">
+<header class="header-content">
   <!-- NAVBAR DESKTOP -->
-    <nav class="navbardesktop fixed-top">
-      <div class="logodesktop">
-        <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
+  <nav class="navbardesktop fixed-top">
+    <div class="logodesktop">
+      <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="menudesktop">
+      <div class="menudesktop-links">
+        <a href="#" class="linkdesktop">Home</a>
+        <a href="#" class="linkdesktop">About</a>
+        <a class="nav-link dropdown-toggle linkdesktop" href="#" role="button"  aria-expanded="true">
+          Services
+        </a>
+        <ul class="dropdown-menu" style="background-color:white; height: 30vh; width: 12vw;">
+          <li><a class="nav-services" href="#" style="text-align: center;">Cloud Computing</a></li>
+          <hr>
+          <li><a class="nav-services" href="#">Backup Offsite</a></li>
+          <hr>
+          <li><a class="nav-services" href="#">Hosting</a></li>
+          <hr>
+          <li><a class="nav-services" href="#">Cyber Security</a></li>
+          <hr>
+          <li><a class="nav-services" href="#">Support</a></li>
+          <hr>
+          <li><a class="nav-services" href="#">Consultancy</a></li>
+        </ul>
+        <a href="#footer_content" class="linkdesktop">Contact</a>
+        <a href="#" class="linkdesktop">Blog</a>
       </div>
-      <div class="menudesktop">
-        <div class="menudesktop-links">
-          <a href="#" class="linkdesktop">Home</a>
-          <a href="#" class="linkdesktop">About</a>
-            <a class="nav-link dropdown-toggle linkdesktop " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu " style="background-color:white; height: 30vh; width: 12vw;">
-              <li><a class="nav-services" href="#" style="text-align: center;">Cloud Computing</a></li>
-              <hr>
-              <li><a class="nav-services" href="#">Backup Offsite</a></li>
-              <hr>
-              <li><a class="nav-services" href="#">Hosting</a></li>
-              <hr>
-              <li><a class="nav-services" href="#">Cyber Security</a></li>
-              <hr>
-              <li><a class="nav-services" href="#">Support</a></li>
-              <hr>
-              <li><a class="nav-services" href="#">Consultancy</a></li>
-            </ul>
-          <a href="#footer_content" class="linkdesktop">Contact</a>
-          <a href="#" class="linkdesktop">Blog</a>
-        </div>
-        <a href="#footer_content"><button class="log-in buttondesk">Contact Us</button></a>
-      </div>
-      <div class="menudesktop-btn">
-        <i class="fa-solid fa-bars"></i>
-      </div>
+      <a href="#footer_content"><button class="log-in buttondesk">Contact Us</button></a>
+    </div>
+    <div class="menudesktop-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
   </nav>
   <!-- NAVBAR MOBILE -->
-  <button class="menumobile-btn"></button>
-  <div class="backdropmobile"></div>
-  <section class="sectionmobile"></section>
-  <div class="menumobile">
-    <nav class="navmobile">
-      <a href="#" class="linkmobile" style="animation-delay: 0.2s;">Home</a>
-      <a href="#" class="linkmobile" style="animation-delay: 0.3s;">About Us</a>
-      <a href="#footer_content" class="linkmobile" style="animation-delay: 0.4s;">Contact</a>
-      <a href="#" class="linkmobile" style="animation-delay: 0.5s;">Blog</a>
-    </nav>
+ 
+  
   </div>
-  <script src="../scripts/scriptmenu.js"></script>
   </header>
   <!-- PRIMEIRO CONTAINER -->
   <section class="First-Container">
@@ -188,7 +182,7 @@
 </section>
 
 <!-- WHO CONTAINER -->
-<div class="who-container">
+<!-- <div class="who-container">
   <div class="text-who">
     <h1 class="h1-us pb-5">About Us</h1>
     <h5 class="h5-us pb-2">Quem somos nós?</h5>
@@ -197,7 +191,7 @@
   </div>
   <div class="image-us">
   </div>
-</div>
+</div> -->
 
 <!-- CLIENTES CONTAINER -->
  
@@ -285,10 +279,10 @@
 
       <div id="footer_subscribe">
           <h3>Contato</h3>
-
+          <h5>E-mails:</h5>
           <p>
-              Enter your e-mail to get notified about
-              our news solutions
+            SUPORTE: <span style="font-weight: bolder;">suporte@ultra.it</span> <br> <br>
+            COMERCIAL: <span style="font-weight: bolder;">comercial@ultra.it</span>
           </p>
           
       </div>
@@ -338,6 +332,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+  <script>
+    const navbarBtn = document.querySelector('.menudesktop-btn');
+    const navbarLinks = document.querySelector('.menudesktop-links');
+  
+    navbarBtn.addEventListener('click', () => {
+      navbarLinks.classList.toggle('show');
+    });
+  </script>
 </body>
 
 </html>

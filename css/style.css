@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
 ul {
   margin: 0;
@@ -245,7 +244,7 @@ ul {
   color: #01080b;
 }
 
-@media (max-width: 1228px) {
+@media (max-width: 1030px) {
   .menudesktop {
     padding-right: 10px;
     gap: 3px;
@@ -256,120 +255,13 @@ ul {
     margin: 1px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.menumobile-btn {
-  border: 0;
-  outline: none;
-  background: none;
-  display: none;
-}
-
-.sectionmobile {
-  width: 100vw;
-  height: 100vh;
-  background-color: darkblue;
-  background-size: cover;
-  overflow: hidden;
-  display: none;
-}
-
-.menumobile-btn {
-  background-color: black;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 40px;
-  height: 40px;
-  background-image: url("./assets/menu.svg");
-  background-size: cover;
-  cursor: pointer;
-  z-index: 3;
-  display: none;
-}
-
-body.open .menumobile-btn {
-  background-image: url("./assets/close.svg");
-}
-
-.menumobile {
-  position: fixed;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  z-index: 2;
-  display: none;
-}
-
-.navmobile {
-  display: none;
-}
-
-.menumobile .navmobile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  visibility: hidden;
-}
-
-body.open .menumobile .navmobile {
-  visibility: visible;
-}
-
-.menumobile .navmobile .linkmobile {
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 700;
+.header-content .navbar-mobile .navbar-nav .nav-link {
   color: white;
-  padding: 10px 20px;
-  text-align: center;
-  opacity: 1;
-  transition: 0.25s;
 }
-
-body.open .menu .linkmobile {
-  animation: show 0.3s backwards;
-}
-
-.menumobile .navmobile:hover .linkmobile:not(:hover) {
-  opacity: 0.5;
-}
-
-@keyframes show {
-  0% {
-    opacity: 0;
-    translate: 0 -30px;
-  }
-  100% {
-    opacity: 1;
-    translate: 0 0;
-  }
-}
-.backdropmobile {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  height: 100vh;
-  aspect-ratio: 1/1;
-  translate: -50% -50%;
-  scale: 0;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 50%;
-  z-index: 1;
-  transition: all 0.6s;
-  display: none;
-}
-
-body.open .backdropmobile {
-  opacity: 1;
-  scale: 5;
+.header-content .navbar-mobile .dropdown-menu {
+  background-color: white;
+  height: 30vh;
+  width: 12vw;
 }
 
 .Services-container {
@@ -689,13 +581,6 @@ footer {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
-
-.header-content {
-  height: 90px;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 .First-Container {
