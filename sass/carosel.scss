@@ -2,6 +2,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    overflow-x: hidden;
 }
 
 .carousel {
@@ -20,6 +21,7 @@ ul {
     background-color: white;
     box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15);
     border-radius: 20px;
+    overflow-x: hidden;
 
 }
 

@@ -16,6 +16,7 @@
 
 .First-Container{
   position: relative;
+  overflow-x: hidden;
 }
 
 .PrimaryContent {
@@ -31,6 +32,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 
   .first-h5 {
     text-align: center;
@@ -44,6 +46,7 @@
     color: #ffffff;
     margin-bottom: 20px;
     cursor: default;
+    overflow-x: hidden;
   }
 }
 
@@ -59,13 +62,14 @@
   white-space: wrap;
   overflow: hidden;
   cursor: default;
+  overflow-x: hidden;
 }
 
 .h1-middle{
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 

@@ -1,14 +1,17 @@
 .logodesk {
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .logodesktop {
   display: flex;
   justify-content: space-around;
+  overflow-x: hidden;
 }
 
 .logodesk:hover {
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .linkdesktop {
@@ -26,11 +29,13 @@
   font-family: inherit;
   font-size: inherit;
   cursor: pointer;
+  overflow-x: hidden;
 }
 
 .navbardesktop {
   height: 90px;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
   top: 0;
   left: 0;
   background-color: white;
@@ -119,7 +124,7 @@
   color: #01080b;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1200px) {
   .menudesktop {
     padding-right: 10px;
     gap: 3px;

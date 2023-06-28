@@ -125,15 +125,18 @@
 @media screen and (max-width: 1170px){
 .text-service{
     width: 85vw;
+    overflow-x: hidden;
 }
 }
 
 @media screen and (max-width: 820px){
     .h1-service{
         font-size: 40px;
+        overflow-x: hidden;
     }
     .text-service{
         height: auto;
+        overflow-x: hidden;
     }
     }
 
