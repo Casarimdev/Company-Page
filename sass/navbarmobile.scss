@@ -1,8 +1,19 @@
+// .nav-mobile{
+//   display: none;
+// }
 
-.nav-btn{
-  display: none;
+.text-item:hover{
+  text-decoration: none;
+  color: white!important;
 }
 
+.sub-item{
+  color: white !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
 .about {
   $cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
   $transition: 0.6s $cubic;
@@ -14,7 +25,6 @@
   width: $size;
   height: $size;
   display: flex;
-  flex-direction:column;
   justify-content: flex-end;
   align-items: flex-end;
   transition: all 0.2s ease;
@@ -24,7 +34,6 @@
      height: $size;
      border-radius: 100%;
      display: flex;
-     flex-direction:column;
      justify-content: center;
      align-items: center;
      background-color: rgba(#000000, 0.2);
@@ -53,7 +62,7 @@
      bottom: 0;
 
      .icon {
-        width: 100%;
+        width: 100vw;
         height: 100%;
         background-size: 20px;
         background-repeat: no-repeat;
@@ -92,6 +101,7 @@
      width: 105px;
      height: 105px;
      transition: all $transition;
+     text-decoration: none;
 
      .logo {
         opacity: 1;
@@ -107,6 +117,7 @@
 
         &:hover {
            background-size: 28px;
+           text-decoration: none;
            .icon {
               background-size: 65%;
               opacity: 1;
@@ -119,8 +130,8 @@
            transition: all 0.3s 0s $cubic;
            .icon {
               &:hover {
-                text-decoration: none;
                  background-color: #698fb7;
+                 text-decoration: none;
               }
            }
         }
@@ -142,15 +153,14 @@
            transition: all 0.3s 0.25s $cubic;
            .icon {
               &:hover {
-                text-decoration: none;
                  background-color: #0077b5;
+                 text-decoration: none;
               }
            }
         }
      }
   }
 }
-
 
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900&display=swap");
 
@@ -163,29 +173,16 @@ $bg-03: #5788a0;
 $bg-04: #73a5b5;
 
 
-// $bg-01: #2d3561;
-// $bg-02: #c05c7e;
-// $bg-03: #f3826f;
-// $bg-04: #ffb961;
-
-
-@mixin sm {
- @media screen and (max-width: 1030px) {
+@mixin md {
+ @media screen and (max-width: 130px) {
    @content;
  }
 }
 
-@media screen and (max-width: 1030px){
- .nav-btn{
-   display:block;
+@mixin sm {
+ @media screen and (max-width: 1000px) {
+   @content;
  }
-}
-
-body {
- margin: 0;
- font-family: $font-01;
- background-color: #f1f3f7;
- -webkit-tap-highlight-color: transparent;
 }
 
 ul {
@@ -200,6 +197,10 @@ ul {
 a {
  text-decoration: none;
  color: white;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 /* Navigation */
@@ -232,8 +233,8 @@ nav {
      transition: all 0.4s ease;
 
      &:hover {
-      text-decoration: none;
        opacity: 0.5;
+       text-decoration: none;
      }
    }
    
@@ -285,7 +286,7 @@ nav {
        }
 
        &:hover {
-        text-decoration: none;
+          text-decoration: none;
          span {
            width: 30px;
 
@@ -328,6 +329,7 @@ nav {
          &:hover {
           text-decoration: none;
            span {
+              text-decoration: none;
              width: 0;
              opacity: 1;
 
@@ -375,6 +377,7 @@ nav {
            @include sm {
              transform: translateY(0px);
              opacity: 1;
+             text-decoration: none;
            }
          }
        }
@@ -411,7 +414,7 @@ nav {
            transform: translatey(-50%);
          }
          100% {
-           height: 100vh;
+           height: 40vh;
            transform: translatey(0%);
          }
        }
@@ -435,7 +438,6 @@ nav {
        
        /* Main Link - text */
        .text-item {
-        text-decoration: none;
          color: white;
          text-transform: uppercase;
          font-weight: 800;
@@ -493,7 +495,6 @@ nav {
        
        /* Sub Menu */
        .submenu {
-        text-decoration: none;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -514,10 +515,10 @@ nav {
          }
 
          .sub-item {
-          text-decoration: none;
            display: none;
+           text-decoration: none;
            margin: 10px 0;
-           color: white;
+           color: white !important;
            text-transform: uppercase;
            letter-spacing: 2px;
            font-size: 20px;
@@ -544,10 +545,11 @@ nav {
            }
 
            &:hover {
+              text-decoration: none;
              &:after {
+              text-decoration: none;
                width: 100%;
                height: 100%;
-               text-decoration: none;
                transition: height 0.4s ease, width 0.4s 0.3s ease;
              }
            }
@@ -556,8 +558,8 @@ nav {
        
        /* Menu Links - Hover */
        &:hover {
+          text-decoration: none;
          width: 50%;
-         text-decoration: none;
          transition: all 0.4s ease-in-out;
 
          .text-item {
@@ -614,6 +616,7 @@ nav {
              }
              
              .sub-item {
+              color: white !important;
                display: flex;
                animation: submenu 1s ease forwards;
                z-index: 2;
@@ -665,14 +668,14 @@ nav {
          }
 
          &:hover {
-          text-decoration: none;
            width: 100%;
+           text-decoration: none;
          }
        }
      }
 
      @include sm {
-       height: 75vh;
+       height: 100vh;
        flex-direction: column;
      }
    }
@@ -710,9 +713,5 @@ nav {
        }
      }
    }
- }
- &:hover {
-  text-decoration: none;
-   opacity:1;
  }
 }

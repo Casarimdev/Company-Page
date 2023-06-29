@@ -11,17 +11,15 @@
 *{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
+
 .First-Container{
-  position: relative;
   overflow-x: hidden;
 }
 
 .PrimaryContent {
-  position: relative;
-  min-width: 100vw;
+  width: 100vw;
   height: 80vh;
   background-image: url('/images/background-container1.png');
   background-repeat: no-repeat;

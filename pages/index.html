@@ -21,10 +21,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- ------ -->
   <script src="../scripts/clientes.js" defer></script>
+  <script src="../scripts/scriptmenu.js" defer></script>
 </head>
 
 <body>
-  <!-- HEADER -->
+<!-- about -->
+
+<!-- HEADER -->
 <header class="header-content">
   <!-- NAVBAR DESKTOP -->
   <nav class="navbardesktop fixed-top" style="overflow-x: hidden;">
@@ -56,14 +59,68 @@
       </div>
       <a href="#footer_content"><button class="log-in buttondesk">Contact Us</button></a>
     </div>
-    <div class="menudesktop-btn">
-      <i class="fa-solid fa-bars"></i>
-    </div>
   </nav>
   
-</div>
   <!-- NAVBAR MOBILE -->
+  <div class="about">
+    <a class="bg_links social portfolio" href="#" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social dribbble" href="#" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links social linkedin" href="#" target="_blank">
+       <span class="icon"></span>
+    </a>
+    <a class="bg_links logo"></a>
+  </div>
+  <!-- end about -->
+  <nav class="fixed-top nav-mobile">
+   <div class="menubar">
+     <a href="#0" class="home">ULTRA IT(LOGO)</a>
+     <div class="icons">
+       <div class="secondary-icons">
+         <i class="icon-second"><img src="https://rafaelavlucas.github.io/assets/icons/gray1/icon-171.svg"></i>
+         <i class="icon-second"><img src="https://rafaelavlucas.github.io/assets/icons/gray1/icon-198.svg"></i>
+       <i class="icon-second"><img src="https://rafaelavlucas.github.io/assets/icons/gray1/icon-178.svg"></i>
+       </div>
+       
+       <i class="icon-menu"><span></span></i>
+     </div>
+   </div>
+   <ul class="menu">
+      
+     <li class="menu-link"><a href="#0" class="text-item">Ultra IT</a></li>
+     <li class="menu-link sub">
+       <a href="#0" class="text-item">Soluções<span class="icon"></span></a>
+       <ul class="submenu">
+         <li class="sub-item"><a href="#0" style="color: white;">Anti-Spam</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Arquivos em Nuvem</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Comunicador</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Wi-fi Corporativa</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Servidor de E-mail</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Firewall UTM</a></li>
+       </ul>
+     </li>
+     <li class="menu-link sub">
+       <a href="#0" class="text-item">Serviços<span class="icon"></span></a>
+       <ul class="submenu">
+         <li class="sub-item"><a href="#0" style="color:white"></a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Backup Off-Site</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Cloud Computing</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Consultoria</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Hospedagem</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Segurança Web</a></li>
+         <li class="sub-item"><a href="#0" style="color:white">Suporte Técnico</a></li>
+       </ul>
+     </li>
+     <li class="menu-link"><a href="#0" class="text-item">Contato</a></li>
+   </ul>
+  </nav>
+  
   </header>
+
+
   <!-- PRIMEIRO CONTAINER -->
   <section class="First-Container" style="overflow-x: hidden;">
     <div class="PrimaryContent" style="margin-top: 0px;">
@@ -191,7 +248,7 @@
 
 <!-- CLIENTES CONTAINER -->
  
-  <h1 class="h1-middle pt-5" style="text-align: center;" data-aos="flip-up"data-aos-duration="3000" style="overflow-x: hidden;">Clientes Ultra</h1>
+  <h1 class="h1-middle pt-5" style="text-align: center;" >Clientes Ultra</h1>
   <section class="carousel" style="overflow-x: hidden;">
     <div class="carousel__slider">
       <ul class="carousel__list">
@@ -226,7 +283,7 @@
   <div id="footer_content" style="overflow-x: hidden;">
       <div id="footer_contacts">
           <h1><img src="../logos/logo-ultraIT.png" alt=""></h1>
-          <p>It's all about your dreams.</p>
+          <p>A Ultra IT cuida da sua TI.</p>
 
           <div id="footer_social_media">
               <a href="#" class="footer-link" id="instagram">
@@ -242,21 +299,6 @@
               </a>
           </div>
       </div>
-      
-      <ul class="footer-list">
-          <li>
-              <h3>Blog</h3>
-          </li>
-          <li>
-              <a href="#" class="footer-link">Tech</a>
-          </li>
-          <li>
-              <a href="#" class="footer-link">Adventures</a>
-          </li>
-          <li>
-              <a href="#" class="footer-link">Music</a>
-          </li>
-      </ul>
 
       <ul class="footer-list">
           <li>

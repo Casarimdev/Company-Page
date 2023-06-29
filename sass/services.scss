@@ -1,6 +1,6 @@
 .Services-container{
     height: auto;
-    width: 100vw;
+    width: auto;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
 // CARDS
 
 .services {
-    width: 100vw;
+    width: 80vw;
     padding: 20px;
     display: flex;
     align-items: center;

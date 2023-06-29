@@ -1,5 +1,14 @@
-@media (max-width: 1030px){
+@media (max-width: 2000px){
+    .nav-mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
     .navbardesktop{
         display: none;
+    }
+    .nav-mobile{
+        display: block;
     }
 }
