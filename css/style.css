@@ -1227,7 +1227,7 @@ footer {
 .PrimaryContent {
   width: 100vw;
   height: 80vh;
-  background-image: url("../../UltraIT-site/images/background-container1.png");
+  background-image: url("../images/background-container1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
