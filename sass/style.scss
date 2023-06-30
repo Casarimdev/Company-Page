@@ -21,7 +21,7 @@
 .PrimaryContent {
   width: 100vw;
   height: 80vh;
-  background-image: url('/images/background-container1.png');
+  background-image: url("../../UltraIT-site/images/background-container1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -29,8 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;}
+  flex-direction: column;}
 
   .first-h5 {
     text-align: center;
