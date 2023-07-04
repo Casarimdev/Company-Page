@@ -1,6 +1,17 @@
 {
   "dependencies": {
     "aos": "^2.3.4",
-    "bootstrap": "^5.2.3"
-  }
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.7.0"
+  },
+  "name": "ultrait-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
