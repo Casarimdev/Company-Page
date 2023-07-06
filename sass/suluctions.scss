@@ -1,0 +1,175 @@
+.Soluctions-container{
+    height: auto;
+    width: auto;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.p-solucion{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color:  #fafafa;
+}
+
+.h1-solucion {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: #1D71ED;
+  
+}
+.text-soluctions{
+    width:62vw;
+    height: 28vh;
+    border-left: 15px solid  #fafafa;
+    color:  #fafafa;
+}
+.h3-soluction{
+    height: auto;
+    text-align: center; 
+    color:  #fafafa; overflow: hidden;  
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold; font-size: 3rem;
+    
+}
+
+
+// CARDS
+
+.soluction {
+    width: 80vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol {
+    position: relative;
+    padding: 25px;
+    width: 450px;
+    height: auto;
+    background-color: #fafafa;
+    margin: 20px;
+    border: 3px solid #fafafa;
+    border-radius: 20px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.soluction .card-sol img {
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol h1 {
+    font-size: 2rem;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol .content {
+    padding: 20px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol .content p {
+    color: #666;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol .content .a-service {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #fafafa;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+.soluction .card-sol:hover {
+    background-color: #2E78FF;
+    color: white;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px #2E78FF;
+    border-color: #2E78FF;
+}
+
+
+
+.soluction .card-sol:hover .content p {
+    color: white;
+}
+
+.soluction .card-sol:hover .content .a-service{
+    color:white;
+    background-color: #1D71ED;
+}
+
+.h1-card{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1170px){
+.text-soluctions{
+    width: 85vw;
+    overflow-x: hidden;
+}
+}
+
+@media screen and (max-width: 820px){
+    .h1-solucion{
+        font-size: 40px;
+        overflow-x: hidden;
+    }
+    .text-soluctions{
+        height: auto;
+        overflow-x: hidden;
+    }
+    }
+
+@media screen and (max-width: 550px){
+    .h1-soluction{
+        font-size: 30px;
+    }
+
+    .h3-soluctions{
+        font-size: 30px;
+    }
+
+    .text-soluctions{
+        height: auto;
+    }
+    }
+
+@media screen and (max-width: 400px){
+    .h1-solucion{
+        font-size: 18px;
+    }
+
+    .h3-soluctions{
+        font-size: 30px;
+    }
+
+    .text-soluctions{
+        height: auto;
+        width: auto;
+        padding-left: 20px;
+    }
+    .ps-5{
+        padding-left: 1rem!important;
+    }
+}

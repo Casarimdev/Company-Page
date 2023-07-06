@@ -276,6 +276,10 @@ ul {
     display: block;
   }
 }
+.spanUltra {
+  font-family: "Rubik", sans-serif;
+}
+
 .text-item:hover {
   text-decoration: none;
   color: white !important;
@@ -317,7 +321,6 @@ a:hover {
   width: 40px;
   height: 40px;
   z-index: 9;
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/logo_white.svg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 10px 7px;
@@ -332,13 +335,16 @@ a:hover {
   bottom: 0;
 }
 .about .social .icon {
-  width: 100vw;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   transition: all 0.2s ease, background-color 0.4s ease;
   opacity: 0;
   border-radius: 100%;
@@ -346,20 +352,11 @@ a:hover {
 .about .social.portfolio {
   transition: all 0.8s ease;
 }
-.about .social.portfolio .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/link.svg);
-}
 .about .social.dribbble {
   transition: all 0.3s ease;
 }
-.about .social.dribbble .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/dribbble.svg);
-}
 .about .social.linkedin {
   transition: all 0.8s ease;
-}
-.about .social.linkedin .icon {
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/linkedin.svg);
 }
 .about:hover {
   width: 105px;
@@ -391,7 +388,7 @@ a:hover {
   transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
 }
 .about:hover .social.portfolio .icon:hover {
-  background-color: #698fb7;
+  background-color: #00ff2f;
   text-decoration: none;
 }
 .about:hover .social.dribbble {
@@ -407,7 +404,7 @@ a:hover {
   right: calc(100% - 40px);
   transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
 }
-.about:hover .social.linkedin .icon:hover {
+.about:hover .social.linkedin .linke:hover {
   background-color: #0077b5;
   text-decoration: none;
 }
@@ -1063,6 +1060,177 @@ nav .menu.close .menu-link .text-item {
     padding-left: 1rem !important;
   }
 }
+.Soluctions-container {
+  height: auto;
+  width: auto;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.p-solucion {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.h1-solucion {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: #1D71ED;
+}
+
+.text-soluctions {
+  width: 62vw;
+  height: 28vh;
+  border-left: 15px solid #fafafa;
+  color: #fafafa;
+}
+
+.h3-soluction {
+  height: auto;
+  text-align: center;
+  color: #fafafa;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.soluction {
+  width: 80vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol {
+  position: relative;
+  padding: 25px;
+  width: 450px;
+  height: auto;
+  background-color: #fafafa;
+  margin: 20px;
+  border: 3px solid #fafafa;
+  border-radius: 20px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.soluction .card-sol img {
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol h1 {
+  font-size: 2rem;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol .content {
+  padding: 20px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol .content p {
+  color: #666;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol .content .a-service {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+
+.soluction .card-sol:hover {
+  background-color: #2E78FF;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #2E78FF;
+  border-color: #2E78FF;
+}
+
+.soluction .card-sol:hover .content p {
+  color: white;
+}
+
+.soluction .card-sol:hover .content .a-service {
+  color: white;
+  background-color: #1D71ED;
+}
+
+.h1-card {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1170px) {
+  .text-soluctions {
+    width: 85vw;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 820px) {
+  .h1-solucion {
+    font-size: 40px;
+    overflow-x: hidden;
+  }
+  .text-soluctions {
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 550px) {
+  .h1-soluction {
+    font-size: 30px;
+  }
+  .h3-soluctions {
+    font-size: 30px;
+  }
+  .text-soluctions {
+    height: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .h1-solucion {
+    font-size: 18px;
+  }
+  .h3-soluctions {
+    font-size: 30px;
+  }
+  .text-soluctions {
+    height: auto;
+    width: auto;
+    padding-left: 20px;
+  }
+  .ps-5 {
+    padding-left: 1rem !important;
+  }
+}
+.carrosel-slide {
+  width: 100vw;
+  height: 10vh;
+}
+
 footer {
   font-family: "Inter", sans-serif;
   margin: 0;
