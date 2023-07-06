@@ -2,7 +2,8 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.7.0"
+    "jquery": "^3.7.0",
+    "owl.carousel": "^2.3.4"
   },
   "name": "ultrait-site",
   "version": "1.0.0",
