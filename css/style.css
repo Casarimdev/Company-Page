@@ -317,6 +317,9 @@ a:hover {
   backdrop-filter: blur(5px);
   position: absolute;
 }
+.about .bg_links:hover {
+  background-color: #ec0a0a;
+}
 .about .logo {
   width: 40px;
   height: 40px;
@@ -989,6 +992,7 @@ nav .menu.close .menu-link .text-item {
   background-color: #1D71ED;
   color: white;
   border-radius: 40px;
+  font-weight: 500;
   text-decoration: none;
   transition: 0.5s;
   outline: none;
@@ -1009,8 +1013,8 @@ nav .menu.close .menu-link .text-item {
 }
 
 .services .card:hover .content .a-service {
-  color: white;
-  background-color: #1D71ED;
+  color: #2E78FF;
+  background-color: whitesmoke;
 }
 
 .h1-card {
@@ -1060,10 +1064,14 @@ nav .menu.close .menu-link .text-item {
     padding-left: 1rem !important;
   }
 }
+.w-blue {
+  display: none;
+}
+
 .Soluctions-container {
   height: auto;
   width: auto;
-  background-color: #fafafa;
+  background-color: #2E78FF;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -1117,7 +1125,7 @@ nav .menu.close .menu-link .text-item {
   padding: 25px;
   width: 450px;
   height: auto;
-  background-color: #fafafa;
+  background-color: #1D71ED;
   margin: 20px;
   border: 3px solid #fafafa;
   border-radius: 20px;
@@ -1131,9 +1139,25 @@ nav .menu.close .menu-link .text-item {
   overflow-x: hidden;
 }
 
-.soluction .card-sol h1 {
+.soluction .card-sol .h1-card-sol {
   font-size: 2rem;
+  color: #fafafa;
   overflow-x: hidden;
+}
+
+.soluction .card-sol:hover .h1-card-sol {
+  color: #1D71ED;
+}
+
+.w-blue {
+  display: none;
+}
+
+.soluction .card-sol:hover .w-white {
+  display: none;
+}
+.soluction .card-sol:hover .w-blue {
+  display: block;
 }
 
 .soluction .card-sol .content {
@@ -1142,18 +1166,20 @@ nav .menu.close .menu-link .text-item {
   overflow-x: hidden;
 }
 
-.soluction .card-sol .content p {
-  color: #666;
+.soluction .card-sol .content .p-solu {
+  color: #fafafa;
+  font-weight: 300;
   transition: 0.5s;
   overflow-x: hidden;
 }
 
-.soluction .card-sol .content .a-service {
+.soluction .card-sol .content .a-soluction {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
   background-color: #fafafa;
-  color: white;
+  color: #2E78FF;
+  font-weight: 500;
   border-radius: 40px;
   text-decoration: none;
   transition: 0.5s;
@@ -1163,23 +1189,23 @@ nav .menu.close .menu-link .text-item {
 }
 
 .soluction .card-sol:hover {
-  background-color: #2E78FF;
-  color: white;
+  background-color: #fafafa;
+  color: #2E78FF;
   margin-top: -30px;
-  box-shadow: 2px 20px 25px #2E78FF;
-  border-color: #2E78FF;
+  box-shadow: 2px 20px 25px #fafafa;
+  border-color: #fafafa;
 }
 
-.soluction .card-sol:hover .content p {
-  color: white;
+.soluction .card-sol:hover .content .p-solu {
+  color: #1D71ED;
 }
 
-.soluction .card-sol:hover .content .a-service {
+.soluction .card-sol:hover .content .a-soluction {
   color: white;
   background-color: #1D71ED;
 }
 
-.h1-card {
+.h1-card-sol {
   overflow: hidden;
 }
 
@@ -1286,19 +1312,15 @@ footer {
   font-size: 1.25rem;
 }
 
-#footer_social_media .footer-link:hover {
-  opacity: 0.8;
-}
-
-#instagram {
+#instagram:hover {
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook {
-  background-color: #4267b3;
+#facebook:hover {
+  background-color: #467ff1;
 }
 
-#whatsapp {
+#whatsapp:hover {
   background-color: #25d366;
 }
 

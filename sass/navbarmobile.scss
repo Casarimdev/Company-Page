@@ -45,6 +45,10 @@ a:hover{
      border-radius: 100%;
      backdrop-filter: blur(5px);
      position: absolute;
+
+     &:hover{
+      background-color: #ec0a0a;
+     }
   }
 
   .logo {

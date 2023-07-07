@@ -92,6 +92,7 @@
     background-color: #1D71ED;
     color: white;
     border-radius: 40px;
+    font-weight: 500;
     text-decoration: none;
     transition: 0.5s;
     outline: none;
@@ -114,8 +115,8 @@
 }
 
 .services .card:hover .content .a-service{
-    color:white;
-    background-color: #1D71ED;
+    color:#2E78FF;
+    background-color: whitesmoke;
 }
 
 .h1-card{
