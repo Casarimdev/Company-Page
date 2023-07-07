@@ -1,6 +1,3 @@
-.w-blue{
-    display: none;
-}
 
 .Soluctions-container{
     height: auto;
@@ -83,20 +80,22 @@
     color: #1D71ED;
 }
 
+.w-white{
+    color: white;
+}
+
 .w-blue{
-    display: none;
+    color: #2E78FF;
 }
 
 .soluction .card-sol:hover{
     .w-white{
-        display: none;
+        color: #2E78FF;
     }
     
-    .w-blue{
-        display: block;
-    }
-
 }
+
+
 
 .soluction .card-sol .content {
     padding: 20px;
