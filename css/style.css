@@ -162,7 +162,7 @@ ul {
 
 .navbardesktop {
   height: 90px;
-  width: 100vw;
+  width: auto;
   overflow-x: hidden;
   top: 0;
   left: 0;
