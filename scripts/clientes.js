@@ -1,12 +1,13 @@
 "use strict";
 
 function carousel() {
+  
   let carouselSlider = document.querySelector(".carousel__slider");
   let list = document.querySelector(".carousel__list");
   let item = document.querySelectorAll(".carousel__item");
   let list2;
 
-  const speed = 1;
+  const speed = 3;
   const width = list.offsetWidth;
   let x = 0;
   let x2 = width;
