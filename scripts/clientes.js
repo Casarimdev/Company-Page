@@ -6,7 +6,7 @@ function carousel() {
   let item = document.querySelectorAll(".carousel__item");
   let list2;
 
-  const speed = 0.6;
+  const speed = 1;
   const width = list.offsetWidth;
   let x = 0;
   let x2 = width;
