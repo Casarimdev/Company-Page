@@ -1,13 +1,13 @@
 "use strict";
 
 function carousel() {
-
-  let carouselSlider = document.querySelector(".carousel__slider");
+  let carouselSlider =                document.querySelector(".carousel__slider");
   let list = document.querySelector(".carousel__list");
   let item = document.querySelectorAll(".carousel__item");
   let list2;
 
-  const speed = 3;
+  const speed = 1.2;
+
   const width = list.offsetWidth;
   let x = 0;
   let x2 = width;
@@ -18,27 +18,37 @@ function carousel() {
     list2.style.left = `${width}px`;
   }
 
-  function move() {
+  function moveFirst() {
     x -= speed;
-    x2 -= speed;
 
-    if (x < -width) {
-      x += width;
+    if (width >= Math.abs(x)) {
+      list.style.left = `${x}px`;
+    } else {
+      x = width;
     }
-
-    if (x2 < -width) {
-      x2 += width;
-    }
-
-    list.style.left = `${x}px`;
-    list2.style.left = `${x2}px`;
-
-    requestAnimationFrame(move);
+    requestAnimationFrame(moveFirst);
   }
 
-  clone();
-  requestAnimationFrame(move);
+  function moveSecond() {
+    x2 -= speed;
 
+    if (list2.offsetWidth >= Math.abs(x2)) {
+      list2.style.left = `${x2}px`;
+    } else {
+      x2 = width;
+    }
+    requestAnimationFrame(moveSecond);
+  }
+
+  
+
+ 
+
+  clone();
+
+   requestAnimationFrame(moveFirst);
+   requestAnimationFrame(moveSecond);
+  
   carouselSlider.addEventListener("mouseleave", unhover);
 }
 
