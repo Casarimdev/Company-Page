@@ -1,7 +1,7 @@
 "use strict";
 
 function carousel() {
-  
+
   let carouselSlider = document.querySelector(".carousel__slider");
   let list = document.querySelector(".carousel__list");
   let item = document.querySelectorAll(".carousel__item");
