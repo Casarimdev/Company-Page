@@ -197,7 +197,7 @@ ul {
 .menudesktop-links {
   display: flex;
   gap: 24px;
-  border-right: 1px solid white;
+  border-right: 3px solid white;
   padding-inline: 24px;
 }
 
@@ -1291,7 +1291,7 @@ footer {
   background: linear-gradient(90deg, rgb(16, 76, 186) 38%, rgb(72, 90, 144) 72%);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 3rem 3.5rem;
+  padding: 1rem 3.5rem;
 }
 
 #footer_contacts h1 {
@@ -1351,7 +1351,6 @@ footer {
 #footer_subscribe {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
 }
 
 #footer_subscribe p {
