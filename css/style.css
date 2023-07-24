@@ -942,6 +942,7 @@ nav .menu.close .menu-link .text-item {
   font-weight: bolder;
   font-size: 60px;
   color: #1D71ED;
+  overflow-x: hidden;
 }
 
 .text-service {
@@ -949,6 +950,7 @@ nav .menu.close .menu-link .text-item {
   height: 28vh;
   border-left: 15px solid #2E78FF;
   color: white;
+  overflow-x: hidden;
 }
 
 .h3-service {
@@ -976,6 +978,10 @@ nav .menu.close .menu-link .text-item {
 }
 
 .services .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   padding: 25px;
   width: 450px;
@@ -987,6 +993,11 @@ nav .menu.close .menu-link .text-item {
   overflow-x: hidden;
   transition: 0.5s;
   text-align: center;
+}
+
+.ptext-service {
+  font-weight: bolder;
+  overflow-x: hidden;
 }
 
 .services .card img {
