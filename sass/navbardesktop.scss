@@ -125,6 +125,31 @@
   height: 10vh;
 }
 
+
+.dropwdown-services{
+  height: 30vh;
+  width: 10vw; 
+  border-radius: 20px; 
+}
+
+.dropdown-item{
+  height: auto !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 0.65rem 0.25rem !important;
+  margin: 0 !important;
+  transition: 1.0s !important;
+}
+
+.dropdown-item:hover{
+  background-color: #0aa5ff !important;
+  color: rgb(251, 248, 248) !important;
+  transition: 0.6 !important;
+  border-radius: 40px !important;
+  box-shadow: 5px 5px 5px rgb(248, 248, 248) !important;
+  transition: 1.0s !important;
+}
+
 .nav-services:hover {
   text-decoration: none;
   color: #01080b;

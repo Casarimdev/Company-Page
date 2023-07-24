@@ -38,25 +38,24 @@
         <div class="menudesktop-links-about">
         <a href="#" class="linkdesktop-about">Home</a>
         <a href="#" class="linkdesktop-about">Sobre a Ultra</a>
-        <a class="nav-link dropdown-toggle linkdesktop-about" href="#" role="button"  aria-expanded="true">
-            Serviços
+        <a class="nav-link dropdown-toggle linkdesktop-about" href="#" role="button"  aria-expanded="true" data-bs-toggle="dropdown">
+          Serviços
         </a>
-        <a href="#Services-S" class="linkdesktop-about">Soluções</a>
-        <ul class="dropdown-menu" style="background-color:white; height: 30vh; width: 12vw;">
-            <li><a class="nav-services" href="#" style="text-align: center;">Cloud Computing</a></li>
-            <hr>
-            <li><a class="nav-services" href="#">Backup Offsite</a></li>
-            <hr>
-            <li><a class="nav-services" href="#">Hosting</a></li>
-            <hr>
-            <li><a class="nav-services" href="#">Cyber Security</a></li>
-            <hr>
-            <li><a class="nav-services" href="#">Support</a></li>
-            <hr>
-            <li><a class="nav-services" href="#">Consultancy</a></li>
+        <ul class="dropdown-menu dropwdown-services" style="background-color: #0F7BB3; border-radius: 20px; padding: 0;" >
+          <li><a class="nav-services dropdown-item drop-item" href="#">Cloud Computing</a></li>
+          <hr>
+          <li><a class="nav-services dropdown-item" href="#">Backup Offsite</a></li>
+          <hr>
+          <li><a class="nav-services dropdown-item" href="#">Hosting</a></li>
+          <hr>
+          <li><a class="nav-services dropdown-item" href="#">Cyber Security</a></li>
+          <hr>
+          <li><a class="nav-services dropdown-item" href="#">Support</a></li>
+          <hr>
+          <li><a class="nav-services dropdown-item" href="#">Consultancy</a></li>
         </ul>
-        <a href="#footer_content" class="linkdesktop-about">Contato</a>
-        </div>
+        <a href="#Services-S" class="linkdesktop-about">Soluções</a>
+      </div>
         <a href="#footer_content"><button class="log-in-about buttondesk">Fale Conosco</button></a>
     </div>
     </nav>
@@ -127,19 +126,31 @@
 <section class="containerAB">
     <div class="container-about">
         <div class="texts-about">
-            <h3>Quem somos?</h3>
+          <img src="../images/Ultra-logowhite.png" alt="logo-white" class="pb-5" data-aos="fade-right" data-aos-duration="2000">
+            <h1 class="h1-about pb-3" data-aos="flip-right" data-aos-duration="2000">Sobre a Ultra IT</h3>
+            <p class="p-about" data-aos="flip-right" data-aos-duration="2000">A Ultra IT, fundada em 2010, atende à clientes de
+              todos os portes e segmentos com soluções de
+              Cloud e serviços de infraestrutura de TI.
+              Temos foco em inovação, qualidade e
+              prezamos pelo atendimento ágil e eficaz aos
+              nossos clientes e parceiros.</p>
         </div>
         <div class="logo-about" data-aos="flip-right" data-aos-duration="3000">
-            <img src="../images/logo_ultra-removebg-preview.png" alt="logo_ultraIT" class="logo-abouth h-50" >
+            <img src="../images/logo_ultra-removebg-preview.png" alt="logo_ultraIT" class="logo-abouth h-75" >
         </div>
     </div>
+</section>
+<section class="infra-ultra">
+  <div class="container-infra">
+    <h1 class="h1-infra">Infraestrutura Ultra</h1>
+  </div>
 </section>
 
 
 
 <!-- FOOTER -->
 
-<footer style="overflow-x: hidden;">
+<footer style="overflow-x: hidden;" >
     <div id="footer_content" style="overflow-x: hidden;">
         <div id="footer_contacts">
             <h1><img src="../logos/logo-ultraIT.png" alt=""></h1>
@@ -208,11 +219,6 @@
 
 
 
-
-
-
-
-
 <!-- SCRIPTS -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="jquery.min.js"></script>
@@ -260,4 +266,7 @@
     navbarLinks.classList.toggle('show');
   });
 </script>  
+<script src=
+"path/to/particles.min.js"
+></script>
 </body>   

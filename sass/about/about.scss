@@ -103,7 +103,7 @@
 
 
 .container-about{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     background: rgb(255,255,255);
     background: linear-gradient(230deg, rgba(255,255,255,1) 49%, rgba(16,76,186,1) 53%);
@@ -111,6 +111,36 @@
     flex-direction: row;
     justify-content: space-around;  
     align-items: center;   
+    flex-wrap: wrap;
 }
 
+.h1-about{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p-about{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+}
+
+.texts-about{
+  width: 60vh;
+}
+
+.container-infra{
+  background-image: url();
+  height: 60vh;
+  width: auto;
+}
+
+.h1-infra{
+  color: #104CBA;
+  text-align: center;
+}
 
