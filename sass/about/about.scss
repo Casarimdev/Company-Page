@@ -65,56 +65,29 @@
     
   }
 
-  @media (max-width: 1390px) {
-    .menudesktop {
-      padding-right: 20px;
-      gap: 15px;
-      margin: 1px;
-    }
-  
-    .menudesktop-links-about {
-      gap: 3px;
-      margin: 1px;
-    }
-  }
-  
-  @media (max-width: 1054px) {
-    .menudesktop {
-      padding-right: 5px;
-      gap: 1px;
-      margin: 1px;
-    }
-  
-    .menudesktop-links-about {
-      gap: 0px;
-      margin: 1px;
-      padding-right: 0px;
-    }
-  }
   
   
-  @media (max-width: 430px){
-    .spanUltra{
-      display: none;
-    }
-  }
 
-
-
+  .containerAB{
+  height: 100vh;
+  width: 100%;
+  background: rgb(255,255,255);
+background: linear-gradient(230deg, rgba(255,255,255,1) 36%, rgba(16,76,186,1) 46%);
+}
 
 .container-about{
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(230deg, rgba(255,255,255,1) 49%, rgba(16,76,186,1) 53%);
+background: linear-gradient(230deg, rgba(255,255,255,1) 36%, rgba(16,76,186,1) 46%);
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
     align-items: center;   
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap-reverse;
+  }
 
-.h1-about{
+  .h1-about{
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -131,16 +104,65 @@
 
 .texts-about{
   width: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowinfra{
+  margin-bottom: 20px !important;
 }
 
 .container-infra{
-  background-image: url();
   height: 60vh;
   width: auto;
 }
 
+
+
 .h1-infra{
-  color: #104CBA;
+  color:#1D71ED;
   text-align: center;
 }
 
+
+@media (max-width: 1000px){
+  .navbardesktopabout{
+      display: none;
+  }
+}
+
+@media (max-width: 1390px) {
+  .menudesktop {
+    padding-right: 20px;
+    gap: 15px;
+    margin: 1px;
+  }
+
+  .menudesktop-links-about {
+    gap: 3px;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 1054px) {
+  .menudesktop {
+    padding-right: 5px;
+    gap: 1px;
+    margin: 1px;
+  }
+
+  .menudesktop-links-about {
+    gap: 0px;
+    margin: 1px;
+    padding-right: 0px;
+  }
+}
+
+
+@media (max-width: 430px){
+  .spanUltra{
+    display: none;
+  }
+}
