@@ -58,11 +58,13 @@
 }
 
 .log-in-about:hover {
-  color: white;
-  font-weight: bold;
+  color: #104CBA;
+  font-weight: 500;
   text-decoration: none;
-  background-color: rgba(16, 76, 186, 1);
-  border: 2px solid rgba(16, 76, 186, 1);
+  background-color: white;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgb(200, 200, 200);
+  transition: 0.8s;
 
 }
 
