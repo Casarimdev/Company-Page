@@ -117,13 +117,53 @@
     filter: drop-shadow(14px 14px 15px #2db2fff1) opacity(100%) ;
   }
   
-  .second-container{
-    height: 60vh;
+  #second-container{
+    height: 70vh;
     width: 100%;
-
+    background-color: #fafafa;
   }
 
+  .boxtext{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 7vw;
 
+    .h1-nuv{
+    width: 45vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    color: rgba(15, 123, 179, 1);
+    text-align: center;
+    }
+
+    .p-nuv{
+      font-family: 'Rubik', sans-serif;
+      font-size: 1.2rem;
+      width: 45vw;
+      color: rgb(115, 114, 114);
+      text-align: center;
+    }
+
+    .p-nuv1{
+      text-align: center;
+      font-family: 'Rubik', sans-serif;
+      color: rgb(115, 114, 114);
+      font-weight: 500;
+      font-size: 1.2rem;
+      width: 36vw;
+    }
+  }
+
+  .img-nuv{
+    width: 45vh;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgb(193, 211, 245);
+    margin-right: 0vw;
+  }
   
   
   
