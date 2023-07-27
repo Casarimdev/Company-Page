@@ -1,14 +1,16 @@
-@import 'fontes.scss';
-@import 'carosel.scss';
-@import 'navbardesktop.scss';
-@import 'navrespons.scss';
-@import 'navbarmobile.scss';
-@import 'services.scss';
-@import 'suluctions.scss';
-@import 'instagramcards.scss';
-@import 'footer.scss';
-@import'whocontainer.scss';
+@import 'home/fontes.scss';
+@import 'home/carosel.scss';
+@import 'home/navbardesktop.scss';
+@import 'home/navrespons.scss';
+@import 'home/navbarmobile.scss';
+@import 'home/services.scss';
+@import 'home/suluctions.scss';
+@import 'home/instagramcards.scss';
+@import 'home/footer.scss';
+@import'home/whocontainer.scss';
 @import'about/about.scss';
+@import'services/cloud.scss';
+
 
 *{
   margin: 0;
