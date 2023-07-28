@@ -162,6 +162,13 @@
     margin: 1px;
   }
 
+  .logodesktop {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: hidden;
+    width: 22vw;
+  }
+
   .menudesktop-links {
     gap: 3px;
     margin: 1px;
