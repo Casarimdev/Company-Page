@@ -29,12 +29,12 @@ footer {
     background: rgb(16,76,186);
 background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1.5fr);
     padding: 1rem 3.5rem;
 }
 
-#footer_contacts h1 {
-    margin-bottom: 0.75rem;
+#footer_contacts{
+    margin-bottom: 0;
 }
 
 #footer_social_media {
@@ -59,6 +59,15 @@ background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%
 }
 
 
+.a-footer{
+    color: white;
+
+}
+
+.a-footer:hover{
+    color: rgb(218, 210, 210);
+
+}
 
 #instagram:hover {
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
