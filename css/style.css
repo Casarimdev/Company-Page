@@ -1367,7 +1367,7 @@ footer {
   background: rgb(16, 76, 186);
   background: linear-gradient(50deg, rgb(16, 76, 186) 43%, rgb(15, 123, 179) 64%);
   display: grid;
-  grid-template-columns: repeat(3, 1.5fr);
+  grid-template-columns: repeat(3, 2fr);
   padding: 1rem 3.5rem;
 }
 
@@ -1461,13 +1461,14 @@ footer {
   #footer_content {
     background: rgb(16, 76, 186);
     background: linear-gradient(50deg, rgb(16, 76, 186) 56%, rgb(15, 123, 179) 64%);
+    gap: 5rem;
   }
 }
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 886px) {
   #footer_content {
     background: rgb(16, 76, 186);
     background: linear-gradient(90deg, rgb(16, 76, 186) 32%, #0f7bb3 55%);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
   }
 }
@@ -1788,7 +1789,7 @@ footer {
   width: 100%;
   background-image: url("../images/background-sky.jpg");
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center bottom;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -1830,6 +1831,8 @@ footer {
 }
 
 .img-cloud {
+  width: 20vw;
+  height: auto;
   filter: drop-shadow(14px 14px 15px rgba(45, 178, 255, 0.9450980392)) opacity(100%);
 }
 
@@ -1855,8 +1858,11 @@ footer {
 }
 
 .call-action:hover {
-  box-shadow: 4px 8px 10px rgba(255, 255, 0, 0.846);
-  transform: translate(0, -5%);
+  transform: translateY(-10px);
+  box-shadow: 4px 8px 10px rgba(245, 245, 242, 0.846);
+  color: #104CBA;
+  background-color: #fafafa;
+  border: 2px solid #fafafa;
 }
 
 .container-caract {
@@ -1865,7 +1871,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   background-image: url("../images/background-caract.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -1873,6 +1879,19 @@ footer {
   background-attachment: fixed;
   position: relative;
   gap: 25px 100px;
+}
+
+.logo-service {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-aboutserv {
+  width: 20vw;
+  height: auto;
 }
 
 .container-text-services {
@@ -1903,6 +1922,66 @@ footer {
   flex-direction: column;
   height: auto;
   width: 20vw;
+}
+
+.ask-container {
+  height: auto;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-ask {
+  border: 2px solid #76b0ff;
+  border-radius: 4px;
+  box-shadow: 4px 8px 10px #76b0ff;
+  width: 70vw;
+}
+
+.accordion-button {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+.accordion-body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+.segments-container {
+  background: rgb(16, 76, 186);
+  background: linear-gradient(50deg, rgb(16, 76, 186) 43%, rgb(15, 123, 179) 64%);
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.segments-container .box-icons {
+  min-height: 30vh;
+  height: auto;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px 55px;
+}
+.segments-container .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  gap: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
 .cloud1 {
@@ -1984,20 +2063,28 @@ footer {
   background-position: center center;
 }
 
-@media (max-width: 1000px) {
-  .navbardesktopabout {
-    display: none;
-  }
-}
 @media (max-width: 1390px) {
   .menudesktop {
     padding-right: 20px;
     gap: 15px;
     margin: 1px;
   }
+}
+@media (max-width: 1270px) {
+  .h1-cloud, .h1-middle-cloud {
+    font-size: 2rem;
+  }
   .menudesktop-links-about {
     gap: 3px;
     margin: 1px;
+  }
+}
+@media (max-width: 1000px) {
+  .h1-cloud, .h1-middle-cloud {
+    font-size: 1.5rem;
+  }
+  .navbardesktopabout {
+    display: none;
   }
 }
 @media (max-width: 1054px) {

@@ -27,9 +27,9 @@ footer {
 
 #footer_content {
     background: rgb(16,76,186);
-background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%);
+    background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%);
     display: grid;
-    grid-template-columns: repeat(3, 1.5fr);
+    grid-template-columns: repeat(3, 2fr);
     padding: 1rem 3.5rem;
 }
 
@@ -127,14 +127,15 @@ background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%
     #footer_content{
         background: rgb(16,76,186);
         background: linear-gradient(50deg, rgba(16,76,186,1) 56%, rgba(15,123,179,1) 64%);
+        gap: 5rem;
     }
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 886px) {
     #footer_content {
         background: rgb(16,76,186);
         background: linear-gradient(90deg, rgba(16,76,186,1) 32%, #0f7bb3 55%);
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
     }
 }

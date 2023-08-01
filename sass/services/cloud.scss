@@ -66,13 +66,15 @@
     transition: 0.8s;
   
   }
+
+  // FIM DO HEADER
   
   .container-sky{
   height: 80vh;
   width: 100%;
   background-image: url('../images/background-sky.jpg');
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center bottom;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -115,6 +117,8 @@
   }
   
   .img-cloud{
+    width: 20vw;
+    height: auto;
     filter: drop-shadow(14px 14px 15px #2db2fff1) opacity(100%) ;
   }
   
@@ -141,9 +145,14 @@
   }
   
   .call-action:hover{
-    box-shadow: 4px 8px 10px rgba(255, 255, 0, 0.846);
-    transform: translate(0, -5%);
+    transform: translateY(-10px);
+    box-shadow: 4px 8px 10px rgba(245, 245, 242, 0.846);
+    color: #104CBA;
+    background-color: #fafafa;
+    border: 2px solid #fafafa;
   }
+
+  // FIM DO PRIMEIRO CONTAINER
 
 .container-caract{
   height: auto;
@@ -151,7 +160,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   background-image: url('../images/background-caract.png');
   background-repeat: no-repeat;
   background-position: center top;
@@ -159,6 +168,19 @@
   background-attachment: fixed;
   position: relative;
   gap: 25px 100px;
+}
+
+.logo-service{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-aboutserv{
+  width: 20vw;
+  height: auto;
 }
 
 .container-text-services{
@@ -191,6 +213,71 @@
   width: 20vw;
 }
 
+.ask-container{
+  height: auto;
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-ask{
+  border: 2px solid #76b0ff;
+  border-radius: 4px;
+  box-shadow: 4px 8px 10px #76b0ff;
+  width: 70vw;
+}
+
+.accordion-button{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+
+.accordion-body{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+// FIM SEGUNDO CONTAINER
+
+.segments-container{
+  background: rgb(16,76,186);
+  background: linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%);
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .box-icons{
+    min-height: 30vh;
+    height: auto;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 55px;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    gap: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+}
+
+// FIM SEGMENTES
 
 .cloud1 {
     background-image: url('../clientes_logos/triumph-logo.jpg');
@@ -270,28 +357,42 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-  
-  @media (max-width: 1000px) {
-    .navbardesktopabout {
-      display: none;
-    }
-    }
-  
-  @media (max-width: 1390px) {
-    .menudesktop {
-      padding-right: 20px;
-      gap: 15px;
-      margin: 1px;
-    }
-  
-    .menudesktop-links-about {
-      gap: 3px;
-      margin: 1px;
-    }
+
+  // RESPONSIVIDADE: 
+
+@media (max-width: 1390px) {
+  .menudesktop {
+    padding-right: 20px;
+    gap: 15px;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .h1-cloud, .h1-middle-cloud{
+    font-size: 2rem;
   }
   
-  @media (max-width: 1054px) {
-    .menudesktop {
+  
+  
+  
+  .menudesktop-links-about {
+    gap: 3px;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .h1-cloud, .h1-middle-cloud{
+    font-size: 1.5rem;
+}
+  .navbardesktopabout {
+    display: none;
+  }
+  }
+
+@media (max-width: 1054px) {
+  .menudesktop {
       padding-right: 5px;
       gap: 1px;
       margin: 1px;
