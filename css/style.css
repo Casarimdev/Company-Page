@@ -1089,11 +1089,12 @@ nav .menu.close .menu-link .text-item {
 }
 
 .services .card:hover {
-  background-color: #2E78FF;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(47deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   color: white;
   margin-top: -30px;
   box-shadow: 2px 20px 25px #2E78FF;
-  border-color: #2E78FF;
+  border-color: rgb(16, 76, 186);
 }
 
 .services .card:hover .content p {
@@ -1155,7 +1156,8 @@ nav .menu.close .menu-link .text-item {
 .Soluctions-container {
   height: auto;
   width: auto;
-  background-color: #2E78FF;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(47deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -1209,7 +1211,8 @@ nav .menu.close .menu-link .text-item {
   padding: 25px;
   width: 450px;
   height: auto;
-  background-color: #1D71ED;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(47deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   margin: 20px;
   border: 3px solid #fafafa;
   border-radius: 20px;
@@ -1275,7 +1278,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .soluction .card-sol:hover {
-  background-color: #fafafa;
+  background: #fafafa;
   color: #2E78FF;
   margin-top: -30px;
   box-shadow: 2px 20px 25px #fafafa;
