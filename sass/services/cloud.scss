@@ -72,8 +72,8 @@
   .container-sky{
   height: 80vh;
   width: 100%;
-  // background-image: url('../images/background-sky.jpg');
-  background-color: #fafafa;
+  background-image: url('../images/background-sky.jpg');
+  // background-color: #fafafa;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -105,7 +105,7 @@
     width: 45vw;
     font-family: 'Rubik', sans-serif;
     font-size: 2.5rem;
-    color: rgba(15, 123, 179, 1) ;
+    color: #fafafa;
     text-align: center;
   }
   
@@ -113,7 +113,7 @@
     font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
     width: 45vw;
-    color: rgba(15, 123, 179, 1) ;
+    color: #fafafa;
     text-align: center;
   }
   
@@ -135,11 +135,15 @@
     height: 8vh;
     width: auto;
     padding: 15px;
-    background-color: #104CBA;
-    color: #fafafa;
-    border: 2px solid #104CBA;
+    // background-color: #104CBA;
+    background-color: yellow;
+    // color: #fafafa;
+    color: black;
+    border: 2px solid yellow;
+    // border: 2px solid #104CBA;
     border-radius: 20px;
-    box-shadow: 4px 8px 10px #43b5ee;
+    // box-shadow: 4px 8px 10px #43b5ee;
+    box-shadow: 4px 8px 10px yellow;
     font-size: 1.15rem;
     font-weight: bolder;
     font-family: 'Nunito', sans-serif;
@@ -148,9 +152,9 @@
     color: #104CBA;
     font-weight: 700;
     text-decoration: none;
-    background-color: #fafafa;
-    border: 2px solid #fafafa;
-    box-shadow: 5px 5px 5px rgb(143, 132, 132);
+    // background-color: #fafafa;
+    border: 2px solid yellow;
+    box-shadow: 5px 5px 5px rgb(217, 255, 0);
 
     }
   }
@@ -409,9 +413,42 @@
     }
   }
   
+@media (max-width: 768px){
+  .call-action{
+    width:auto;
+    height: auto;
+    padding: 8px;
+  }
+
+  .p-schildren, .p-sson{
+    width: auto;
+    text-align: center;
+  }
+
+  .carac1, .carac2, .carac3{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px){
+  .container-caract{
+    flex-direction: column-reverse;
+  }
+
+  .p-schildren, .p-sson{
+    width: 40vw;
+    text-align: center;
+  }
+}
+
   @media (max-width: 473px) {
     .spanUltra {
       display: none;
     }
+
+    .me-5 {
+      margin-right: 0rem!important;
+  }
   }
   
