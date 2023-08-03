@@ -123,7 +123,7 @@
 
 
 .a-service:hover{
-    box-shadow: 2px 5px 5px #fafafa;
+    box-shadow: 2px 5px 5px #fafafa
 }
 
 .services .card:hover {
@@ -150,6 +150,16 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 1274px){
+    .services .card:hover {
+        background: rgb(16, 76, 186);
+        background: linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+        color: white;
+        margin-top: -17px;
+        box-shadow: 2px 20px 25px #2E78FF;
+        border-color: rgb(16, 76, 186);
+    }
+}
 @media screen and (max-width: 1170px){
 .text-service{
     width: 85vw;

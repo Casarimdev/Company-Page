@@ -1114,6 +1114,16 @@ nav .menu.close .menu-link .text-item {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1274px) {
+  .services .card:hover {
+    background: rgb(16, 76, 186);
+    background: linear-gradient(45deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
+    color: white;
+    margin-top: -17px;
+    box-shadow: 2px 20px 25px #2E78FF;
+    border-color: rgb(16, 76, 186);
+  }
+}
 @media screen and (max-width: 1170px) {
   .text-service {
     width: 85vw;
