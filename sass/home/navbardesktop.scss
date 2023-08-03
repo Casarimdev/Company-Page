@@ -127,9 +127,9 @@
 
 
 .dropwdown-services{
-  height: 30vh;
+  height: auto;
   width: 10vw; 
-  border-radius: 20px; 
+   border-radius: 0px !important;
 }
 
 .dropdown-item{
@@ -145,7 +145,7 @@
   background-color: #0aa5ff !important;
   color: rgb(251, 248, 248) !important;
   transition: 0.6 !important;
-  border-radius: 40px !important;
+  border-radius: 20px !important;
   box-shadow: 5px 5px 5px rgb(248, 248, 248) !important;
   transition: 1.0s !important;
 }

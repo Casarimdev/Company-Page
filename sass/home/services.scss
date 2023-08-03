@@ -121,6 +121,11 @@
     overflow-x: hidden;
 }
 
+
+.a-service:hover{
+    box-shadow: 2px 5px 5px #fafafa;
+}
+
 .services .card:hover {
     background: rgb(16, 76, 186);
     background: linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);

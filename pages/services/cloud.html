@@ -33,9 +33,9 @@
   <!-- HEADER -->
   <header class="header-content fixed-top" style="width: auto">
     <!-- NAVBAR DESKTOP -->
-    <nav class="navbardesktopabout">
-      <div class="logodesktop">
-        <a href="#"><img src="../../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
+    <nav class="navbardesktopservices">
+      <div class="logodesktop" style="display: flex; align-items: center; justify-content: center; height: auto;">
+        <a href="#"><img src="../../images/Ultra-logowhite.png" alt="logo-ultraIT" class="ps-5 logo-desk"></a>
       </div>
       <div class="menudesktop">
         <div class="menudesktop-links-about">
@@ -47,19 +47,36 @@
           </a>
           <ul class="dropdown-menu dropwdown-services"
             style="background-color: #0F7BB3; border-radius: 20px; padding: 0;">
-            <li><a class="nav-services dropdown-item drop-item" href="#">Cloud Computing</a></li>
+            <li><a class="nav-services dropdown-item drop-item" href="cloud.html">Cloud Computing</a></li>
             <hr>
-            <li><a class="nav-services dropdown-item" href="#">Backup Offsite</a></li>
+            <li><a class="nav-services dropdown-item" href="#">Consultoria</a></li>
             <hr>
-            <li><a class="nav-services dropdown-item" href="#">Hosting</a></li>
+            <li><a class="nav-services dropdown-item" href="#">Suporte Técnico</a></li>
             <hr>
-            <li><a class="nav-services dropdown-item" href="#">Cyber Security</a></li>
+            <li><a class="nav-services dropdown-item" href="#">Web Hosting</a></li>
             <hr>
-            <li><a class="nav-services dropdown-item" href="#">Support</a></li>
+            <li><a class="nav-services dropdown-item" href="#">Backup Off-Site</a></li>
             <hr>
-            <li><a class="nav-services dropdown-item" href="#">Consultancy</a></li>
+            <li><a class="nav-services dropdown-item" href="#">Segurança Web</a></li>
           </ul>
-          <a href="#Services-S" class="linkdesktop-about">Soluções</a>
+          <a class="nav-link dropdown-toggle linkdesktop-about" href="#" role="button" aria-expanded="true"
+            data-bs-toggle="dropdown">
+            Soluções
+          </a>
+          <ul class="dropdown-menu dropwdown-services"
+            style="background-color: #0F7BB3; border-radius: 20px; padding: 0;">
+            <li><a class="nav-services dropdown-item drop-item" href="#">Anti-Spam</a></li>
+            <hr>
+            <li><a class="nav-services dropdown-item" href="#">Arquivos em Nuvem</a></li>
+            <hr>
+            <li><a class="nav-services dropdown-item" href="#">Comunicador</a></li>
+            <hr>
+            <li><a class="nav-services dropdown-item" href="#">Firewall UTM</a></li>
+            <hr>
+            <li><a class="nav-services dropdown-item" href="#">Servidor de e-mail</a></li>
+            <hr>
+            <li><a class="nav-services dropdown-item" href="#">Wifi-Corporativa</a></li>
+          </ul>
         </div>
         <a href="#footer_content"><button class="log-in-about buttondesk">Fale Conosco</button></a>
       </div>
@@ -357,7 +374,7 @@
         <li>
           SUPORTE: <span style="font-weight: bolder;">suporte@ultra.it</span>
         </li>
-        <li>
+        <li class="pt-3">
           COMERCIAL: <span style="font-weight: bolder;">comercial@ultra.it</span>
         </li>
       </ul>
@@ -368,8 +385,8 @@
           <li>
             SUPORTE: <span style="font-weight: bolder;">(11) 98220-6465</span> <br>
           </li>
-          <li>
-            COMERCIAL: <span style="font-weight: bolder;">1 (904) 601-6644</span>
+          <li class="pt-3">
+            COMERCIAL: <span style="font-weight: bolder;">0800-591-7374</span>
           </li>
           <!-- <li>
               <a href="#" class="footer-link">Cloud</a>
@@ -519,5 +536,5 @@
     });
   </script>
   <script src="path/to/particles.min.js"></script>
-  <script src="../scripts/scriptmenu.js"></script>
+  <script src="../../scripts/scriptmenu.js"></script>
 </body>

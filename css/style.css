@@ -270,9 +270,9 @@ ul {
 }
 
 .dropwdown-services {
-  height: 30vh;
+  height: auto;
   width: 10vw;
-  border-radius: 20px;
+  border-radius: 0px !important;
 }
 
 .dropdown-item {
@@ -288,7 +288,7 @@ ul {
   background-color: #0aa5ff !important;
   color: rgb(251, 248, 248) !important;
   transition: 0.6 !important;
-  border-radius: 40px !important;
+  border-radius: 20px !important;
   box-shadow: 5px 5px 5px rgb(248, 248, 248) !important;
   transition: 1s !important;
 }
@@ -1088,6 +1088,10 @@ nav .menu.close .menu-link .text-item {
   overflow-x: hidden;
 }
 
+.a-service:hover {
+  box-shadow: 2px 5px 5px #fafafa;
+}
+
 .services .card:hover {
   background: rgb(16, 76, 186);
   background: linear-gradient(45deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
@@ -1212,7 +1216,7 @@ nav .menu.close .menu-link .text-item {
   width: 450px;
   height: auto;
   background: rgb(16, 76, 186);
-  background: linear-gradient(230deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
+  background: linear-gradient(43deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   margin: 20px;
   border: 3px solid #fafafa;
   border-radius: 20px;
@@ -1359,6 +1363,11 @@ main {
   height: 80vh;
 }
 
+.dl, ol, ul {
+  margin-top: 0px !important;
+  margin-bottom: -1rem !important;
+}
+
 footer {
   width: 100%;
   color: white;
@@ -1369,6 +1378,7 @@ footer {
 }
 
 #footer_content {
+  height: auto;
   background: rgb(16, 76, 186);
   background: linear-gradient(50deg, rgb(16, 76, 186) 43%, rgb(15, 123, 179) 64%);
   display: grid;
@@ -1424,7 +1434,7 @@ footer {
 .footer-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0;
   list-style: none;
   flex-wrap: wrap;
 }
@@ -1722,7 +1732,7 @@ footer {
     height: 90vw;
   }
 }
-.navbardesktopabout {
+.navbardesktopservices {
   height: 90px;
   width: auto;
   overflow-x: hidden;
@@ -1733,8 +1743,13 @@ footer {
   justify-content: space-between;
   align-items: center;
   overflow-y: hidden;
-  background: rgb(16, 76, 186);
-  background: linear-gradient(47deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
+  background: rgb(0, 16, 39);
+  background: linear-gradient(47deg, rgb(0, 16, 39) 36%, rgb(15, 123, 179) 54%);
+}
+
+.logo-desk {
+  height: 5vh;
+  width: auto;
 }
 
 .linkdesktop-about {
@@ -2087,7 +2102,7 @@ footer {
   .h1-cloud, .h1-middle-cloud {
     font-size: 1.5rem;
   }
-  .navbardesktopabout {
+  .navbardesktopservices {
     display: none;
   }
 }

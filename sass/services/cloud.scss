@@ -1,4 +1,4 @@
-.navbardesktopabout {
+.navbardesktopservices {
     height: 90px;
     width: auto;
     overflow-x: hidden;
@@ -9,10 +9,14 @@
     justify-content: space-between;
     align-items: center;
     overflow-y: hidden;
-    background: rgb(16, 76, 186);
-    background: linear-gradient(47deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+    background: rgb(0,16,39);
+    background: linear-gradient(47deg, rgba(0,16,39,1) 36%, rgba(15,123,179,1) 54%);
   }
   
+  .logo-desk{
+    height:5vh;
+    width: auto;
+  }
   
   .linkdesktop-about {
     text-decoration: none;
@@ -394,7 +398,7 @@
   .h1-cloud, .h1-middle-cloud{
     font-size: 1.5rem;
 }
-  .navbardesktopabout {
+.navbardesktopservices {
     display: none;
   }
   }
