@@ -268,7 +268,7 @@
   .box-icons{
     min-height: 30vh;
     height: auto;
-    width: 40vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -372,11 +372,18 @@
 
   // RESPONSIVIDADE: 
 
+
+
+
 @media (max-width: 1390px) {
   .menudesktop {
     padding-right: 20px;
     gap: 15px;
     margin: 1px;
+  }
+
+  .box-icons{
+    min-width: 40vh;
   }
 }
 
@@ -449,6 +456,10 @@
   @media (max-width: 473px) {
     .spanUltra {
       display: none;
+    }
+
+    .box-icons{
+      min-width: auto;
     }
 
     .me-5 {

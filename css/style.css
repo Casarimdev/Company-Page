@@ -1984,7 +1984,7 @@ footer {
 .segments-container .box-icons {
   min-height: 30vh;
   height: auto;
-  width: 40vw;
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -2088,6 +2088,9 @@ footer {
     gap: 15px;
     margin: 1px;
   }
+  .box-icons {
+    min-width: 40vh;
+  }
 }
 @media (max-width: 1270px) {
   .h1-cloud, .h1-middle-cloud {
@@ -2145,6 +2148,9 @@ footer {
 @media (max-width: 473px) {
   .spanUltra {
     display: none;
+  }
+  .box-icons {
+    min-width: auto;
   }
   .me-5 {
     margin-right: 0rem !important;
