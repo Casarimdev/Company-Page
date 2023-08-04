@@ -53,10 +53,14 @@
 }
 
 .soluction .card-sol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     position: relative;
     padding: 25px;
     width: 450px;
-    height: auto;
+    height: 50vh;
     background: rgb(16, 76, 186);
     background: linear-gradient(43deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
     margin: 20px;
@@ -75,7 +79,7 @@
 .soluction .card-sol .h1-card-sol {
     font-size: 2rem;
     color:#fafafa;
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .soluction .card-sol:hover .h1-card-sol{
@@ -185,8 +189,29 @@
     }
     }
 
-@media screen and (max-width: 400px){
-    .h1-solucion{
+
+@media screen and (max-width: 475px){
+
+    .soluction .card-sol {
+        height: 65vh;
+    }
+    .p-solu{
+        width: auto;
+        font-size: small;
+    }
+
+    .soluction .card-sol .h1-card-sol {
+        font-size: 1.5rem;
+        width: auto;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .soluction .card-sol img {
+        margin-bottom: 10vh;
+    }
+
+    .h1-soluction{
         font-size: 18px;
     }
 
@@ -201,5 +226,11 @@
     }
     .ps-5{
         padding-left: 1rem!important;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .soluction .card-sol {
+        height: auto;
     }
 }

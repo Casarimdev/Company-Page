@@ -378,8 +378,8 @@ a:hover {
   transition: all 0.2s ease;
 }
 .about .bg_links {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -393,8 +393,8 @@ a:hover {
   background-color: #ec0a0a;
 }
 .about .logo {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   z-index: 9;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -410,8 +410,8 @@ a:hover {
   bottom: 0;
 }
 .about .social .icon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1030,12 +1030,12 @@ nav .menu.close .menu-link .text-item {
 .services .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: relative;
   padding: 25px;
   width: 450px;
-  height: auto;
+  height: 50vh;
   background-color: #fff;
   margin: 20px;
   border: 3px solid #2E78FF;
@@ -1046,6 +1046,8 @@ nav .menu.close .menu-link .text-item {
 }
 
 .ptext-service {
+  height: auto;
+  width: auto;
   font-weight: bolder;
   overflow-x: hidden;
 }
@@ -1057,11 +1059,11 @@ nav .menu.close .menu-link .text-item {
 
 .services .card h1 {
   font-size: 2rem;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
 }
 
 .services .card .content {
-  padding: 20px;
   text-align: center;
   overflow-x: hidden;
 }
@@ -1110,10 +1112,6 @@ nav .menu.close .menu-link .text-item {
   background-color: whitesmoke;
 }
 
-.h1-card {
-  overflow: hidden;
-}
-
 @media screen and (max-width: 1274px) {
   .services .card:hover {
     background: rgb(16, 76, 186);
@@ -1151,7 +1149,23 @@ nav .menu.close .menu-link .text-item {
     height: auto;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 465px) {
+  .services .card {
+    height: 65vh;
+  }
+  .ptext-service {
+    width: auto;
+    font-size: small;
+  }
+  .services .card h1 {
+    font-size: 1.3rem;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+  }
+  .services .card img {
+    margin-bottom: 10vh;
+  }
   .h1-service {
     font-size: 18px;
   }
@@ -1165,6 +1179,11 @@ nav .menu.close .menu-link .text-item {
   }
   .ps-5 {
     padding-left: 1rem !important;
+  }
+}
+@media screen and (max-width: 374px) {
+  .services .card {
+    height: auto;
   }
 }
 .Soluctions-container {
@@ -1221,10 +1240,14 @@ nav .menu.close .menu-link .text-item {
 }
 
 .soluction .card-sol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   position: relative;
   padding: 25px;
   width: 450px;
-  height: auto;
+  height: 50vh;
   background: rgb(16, 76, 186);
   background: linear-gradient(43deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   margin: 20px;
@@ -1243,7 +1266,7 @@ nav .menu.close .menu-link .text-item {
 .soluction .card-sol .h1-card-sol {
   font-size: 2rem;
   color: #fafafa;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .soluction .card-sol:hover .h1-card-sol {
@@ -1339,8 +1362,24 @@ nav .menu.close .menu-link .text-item {
     height: auto;
   }
 }
-@media screen and (max-width: 400px) {
-  .h1-solucion {
+@media screen and (max-width: 475px) {
+  .soluction .card-sol {
+    height: 65vh;
+  }
+  .p-solu {
+    width: auto;
+    font-size: small;
+  }
+  .soluction .card-sol .h1-card-sol {
+    font-size: 1.5rem;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+  }
+  .soluction .card-sol img {
+    margin-bottom: 10vh;
+  }
+  .h1-soluction {
     font-size: 18px;
   }
   .h3-soluctions {
@@ -1353,6 +1392,11 @@ nav .menu.close .menu-link .text-item {
   }
   .ps-5 {
     padding-left: 1rem !important;
+  }
+}
+@media screen and (max-width: 374px) {
+  .soluction .card-sol {
+    height: auto;
   }
 }
 .carrosel-slide {

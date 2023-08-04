@@ -35,8 +35,8 @@ a:hover{
   transition: all 0.2s ease;
 
   .bg_links {
-     width: $size;
-     height: $size;
+     width: 50px;
+     height: 50px;
      border-radius: 100%;
      display: flex;
      justify-content: center;
@@ -52,8 +52,8 @@ a:hover{
   }
 
   .logo {
-     width: $size;
-     height: $size;
+     width: 50px;
+     height: 50px;
      z-index: 9;
      background-size: 50%;
      background-repeat: no-repeat;
@@ -70,8 +70,8 @@ a:hover{
      bottom: 0;
 
      .icon {
-        width: $size;
-        height: $size;
+        width: 50px;
+        height: 50px;
         background-size: 20px;
         background-repeat: no-repeat;
         background-position: center;
