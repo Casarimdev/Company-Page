@@ -106,7 +106,9 @@
 .soluction .card-sol .content {
     padding: 20px;
     text-align: center;
-    overflow-x: hidden;
+    overflow-y: hidden;
+    width: auto;
+    height: auto;
     
 }
 
@@ -141,6 +143,9 @@
     border-color:  #fafafa;
 }
 
+.a-soluction:hover{
+    box-shadow: 2px 5px 5px #2E78FF
+}
 
 
 
