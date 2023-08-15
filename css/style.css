@@ -225,11 +225,10 @@ ul {
 }
 
 .menudesktop-links .linkdesktop:hover {
-  color: #104CBA;
-  text-decoration: none;
-  background-color: white;
-  box-shadow: 6px 6px 6px rgb(193, 211, 245);
-  border-radius: 20px;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   transition: 0.8s;
 }
 
@@ -244,12 +243,12 @@ ul {
 }
 
 .log-in:hover {
-  color: #104CBA;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: white;
-  border: 2px solid white;
-  box-shadow: 5px 5px 5px rgb(200, 200, 200);
   transition: 0.8s;
 }
 
@@ -1821,12 +1820,13 @@ footer {
 }
 
 .linkdesktop-about:hover {
-  color: rgb(16, 76, 186);
+  background-color: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
   border-bottom: 2px solid rgb(16, 76, 186);
-  box-shadow: 10px 10px 10px rgb(193, 211, 245);
   transition: 0.8s;
 }
 
@@ -1852,12 +1852,14 @@ footer {
 }
 
 .log-in-about:hover {
-  color: #104CBA;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
   background-color: white;
   border: 2px solid white;
-  box-shadow: 5px 5px 5px rgb(200, 200, 200);
   transition: 0.8s;
 }
 
@@ -1895,6 +1897,8 @@ footer {
 }
 
 .h1-about {
+  width: auto;
+  font-size: 2rem;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -1902,15 +1906,17 @@ footer {
 }
 
 .p-about {
+  width: 100%;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
 .texts-about {
   width: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1920,40 +1926,73 @@ footer {
 }
 
 .infra-ultra {
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
   background-color: #fafafa;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
 }
 
 .container-infra {
-  background-color: #fafafa;
   height: auto;
-  width: auto;
+  width: 50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
+  flex-wrap: wrap-reverse;
 }
 
 .h1-infra {
+  font-family: "Noto Sans", sans-serif;
   color: rgb(15, 123, 179);
   text-align: center;
+  font-size: 2rem;
 }
 
 .p-infra {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
   width: 40vw;
-  font-weight: 500;
+  font-weight: 3s00;
   color: rgb(15, 123, 179);
   text-align: center;
 }
 
 .dataimg {
-  width: 45vh;
+  height: 50vh;
+  width: 50%;
   border-radius: 10px;
   box-shadow: 15px 15px 15px rgb(193, 211, 245);
 }
 
+.text-infra {
+  width: auto;
+  height: 52vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 16px 16px 16px #dddddd;
+}
+
+.imginfra {
+  width: 50%;
+  height: 55vh;
+  background-image: url("../../images/Cloud Computing stock illustration_ Illustration of move - 20450819.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .vantagenscontainer {
   width: 100%;
-  height: 70vh;
+  height: auto;
   padding: 20px;
   display: flex;
   align-items: flex-start;
@@ -1961,32 +2000,50 @@ footer {
   flex-wrap: wrap;
   overflow: hidden;
   overflow-x: hidden;
-  background: rgb(250, 250, 250);
-  background: linear-gradient(180deg, rgb(250, 250, 250) 46%, rgb(255, 255, 255) 74%);
+  background-color: #fafafa;
 }
 
 .itens-container {
-  height: 80vh;
+  height: auto;
   width: 80vw;
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 40px 105px;
 }
 
 .quality {
-  border: 2px solid black;
-  width: 50vh;
-  height: auto;
+  width: 20vw;
+  height: 22vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .h5-quality, .p-quality {
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
-  color: black;
+  color: darkgray;
+}
+
+.h5-quality {
+  font-weight: bold;
+  color: rgb(15, 123, 179);
+}
+
+.p-quality {
+  font-weight: 500;
+}
+
+.buttonctn {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
 }
 
 @media (max-width: 1000px) {
@@ -2094,12 +2151,13 @@ footer {
 }
 
 .linkdesktop-about:hover {
-  color: rgb(16, 76, 186);
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
   border-bottom: 2px solid rgb(16, 76, 186);
-  box-shadow: 10px 10px 10px rgb(193, 211, 245);
   transition: 0.8s;
 }
 
@@ -2125,12 +2183,13 @@ footer {
 }
 
 .log-in-about:hover {
-  color: #104CBA;
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: white;
   border: 2px solid white;
-  box-shadow: 5px 5px 5px rgb(200, 200, 200);
   transition: 0.8s;
 }
 
@@ -2924,6 +2983,175 @@ footer {
   }
   .logo-about {
     height: 90vw;
+  }
+}
+.contact-us {
+  height: 90vh;
+  width: 100%;
+  font-family: sans-serif;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(47deg, rgb(16, 76, 186) 35%, rgb(15, 123, 179) 64%);
+}
+
+.login-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgb(16, 76, 186);
+  background: linear-gradient(47deg, rgb(16, 76, 186) 35%, rgb(15, 123, 179) 64%);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
   }
 }
 * {
