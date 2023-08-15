@@ -37,7 +37,7 @@
               0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 2px solid rgba(16, 76, 186, 1);
+  border-bottom: 2px solid #fafafa;
   transition: 0.8s;
 }
 
@@ -125,7 +125,8 @@
 }
 
 .p-about {
-  width: 100%;
+  height: auto;
+  width: 80%;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -144,13 +145,48 @@
   box-shadow: 16px 16px 16px #104CBA;
 }
 
-.infra-ultra {
+
+.segments-container2{
+  background-color: #fafafa;
   height: auto;
   width: 100%;
-  // background: rgb(16, 76, 186);
-  // background: linear-gradient(47deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .box-icons2{
+    min-height: 30vh;
+    height: auto;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 55px;
+  }
+
+  .icon-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(16,76,186,1);
+    gap: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+}
+
+.infra-ultra {
+  height: 60vh;
+  width: 100%;
+  background: rgb(21,92,182);
+  background: linear-gradient(180deg, rgba(21,92,182,1) 56%, rgba(52,130,210,1) 67%, rgba(69,151,225,1) 86%, rgba(85,172,243,1) 92%);
   background-repeat: no-repeat;
-  background-color: #fafafa;
+  // background-color: #fafafa;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -170,7 +206,10 @@
 
 .h1-infra {
   font-family: 'Noto Sans', sans-serif;;
-  color: rgb(15, 123, 179);
+  // color: rgb(15, 123, 179);
+  color: #fafafa;
+  font-weight: 600;
+  letter-spacing: 3px;
   text-align: center;
   font-size: 2.0rem;
 }
@@ -179,8 +218,9 @@
   font-family:'Noto Sans', sans-serif;
   font-size: 1.4rem;
   width: 40vw;
-  font-weight: 3s00;
-  color: rgb(15, 123, 179);
+  font-weight: 500;
+  // color: rgb(63, 61, 61);
+  color: #fafafa;
   text-align: center;
 }
 
@@ -188,7 +228,7 @@
   height: 50vh;
   width: 50%;
   border-radius: 10px;
-  box-shadow: 15px 15px 15px rgb(193, 211, 245);
+  // box-shadow: 15px 15px 15px rgb(193, 211, 245);
 }
 
 .text-infra{
@@ -199,13 +239,13 @@
   justify-content: flex-start;
   align-items: center;
   border-radius: 12px;
-  box-shadow: 16px 16px 16px #dddddd;
+  // box-shadow: 16px 16px 16px #dddddd;
 }
 
 .imginfra{
   width: 50%;
-  height: 55vh;
-  background-image: url('../../images/Cloud\ Computing\ stock\ illustration_\ Illustration\ of\ move\ -\ 20450819.jpg');
+  height: 60vh;
+  background-image: url('../images/12677.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   // background-attachment: fixed;
@@ -265,7 +305,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
+  // background-color: #fafafa;
 }
 
 @media (max-width: 1000px) {

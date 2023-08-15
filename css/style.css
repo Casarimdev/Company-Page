@@ -327,7 +327,7 @@ ul {
   }
 }
 @media (max-width: 430px) {
-  .spanUltra {
+  .imgultra {
     display: none;
   }
 }
@@ -515,7 +515,8 @@ nav .menubar {
   justify-content: space-between;
   padding: 0 40px;
   box-sizing: border-box;
-  background-color: white;
+  background: rgb(16, 76, 186);
+  background: linear-gradient(50deg, rgb(16, 76, 186) 56%, rgb(15, 123, 179) 64%);
   box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.3);
   /* Logo */
   /* Icons */
@@ -542,6 +543,7 @@ nav .menubar .icons {
   /* Secondary Icons */
 }
 nav .menubar .icons .icon-menu {
+  color: white;
   display: flex;
   width: 30px;
   height: 30px;
@@ -554,7 +556,7 @@ nav .menubar .icons .icon-menu {
   /* Icon Close */
 }
 nav .menubar .icons .icon-menu span {
-  background-color: #446d8c;
+  background-color: white;
   width: 30px;
   height: 3px;
   position: absolute;
@@ -569,7 +571,7 @@ nav .menubar .icons .icon-menu span:before, nav .menubar .icons .icon-menu span:
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #446d8c;
+  background-color: white;
   border-radius: 5px;
 }
 nav .menubar .icons .icon-menu span:before {
@@ -1090,7 +1092,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .a-service:hover {
-  box-shadow: 2px 5px 5px #fafafa;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .services .card:hover {
@@ -1324,7 +1326,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .a-soluction:hover {
-  box-shadow: 2px 5px 5px #2E78FF;
+  box-shadow: 0 0 5px #1D71ED, 0 0 25px #1D71ED, 0 0 50px #1D71ED, 0 0 100px #1D71ED;
 }
 
 .soluction .card-sol:hover .content .p-solu {
@@ -1369,7 +1371,7 @@ nav .menu.close .menu-link .text-item {
 }
 @media screen and (max-width: 475px) {
   .soluction .card-sol {
-    height: 65vh;
+    height: auto;
   }
   .p-solu {
     width: auto;
@@ -1698,7 +1700,7 @@ footer {
 }
 
 .a-service:hover {
-  box-shadow: 2px 5px 5px #fafafa;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .services .card:hover {
@@ -1826,7 +1828,7 @@ footer {
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 2px solid rgb(16, 76, 186);
+  border-bottom: 2px solid #fafafa;
   transition: 0.8s;
 }
 
@@ -1906,7 +1908,8 @@ footer {
 }
 
 .p-about {
-  width: 100%;
+  height: auto;
+  width: 80%;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -1925,11 +1928,44 @@ footer {
   box-shadow: 16px 16px 16px #104CBA;
 }
 
-.infra-ultra {
+.segments-container2 {
+  background-color: #fafafa;
   height: auto;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.segments-container2 .box-icons2 {
+  min-height: 30vh;
+  height: auto;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px 55px;
+}
+.segments-container2 .icon-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(16, 76, 186);
+  gap: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.infra-ultra {
+  height: 60vh;
+  width: 100%;
+  background: rgb(21, 92, 182);
+  background: linear-gradient(180deg, rgb(21, 92, 182) 56%, rgb(52, 130, 210) 67%, rgb(69, 151, 225) 86%, rgb(85, 172, 243) 92%);
   background-repeat: no-repeat;
-  background-color: #fafafa;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -1949,7 +1985,9 @@ footer {
 
 .h1-infra {
   font-family: "Noto Sans", sans-serif;
-  color: rgb(15, 123, 179);
+  color: #fafafa;
+  font-weight: 600;
+  letter-spacing: 3px;
   text-align: center;
   font-size: 2rem;
 }
@@ -1958,8 +1996,8 @@ footer {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
   width: 40vw;
-  font-weight: 3s00;
-  color: rgb(15, 123, 179);
+  font-weight: 500;
+  color: #fafafa;
   text-align: center;
 }
 
@@ -1967,7 +2005,6 @@ footer {
   height: 50vh;
   width: 50%;
   border-radius: 10px;
-  box-shadow: 15px 15px 15px rgb(193, 211, 245);
 }
 
 .text-infra {
@@ -1978,13 +2015,12 @@ footer {
   justify-content: flex-start;
   align-items: center;
   border-radius: 12px;
-  box-shadow: 16px 16px 16px #dddddd;
 }
 
 .imginfra {
   width: 50%;
-  height: 55vh;
-  background-image: url("../../images/Cloud Computing stock illustration_ Illustration of move - 20450819.jpg");
+  height: 60vh;
+  background-image: url("../images/12677.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2043,7 +2079,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
 }
 
 @media (max-width: 1000px) {
@@ -2157,7 +2192,7 @@ footer {
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 2px solid rgb(16, 76, 186);
+  border-bottom: 2px solid #fafafa;
   transition: 0.8s;
 }
 
@@ -2572,12 +2607,13 @@ footer {
 }
 
 .linkdesktop-about:hover {
-  color: rgb(16, 76, 186);
+  background-color: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 2px solid rgb(16, 76, 186);
-  box-shadow: 10px 10px 10px rgb(193, 211, 245);
+  border-bottom: 2px solid #fafafa;
   transition: 0.8s;
 }
 
@@ -2603,12 +2639,13 @@ footer {
 }
 
 .log-in-about:hover {
-  color: #104CBA;
+  background-color: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   font-weight: 500;
   text-decoration: none;
-  background-color: white;
   border: 2px solid white;
-  box-shadow: 5px 5px 5px rgb(200, 200, 200);
   transition: 0.8s;
 }
 
@@ -3152,6 +3189,15 @@ textarea {
   }
   50%, 100% {
     bottom: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .contact-us {
+    height: 120vh;
+  }
+  .login-box {
+    width: 300px;
+    height: auto;
   }
 }
 * {

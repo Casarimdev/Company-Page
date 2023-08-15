@@ -144,7 +144,10 @@
 }
 
 .a-soluction:hover{
-    box-shadow: 2px 5px 5px #2E78FF
+    box-shadow: 0 0 5px #1D71ED,
+                0 0 25px #1D71ED,
+                0 0 50px #1D71ED,
+                0 0 100px #1D71ED;
 }
 
 
@@ -198,7 +201,7 @@
 @media screen and (max-width: 475px){
 
     .soluction .card-sol {
-        height: 65vh;
+        height: auto;
     }
     .p-solu{
         width: auto;

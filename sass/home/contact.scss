@@ -173,3 +173,13 @@ textarea {
     }
   }
   
+  @media (max-width: 600px) {
+    
+    .contact-us{
+      height: 120vh;
+    }
+    .login-box{
+      width: 300px;
+      height: auto;
+    }
+  }
