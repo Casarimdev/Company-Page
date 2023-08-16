@@ -6,12 +6,15 @@
 
 @media (max-width: 1000px){
     .navbardesktop{
-        display: none;
+        display: none!important;
     }
     .navbardesktopabout{
-        display: none;
+        display: none!important;
     }
     .nav-mobile{
         display: block;
+    }
+    .menudesktop-links-about{
+        display: none!important;
     }
 }
