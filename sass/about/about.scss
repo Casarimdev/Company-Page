@@ -322,6 +322,33 @@
   padding-top: 4vh;
 }
 
+.call-action2{
+  height: 8vh;
+  width: auto;
+  padding: 15px;
+  // background-color: #104CBA;
+  background-color: yellow;
+  // color: #fafafa;
+  color: black;
+  border: 2px solid yellow;
+  // border: 2px solid #104CBA;
+  border-radius: 20px;
+  // box-shadow: 4px 8px 10px #43b5ee;
+  box-shadow: 4px 8px 10px yellow;
+  font-size: 1.15rem;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+
+  &:hover{
+  color: #104CBA;
+  font-weight: 700;
+  text-decoration: none;
+  // background-color: #fafafa;
+  border: 2px solid yellow;
+  box-shadow: 5px 5px 5px rgb(217, 255, 0);
+
+}
+}
 
 
 @media (max-width: 1390px) {
@@ -432,13 +459,28 @@
   width: 45vw;
 }
 
+.call-action2{
+  font-size: 1.0rem;
+  height: auto;
+  padding: 10px;
+}
 
   }
 
 @media (max-width: 750px){
 .p-infra{
   height: auto;
-  width: 45vw;
+  width: auto;
+}
+
+.infra-ultra{
+  height: 75vh;
+}
+.imginfra{
+  height: auto;
+}
+.text-infra{
+  height: 75vh;
 }
 }
 
@@ -454,6 +496,16 @@
 
   .h1-vantagens{
     font-size: 1.6rem;
+  }
+
+  .h1-infra{
+    font-size: 1.1rem;
+    width: auto;
+    height: auto;
+  }
+
+  .p-infra{
+    font-size: 0.9rem;
   }
 
   .h5-vantagens, .h5-quality{
@@ -493,9 +545,6 @@
     width: 85%;
   }
 
-  .h1-infra, .p-infra{
-    font-size: 20px;
-  }
   .logo-white{
     width: 45vw;
     height: auto;
@@ -505,5 +554,11 @@
   }
   .logo-about{
     height: 90vw;
+  }
+  .text-infra{
+    height: 65vh;
+  }
+  .p-infra{
+    width: auto;
   }
   }
