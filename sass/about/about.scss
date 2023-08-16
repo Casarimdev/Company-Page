@@ -83,10 +83,12 @@
 .containerAB {
   height: auto;
   width: 100%;
-  background: rgb(16, 76, 186);
-  background: linear-gradient(47deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+  // background: rgb(16, 76, 186);
+  // background: linear-gradient(47deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+  background-image: url('../images/conceito-de-negocio-com-equipe-de-perto.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -95,7 +97,7 @@
 .container-about {
   height: auto;
   min-height: 80vh;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -105,15 +107,15 @@
   
 }
 
-.containerimgabout{
-  width: 50%;
-  height: 80vh;
-  background-image: url('../images/conceito-de-negocio-com-equipe-de-perto.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  // background-attachment: fixed;
-  background-size: cover;
-}
+// .containerimgabout{
+//   width: 50%;
+//   height: 80vh;
+//   background-image: url('../images/conceito-de-negocio-com-equipe-de-perto.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   // background-attachment: fixed;
+//   background-size: cover;
+// }
 
 .h1-about {
   width: auto;
@@ -137,12 +139,16 @@
 .texts-about {
   width: 80vh;
   height: auto;
+  // background-color: #43b5eea5;
+  background: rgba(16, 75, 186, 0.67);
+  background: linear-gradient(47deg, rgba(16, 75, 186, 0.698) 32%, rgba(15, 124, 179, 0.693) 50%);
+  padding: 3vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  box-shadow: 16px 16px 16px #104CBA;
+  box-shadow: 16px 16px 16px #43b5ee;
 }
 
 
