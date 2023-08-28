@@ -308,7 +308,7 @@
   <div class="soluction pt-5" data-aos="fade-down" data-aos-duration="2000">
     <!-- Primeiro Card -->
     <div class="card-sol" style="overflow-x: hidden;">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-envelope-circle-check fa-5x w-white"></i>
         <i class="fa-solid fa-shield-halved fa-3x w-white"></i>
       </a>
@@ -325,7 +325,7 @@
     </div>
     <!-- Segundo Card -->
     <div class="card-sol">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-cloud-meatball fa-5x w-white"></i>
       </a>
       <h1 class="h1-card-sol pt-4">Arquivos em Nuvem</h1>
@@ -340,7 +340,7 @@
       </div>
     </div>
     <div class="card-sol">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-fire-burner fa-5x w-white"></i>
       </a>
       <h1 class="h1-card-sol pt-4">Firewall UTM</h1>
@@ -356,7 +356,7 @@
     </div>
     <!-- Terceiro Card -->
     <div class="card-sol">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-comments fa-5x w-white"></i>
       </a>
       <h1 class="h1-card-sol pt-4">Comunicador</h1>
@@ -371,7 +371,7 @@
       </div>
     </div>
     <div class="card-sol">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-envelopes-bulk fa-5x w-white"></i>
         <i class="fa-solid fa-server fa-3x w-white"></i>
       </a>
@@ -387,7 +387,7 @@
       </div>
     </div>
     <div class="card-sol">
-      <a href="https://www.instagram.com/Ultra.IT/">
+      <a href="">
         <i class="fa-solid fa-house-signal fa-5x w-white"></i>
       </a>
       <h1 class="h1-card-sol pt-4">Wi-fi Corporativa</h1>
@@ -410,7 +410,7 @@
   style="text-align: center; color: rgba(15, 123, 179, 1); font-family: 'Rubik', sans-serif;">
   Clientes Ultra</h1>
 <section class="carousel" style="overflow-x: hidden;">
-  <a href="../pages/clients.html">
+  <a href="../pages/clients.html" aria-label="See more about our clients">
     <div class="carousel__slider">
       <ul class="carousel__list">
         <li class="carousel__item item1 ps-2">
@@ -445,20 +445,20 @@
     <h2>Entre em contato Conosco</h2>
     <form>
       <div class="user-box">
-        <i><input type="text" name="Name" required></i>
-        <label>Nome</label>
+        <input type="text" name="Name" required id="Name">
+        <label for="Name">Nome</label>
       </div>
       <div class="user-box">
-        <i><input type="email" name="e-mail" required></i>
-        <label>E-mail</label>
+        <input type="email" name="e-mail" required id="email">
+        <label for="email">E-mail</label>
       </div>
       <div class="user-box">
-        <i><input type="text" name="Company" required></i>
-        <label>Empresa</label>
+        <input type="text" name="Company" required id="company">
+        <label for="company">Empresa</label>
       </div>
       <div class="user-box">
-        <i><input type="number" name="number" required placeholder="(DDD)_____-____"></i>
-        <label>Celular</label>
+        <input type="number" name="number" required placeholder="(DDD)_____-____" id="call">
+        <label for="call">Celular</label>
       </div>
       <div class="user-box">
         <textarea class="form-control" rows="6" placeholder="Digite-nos uma mensagem" name="message"
@@ -486,16 +486,16 @@
       <p>A Ultra IT cuida da sua TI.</p>
 
       <div id="footer_social_media">
-        <a href="https://www.instagram.com/Ultra.IT/" class="footer-link" id="instagram" target="_blank">
+        <a href="https://www.instagram.com/Ultra.IT/"  aria-label="See more abour our Instagram" class="footer-link" id="instagram" target="_blank">
           <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
         </a>
 
-        <a href="https://br.linkedin.com/company/ultrait" class="footer-link" id="facebook" target="_blank">
+        <a href="https://br.linkedin.com/company/ultrait" aria-label="See more about our linkedin" class="footer-link" id="facebook" target="_blank">
           <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
         </a>
 
         <a href="https://wa.me/558005917374?text=Estou%20navegando%20no%20site%20e%20gostaria%20de%20conversar%20com%20a%20Ultra%20IT."
-          class="footer-link" id="whatsapp" target="_blank">
+        aria-label="Talk to Us" class="footer-link" id="whatsapp" target="_blank">
           <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
         </a>
       </div>
@@ -615,10 +615,12 @@
       <hr>
       <a href="">
         <ul>
-          <li class="a-footer">
-            Servidor de e-mail
-          </li>
-                </a>
+          <ul>
+            <li class="a-footer">
+              Servidor de e-mail
+            </li>
+          </ul>
+      </a>
         </ul>
       <hr>
       <a href="">
