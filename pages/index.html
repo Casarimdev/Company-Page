@@ -87,14 +87,14 @@
   <div class="about">
     <a class="bg_links social portfolio ms-5"
       href="https://wa.me/558005917374?text=Estou%20navegando%20no%20site%20e%20gostaria%20de%20conversar%20com%20a%20Ultra%20IT."
-      target="_blank">
+      target="_blank" aria-label="Talk to us">
       <i class="fa-brands fa-whatsapp icon fa-xl" style="color: #ffffff;"></i>
     </a>
-    <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" target="_blank"
+    <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" aria-label="Talk to us" target="_blank"
       style="color: white;">
       <i class="fa-brands fa-instagram icon fa-xl" style="color: #ffffff;"></i>
     </a>
-    <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" target="_blank">
+    <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" aria-label="Talk to us" target="_blank">
       <i class="fa-brands fa-linkedin linke icon fa-xl" style="color: #ffffff;"></i>
     </a>
     <a class="bg_links"><i class="fa-regular fa-heart fa-xl" style="color: #ffffff;"></i></a>
@@ -445,19 +445,19 @@
     <h2>Entre em contato Conosco</h2>
     <form>
       <div class="user-box">
-        <input type="text" name="" required="">
+        <i><input type="text" name="Name" required></i>
         <label>Nome</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="">
+        <i><input type="email" name="e-mail" required></i>
         <label>E-mail</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="" placeholder="">
+        <i><input type="text" name="Company" required></i>
         <label>Empresa</label>
       </div>
       <div class="user-box">
-        <input type="text" name="" required="" placeholder="(DDD)_____-____">
+        <i><input type="number" name="number" required placeholder="(DDD)_____-____"></i>
         <label>Celular</label>
       </div>
       <div class="user-box">
@@ -529,39 +529,51 @@
         <h3 class="pb-1 mt-5">Seviços: </h3>
       </li>
       <a href="">
-        <li class="a-footer">
-          Cloud
-        </li>
+        <ul>
+          <li class="a-footer">
+            Cloud
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Consultoria
-        </li>
+        <ul>
+          <li class="a-footer">
+            Consultoria
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Suporte Técnico
-        </li>
+        <ul>
+          <li class="a-footer">
+            Suporte Técnico
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Web Hosting
-        </li>
+        <ul>
+          <li class="a-footer">
+            Web Hosting
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Backup Off-site
-        </li>
+        <ul>
+          <li class="a-footer">
+            Backup Off-site
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Segurança Web
-        </li>
+        <ul>
+          <li class="a-footer">
+            Segurança Web
+          </li>
+        </ul>
       </a>
       <hr>
     </ul>
@@ -570,43 +582,54 @@
         <h3 class="pb-1 mt-5">Soluções:</h3>
       </li>
       <a href="">
-        <li class="a-footer">
-          Anti-Spam
-        </li>
+        <ul>
+          <li class="a-footer">
+            Anti-Spam
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Arquivos em Nuvem
-        </li>
+        <ul>
+          <li class="a-footer">
+            Arquivos em Nuvem
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Comunicador
-        </li>
+        <ul>
+          <li class="a-footer">
+            Comunicador
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Firewall UTM
-        </li>
+        <ul>
+          <li class="a-footer">
+            Firewall UTM
+          </li>
+        </ul>
       </a>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Servidor de e-mail
-        </li>
-      </a>
+        <ul>
+          <li class="a-footer">
+            Servidor de e-mail
+          </li>
+                </a>
+        </ul>
       <hr>
       <a href="">
-        <li class="a-footer">
-          Wifi Corporativa
-        </li>
+        <ul>
+          <li class="a-footer">
+            Wifi Corporativa
+          </li>
+        </ul>
       </a>
       <hr>
     </ul>
-
     <div id="footer_subscribe" style="overflow-x: hidden;">
     </div>
   </div>
@@ -619,7 +642,6 @@
 
 <!-- SCRIPTS -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
   integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
   crossorigin="anonymous"></script>
