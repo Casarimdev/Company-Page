@@ -1416,11 +1416,6 @@ nav .menu.close .menu-link .text-item {
     height: auto;
   }
 }
-.carrosel-slide {
-  width: 100vw;
-  height: 10vh;
-}
-
 footer {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -1571,24 +1566,6 @@ footer {
     margin-right: 10px;
   }
 }
-.who-container {
-  width: 100vw;
-  height: 90vh;
-  background-color: #fafafa;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-.who-container .text-who {
-  font-family: "Rubik", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 5%;
-  padding-top: 6%;
-  color: white;
-}
-
 .Services-container {
   height: auto;
   width: auto;

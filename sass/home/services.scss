@@ -1,40 +1,40 @@
 .Services-container{
-    height: auto;
-    width: auto;
+    height          : auto;
+    width           : auto;
     background-color: #fafafa;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : start;
+    align-items     : center;
 }
 .p-service{
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  color: #1D71ED;
+  font-size  : 20px;
+  color      : #1D71ED;
   
 }
 
 .h1-service{
   font-family: 'Nunito', sans-serif;
   font-weight: bolder;
-  font-size: 60px;
-  color: #1D71ED;
-  overflow-x: hidden;
+  font-size  : 60px;
+  color      : #1D71ED;
+  overflow-x : hidden;
   
 }
 .text-service{
-    width:62vw;
-    height: 28vh;
+    width      : 62vw;
+    height     : 28vh;
     border-left: 15px solid #2E78FF;
-    color: white;
-    overflow-x: hidden;
+    color      : white;
+    overflow-x : hidden;
 }
 .h3-service{
-    text-align: center; 
-    color: #2E78FF; overflow: hidden;  
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold; font-size: 3rem;
+    text-align : center;
+    color      : #2E78FF; overflow: hidden;
+    font-family: 'Noto Sans',       sans-serif;
+    font-weight: bold; font-size  : 3rem;
     
 }
 
@@ -47,42 +47,42 @@
 }
 
 
-// CARDS
+  // CARDS
 
 .services {
-    width: 80vw;
-    padding: 20px;
-    display: flex;
-    align-items: center;
+    width          : 80vw;
+    padding        : 20px;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-    overflow-x: hidden;
+    flex-wrap      : wrap;
+    overflow       : hidden;
+    overflow-x     : hidden;
 }
 
 .services .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    padding: 25px;
-    width: 450px;
-    height: 50vh;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-evenly;
+    align-items     : center;
+    position        : relative;
+    padding         : 25px;
+    width           : 450px;
+    height          : 50vh;
     background-color: #fff;
-    margin: 20px;
-    border: 3px solid #2E78FF;
-    border-radius: 20px;
-    overflow-x: hidden;
-    transition: 0.5s;
-    text-align: center;
+    margin          : 20px;
+    border          : 3px solid #2E78FF;
+    border-radius   : 20px;
+    overflow-x      : hidden;
+    transition      : 0.5s;
+    text-align      : center;
 }
 
 .ptext-service{
-    height: auto;
-    width: auto;
+    height     : auto;
+    width      : auto;
     font-weight: bolder;
-    overflow-x: hidden;
+    overflow-x : hidden;
 }
 
 .services .card img {
@@ -91,37 +91,37 @@
 }
 
 .services .card h1 {
-    font-size: 2rem;
+    font-size : 2rem;
     overflow-y: hidden;
-    height: auto;
+    height    : auto;
 }
 
 .services .card .content {
-    // padding: 20px;
+      // padding: 20px;
     text-align: center;
     overflow-x: hidden;
 }
 
 .services .card .content p {
     font-family: 'Noto Sans', sans-serif;
-    color: #171717;
-    transition: 0.5s;
-    overflow-x: hidden;
+    color      : #171717;
+    transition : 0.5s;
+    overflow-x : hidden;
 }
 
 .services .card .content .a-service {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
+    position        : relative;
+    display         : inline-block;
+    padding         : 10px 20px;
     background-color: #1D71ED;
-    color: white;
-    border-radius: 40px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: 0.5s;
-    outline: none;
-    margin-top: 20px;
-    overflow-x: hidden;
+    color           : white;
+    border-radius   : 40px;
+    font-weight     : 500;
+    text-decoration : none;
+    transition      : 0.5s;
+    outline         : none;
+    margin-top      : 20px;
+    overflow-x      : hidden;
 }
 
 
@@ -133,11 +133,11 @@
 }
 
 .services .card:hover {
-    background: rgb(16, 76, 186);
-    background: linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
-    color: white;
-    margin-top: -30px;
-    box-shadow: 2px 20px 25px #2E78FF;
+    background  : rgb(16, 76, 186);
+    background  : linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+    color       : white;
+    margin-top  : -30px;
+    box-shadow  : 2px 20px 25px #2E78FF;
     border-color: rgb(16, 76, 186);
 }
 
@@ -148,35 +148,35 @@
 }
 
 .services .card:hover .content .a-service{
-    color:#2E78FF;
+    color           : #2E78FF;
     background-color: whitesmoke;
 }
 
 
 @media screen and (max-width: 1274px){
     .services .card:hover {
-        background: rgb(16, 76, 186);
-        background: linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
-        color: white;
-        margin-top: -17px;
-        box-shadow: 2px 20px 25px #2E78FF;
+        background  : rgb(16, 76, 186);
+        background  : linear-gradient(45deg, rgba(16, 76, 186, 1) 32%, rgba(15, 123, 179, 1) 50%);
+        color       : white;
+        margin-top  : -17px;
+        box-shadow  : 2px 20px 25px #2E78FF;
         border-color: rgb(16, 76, 186);
     }
 }
 @media screen and (max-width: 1170px){
 .text-service{
-    width: 85vw;
+    width     : 85vw;
     overflow-x: hidden;
 }
 }
 
 @media screen and (max-width: 820px){
     .h1-service{
-        font-size: 40px;
+        font-size : 40px;
         overflow-x: hidden;
     }
     .text-service{
-        height: auto;
+        height    : auto;
         overflow-x: hidden;
     }
     }
@@ -201,14 +201,14 @@
         height: 65vh;
     }
     .ptext-service{
-        width: auto;
+        width    : auto;
         font-size: small;
     }
 
     .services .card h1 {
-        font-size: 1.3rem;
-        width: auto;
-        height: auto;
+        font-size : 1.3rem;
+        width     : auto;
+        height    : auto;
         overflow-y: hidden;
     }
 
@@ -225,8 +225,8 @@
     }
 
     .text-service{
-        height: auto;
-        width: auto;
+        height      : auto;
+        width       : auto;
         padding-left: 20px;
     }
     .ps-5{

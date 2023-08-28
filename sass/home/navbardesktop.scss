@@ -1,94 +1,94 @@
 .logodesk {
   text-decoration: none;
-  overflow-x: hidden;
+  overflow-x     : hidden;
 }
 
 .logodesktop {
-  display: flex;
+  display        : flex;
   justify-content: space-around;
-  overflow-x: hidden;
+  overflow-x     : hidden;
 }
 
 .logodesk:hover {
   text-decoration: none;
-  overflow-x: hidden;
+  overflow-x     : hidden;
 }
 
 .linkdesktop {
   text-decoration: none;
-  margin: 10px;
-  color: white;
+  margin         : 10px;
+  color          : white;
 
   border-bottom: 1px solid white;
-  transition: 0.2s;
+  transition   : 0.2s;
 }
 
 .buttondesk {
-  border: 0;
-  outline: none;
+  border     : 0;
+  outline    : none;
   font-family: inherit;
-  font-size: inherit;
-  cursor: pointer;
-  overflow-x: hidden;
+  font-size  : inherit;
+  cursor     : pointer;
+  overflow-x : hidden;
 }
 
 .navbardesktop {
-  height: 90px;
-  width: auto;
-  overflow-x: hidden;
-  top: 0;
-  left: 0;
+  height          : 90px;
+  width           : auto;
+  overflow-x      : hidden;
+  top             : 0;
+  left            : 0;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow-y: hidden;
-  background: rgb(16,76,186);
-  background: linear-gradient(47deg, rgba(16,76,186,1) 35%, rgba(15,123,179,1) 64%);
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  overflow-y      : hidden;
+  background      : rgb(16,76,186);
+  background      : linear-gradient(47deg, rgba(16,76,186,1) 35%, rgba(15,123,179,1) 64%);
 }
 
 .navbardesktop .logodesktop i {
-  color: #0aa5ff;
+  color    : #0aa5ff;
   font-size: 22px;
 }
 
 .navbardesktop .logodesktop a {
-  font-size: 24px;
+  font-size  : 24px;
   font-weight: 700;
-  color: white;
+  color      : white;
   margin-left: 12px;
 }
 
 .menudesktop {
-  display: flex;
-  align-items: center;
-  gap: 32px;
+  display      : flex;
+  align-items  : center;
+  gap          : 32px;
   padding-right: 10vw;
 }
 
 .menudesktop-links {
-  display: flex;
-  gap: 24px;
-  border-right: 3px solid white;
+  display       : flex;
+  gap           : 24px;
+  border-right  : 3px solid white;
   padding-inline: 24px;
 }
 
 .menudesktop-links .linkdesktop {
   font-weight: 500;
-  color: white;
-  padding: 8px 16px;
-  transition: 0.8s;
+  color      : white;
+  padding    : 8px 16px;
+  transition : 0.8s;
 }
 
 .menudesktop-links .linkdesktop:hover {
-  // color: #104CBA;
-  // text-decoration: none;
-  // background-color: white;
-  // box-shadow: 6px 6px 6px rgb(193, 211, 245);
-  background: #03e9f4;
-  color: #fff;
+    // color: #104CBA;
+    // text-decoration: none;
+    // background-color: white;
+    // box-shadow: 6px 6px 6px rgb(193, 211, 245);
+  background   : #03e9f4;
+  color        : #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4,
+  box-shadow   : 0 0 5px #03e9f4,
               0 0 25px #03e9f4,
               0 0 50px #03e9f4,
               0 0 100px #03e9f4;
@@ -96,72 +96,72 @@
 }
 
 .log-in {
-  font-weight: 500;
-  padding: 12px 22px;
+  font-weight     : 500;
+  padding         : 12px 22px;
   background-color: transparent;
-  color: white;
-  border-radius: 10px;
-  border: 2px solid white;
-  transition: 0.8s;
+  color           : white;
+  border-radius   : 10px;
+  border          : 2px solid white;
+  transition      : 0.8s;
 }
 
 .log-in:hover {
-  background: #03e9f4;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #03e9f4,
+  background   : #03e9f4;
+  color        : #fff;
+  border-radius: 5px;
+  box-shadow   : 0 0 5px #03e9f4,
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
                 0 0 100px #03e9f4;
-  font-weight: 500;
+  font-weight    : 500;
   text-decoration: none;
-  transition: 0.8s;
+  transition     : 0.8s;
 }
 
 .menudesktop-btn {
   font-size: 32px;
-  color: white;
-  display: none;
-  cursor: pointer;
+  color    : white;
+  display  : none;
+  cursor   : pointer;
 }
 
 .nav-services {
   font-family: 'Nunito', sans-serif;
   font-weight: bolder;
-  color: #475A91;
-  margin-top: 10px;
-  text-align: center;
-  height: 10vh;
+  color      : #475A91;
+  margin-top : 10px;
+  text-align : center;
+  height     : 10vh;
 }
 
 
 .dropwdown-services{
-  height: auto;
-  width: 10vw; 
-   border-radius: 0px !important;
+  height       : auto;
+  width        : 10vw;
+  border-radius: 0px !important;
 }
 
 .dropdown-item{
-  height: auto !important;
-  color: white !important;
+  height    : auto !important;
+  color     : white !important;
   text-align: center !important;
-  padding: 0.65rem 0.25rem !important;
-  margin: 0 !important;
+  padding   : 0.65rem 0.25rem !important;
+  margin    : 0 !important;
   transition: 1.0s !important;
 }
 
 .dropdown-item:hover{
   background-color: #0aa5ff !important;
-  color: rgb(251, 248, 248) !important;
-  transition: 0.6 !important;
-  border-radius: 20px !important;
-  box-shadow: 5px 5px 5px rgb(248, 248, 248) !important;
-  transition: 1.0s !important;
+  color           : rgb(251, 248, 248) !important;
+  transition      : 0.6 !important;
+  border-radius   : 20px !important;
+  box-shadow      : 5px 5px 5px rgb(248, 248, 248) !important;
+  transition      : 1.0s !important;
 }
 
 .nav-services:hover {
   text-decoration: none;
-  color: #01080b;
+  color          : #01080b;
 }
 
 .fa-home::before{
@@ -171,19 +171,19 @@
 @media (max-width: 1390px) {
   .menudesktop {
     padding-right: 20px;
-    gap: 15px;
-    margin: 1px;
+    gap          : 15px;
+    margin       : 1px;
   }
 
   .logodesktop {
-    display: flex;
+    display        : flex;
     justify-content: space-around;
-    overflow-x: hidden;
-    width: 22vw;
+    overflow-x     : hidden;
+    width          : 22vw;
   }
 
   .menudesktop-links {
-    gap: 3px;
+    gap   : 3px;
     margin: 1px;
   }
 }
@@ -191,13 +191,13 @@
 @media (max-width: 1054px) {
   .menudesktop {
     padding-right: 5px;
-    gap: 1px;
-    margin: 1px;
+    gap          : 1px;
+    margin       : 1px;
   }
 
   .menudesktop-links {
-    gap: 0px;
-    margin: 1px;
+    gap          : 0px;
+    margin       : 1px;
     padding-right: 0px;
   }
 }
