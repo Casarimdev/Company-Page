@@ -52,6 +52,7 @@ ul {
 }
 
 .carousel__item {
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1046,7 +1047,7 @@ nav .menu.close .menu-link .text-item {
   position: relative;
   padding: 25px;
   width: 450px;
-  height: 50vh;
+  height: auto;
   background-color: #fff;
   margin: 20px;
   border: 3px solid #2E78FF;
@@ -1075,6 +1076,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .services .card .content {
+  padding: 20px;
   text-align: center;
   overflow-x: hidden;
 }
@@ -1258,7 +1260,7 @@ nav .menu.close .menu-link .text-item {
   position: relative;
   padding: 25px;
   width: 450px;
-  height: 50vh;
+  height: auto;
   background: rgb(16, 76, 186);
   background: linear-gradient(43deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
   margin: 20px;
@@ -1631,7 +1633,7 @@ footer {
   position: relative;
   padding: 25px;
   width: 450px;
-  height: 50vh;
+  height: auto;
   background-color: #fff;
   margin: 20px;
   border: 3px solid #2E78FF;
@@ -1660,6 +1662,7 @@ footer {
 }
 
 .services .card .content {
+  padding: 20px;
   text-align: center;
   overflow-x: hidden;
 }
@@ -2413,18 +2416,17 @@ footer {
   background-color: yellow;
   color: black;
   border: 2px solid yellow;
-  border-radius: 20px;
-  box-shadow: 4px 8px 10px yellow;
+  border-radius: 6px;
   font-size: 1.15rem;
   font-weight: bolder;
   font-family: "Nunito", sans-serif;
 }
 .call-action:hover {
-  color: #104CBA;
+  transition: 0.6s;
   font-weight: 700;
   text-decoration: none;
   border: 2px solid yellow;
-  box-shadow: 5px 5px 5px rgb(217, 255, 0);
+  box-shadow: 5px 5px 5px yellow;
 }
 
 .container-caract {
