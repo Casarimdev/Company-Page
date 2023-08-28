@@ -1002,14 +1002,14 @@ nav .menu.close .menu-link .text-item {
 .h1-service {
   font-family: "Nunito", sans-serif;
   font-weight: bolder;
+  height: auto;
   font-size: 60px;
   color: #1D71ED;
-  overflow-x: hidden;
 }
 
 .text-service {
   width: 62vw;
-  height: 28vh;
+  height: auto;
   border-left: 15px solid #2E78FF;
   color: white;
   overflow-x: hidden;
@@ -1588,14 +1588,14 @@ footer {
 .h1-service {
   font-family: "Nunito", sans-serif;
   font-weight: bolder;
+  height: auto;
   font-size: 60px;
   color: #1D71ED;
-  overflow-x: hidden;
 }
 
 .text-service {
   width: 62vw;
-  height: 28vh;
+  height: auto;
   border-left: 15px solid #2E78FF;
   color: white;
   overflow-x: hidden;
