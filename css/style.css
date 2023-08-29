@@ -1125,6 +1125,10 @@ nav .menu.close .menu-link .text-item {
   background-color: whitesmoke;
 }
 
+.security {
+  width: 20vw;
+}
+
 @media screen and (max-width: 1274px) {
   .services .card:hover {
     background: rgb(16, 76, 186);
@@ -1139,6 +1143,9 @@ nav .menu.close .menu-link .text-item {
   .text-service {
     width: 85vw;
     overflow-x: hidden;
+  }
+  .security {
+    width: auto;
   }
 }
 @media screen and (max-width: 820px) {
@@ -1711,6 +1718,10 @@ footer {
   background-color: whitesmoke;
 }
 
+.security {
+  width: 20vw;
+}
+
 @media screen and (max-width: 1274px) {
   .services .card:hover {
     background: rgb(16, 76, 186);
@@ -1725,6 +1736,9 @@ footer {
   .text-service {
     width: 85vw;
     overflow-x: hidden;
+  }
+  .security {
+    width: auto;
   }
 }
 @media screen and (max-width: 820px) {

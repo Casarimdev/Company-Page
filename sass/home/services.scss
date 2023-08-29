@@ -153,6 +153,10 @@
 }
 
 
+.security{
+    width: 20vw;
+}
+
 @media screen and (max-width: 1274px){
     .services .card:hover {
         background  : rgb(16, 76, 186);
@@ -167,6 +171,10 @@
 .text-service{
     width     : 85vw;
     overflow-x: hidden;
+    
+}
+.security{
+    width: auto;
 }
 }
 
@@ -179,6 +187,7 @@
         height    : auto;
         overflow-x: hidden;
     }
+    
     }
 
 @media screen and (max-width: 550px){
