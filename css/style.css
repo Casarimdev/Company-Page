@@ -2,10 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+@font-face {
+  font-family: FontBold;
+  src: url("../../fontes/the_bold_font/THEBOLDFONT.ttf");
+}
 ul {
   margin: 0;
   padding: 0;
@@ -2369,7 +2373,7 @@ footer {
   width: 100%;
   background-image: url("../images/background-sky.jpg");
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center top;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -2396,7 +2400,7 @@ footer {
 
 .h1-cloud {
   width: 45vw;
-  font-family: "Rubik", sans-serif;
+  font-family: FontBold;
   font-size: 2.5rem;
   color: #fafafa;
   text-align: center;
@@ -2449,12 +2453,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap-reverse;
-  background-image: url("../images/background-caract.png");
+  flex-wrap: wrap;
+  background-image: url("../../images/Group 3.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  background-attachment: fixed;
   position: relative;
   gap: 25px 100px;
 }
@@ -2468,7 +2471,7 @@ footer {
 }
 
 .logo-aboutserv {
-  width: 20vw;
+  width: 14vw;
   height: auto;
 }
 
@@ -2482,6 +2485,7 @@ footer {
 }
 
 .p-schildren {
+  width: max-content;
   height: auto;
   color: #76b0ff;
   font-weight: bolder;
@@ -2489,6 +2493,7 @@ footer {
 }
 
 .p-sson {
+  width: 30vw;
   height: auto;
   color: white;
   font-weight: 400;
@@ -2505,7 +2510,7 @@ footer {
 .ask-container {
   height: auto;
   width: 100%;
-  background-color: #fafafa;
+  background-color: rgba(250, 250, 250, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2541,15 +2546,24 @@ footer {
   align-items: center;
 }
 .segments-container .box-icons {
-  min-height: 30vh;
   height: auto;
-  width: 45vw;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px 55px;
+  gap: 35px;
+}
+.segments-container .box-icons2 {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
 }
 .segments-container .icon {
   display: flex;
@@ -3089,7 +3103,7 @@ footer {
   width: 100%;
   font-family: sans-serif;
   background: rgb(16, 76, 186);
-  background: linear-gradient(47deg, rgb(16, 76, 186) 35%, rgb(15, 123, 179) 64%);
+  background: linear-gradient(120deg, rgb(16, 76, 186) 43%, rgb(15, 123, 179) 64%);
 }
 
 .login-box {

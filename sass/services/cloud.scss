@@ -87,7 +87,7 @@
   background-image: url('../images/background-sky.jpg');
     // background-color: #fafafa;
   background-repeat    : no-repeat;
-  background-position  : center bottom;
+  background-position  : center top;
   background-size      : cover;
   position             : relative;
   background-attachment: fixed;
@@ -115,7 +115,7 @@
   
   .h1-cloud{
     width      : 45vw;
-    font-family: 'Rubik', sans-serif;
+    font-family: FontBold;
     font-size  : 2.5rem;
     color      : #fafafa;
     text-align : center;
@@ -181,12 +181,12 @@
   display              : flex;
   justify-content      : center;
   align-items          : center;
-  flex-wrap            : wrap-reverse;
-  background-image     : url('../images/background-caract.png');
+  flex-wrap            : wrap;
+  background-image     : url('../../images/Group\ 3.png');
   background-repeat    : no-repeat;
   background-position  : center top;
   background-size      : cover;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   position             : relative;
   gap                  : 25px 100px;
 }
@@ -200,7 +200,7 @@
 }
 
 .logo-aboutserv{
-  width : 20vw;
+  width : 14vw;
   height: auto;
 }
 
@@ -214,6 +214,7 @@
 }
 
 .p-schildren{
+  width: max-content;
   height     : auto;
   color      : #76b0ff;
   font-weight: bolder;
@@ -221,6 +222,7 @@
 }
 
 .p-sson{
+  width: 30vw;
   height     : auto;
   color      : white;
   font-weight: 400;
@@ -237,7 +239,7 @@
 .ask-container{
   height          : auto;
   width           : 100%;
-  background-color: #fafafa;
+  background-color: #fafafa00;
   display         : flex;
   flex-direction  : column;
   justify-content : center;
@@ -275,15 +277,25 @@
   align-items    : center;
 
   .box-icons{
-    min-height     : 30vh;
     height         : auto;
-    width          : 45vw;
+    width          : auto;
     display        : flex;
     justify-content: center;
     align-items    : flex-start;
     flex-direction : row;
     flex-wrap      : wrap;
-    gap            : 20px 55px;
+    gap            : 35px ;
+  }
+
+  .box-icons2{
+    height: auto;
+    width          : auto;
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    gap            : 35px ;
   }
 
   .icon{
