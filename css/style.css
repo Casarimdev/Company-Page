@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
 @font-face {
   font-family: FontBold;
-  src: url("../../fontes/the_bold_font/THEBOLDFONT.ttf");
+  src: url("../fontes/the_bold_font/THEBOLDFONT.ttf");
 }
 ul {
   margin: 0;
@@ -2454,7 +2454,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("../../images/Group 3.png");
+  background-image: url("../images/Group 3.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
