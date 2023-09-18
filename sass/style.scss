@@ -32,7 +32,8 @@
   display              : flex;
   justify-content      : center;
   align-items          : center;
-  flex-direction       : column;}
+  flex-direction       : column;
+}
 
   .first-h5 {
     text-align    : center;
@@ -70,4 +71,28 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   overflow-x : hidden;
+}
+
+#elementEl::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 600px){
+  .PrimaryContent{
+    background-image     : url("../images/background-mobile.png");
+    background-size: cover;
+  }
 }
