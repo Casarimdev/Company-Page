@@ -3372,10 +3372,10 @@ textarea {
     opacity: 0;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) { /* Ajuste o valor 768px conforme necessário */
   .PrimaryContent {
+    height: 70vh; /* Ou outro valor que funcione melhor em dispositivos móveis */
     background-image: url("../images/background-mobile.webp");
-    background-size: cover;
   }
 }
 
