@@ -24,7 +24,7 @@
 .PrimaryContent {
   width                : 100vw;
   height               : 80vh;
-  background-image     : url("../images/background-container1.png");
+  background-image     : url("../images/background-container1.webp");
   background-repeat    : no-repeat;
   background-attachment: fixed;
   background-position  : center;
@@ -90,7 +90,7 @@
 
 @media (max-width: 600px){
   .PrimaryContent{
-    background-image     : url("../images/background-mobile.png");
+    background-image     : url("../images/background-mobile.webp");
     background-size: cover;
   }
 }
