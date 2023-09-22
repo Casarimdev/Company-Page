@@ -3372,5 +3372,11 @@ textarea {
     opacity: 0;
   }
 }
+@media (max-width: 600px) {
+  .PrimaryContent {
+    background-image: url("../images/background-mobile.webp");
+    background-size: cover;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
