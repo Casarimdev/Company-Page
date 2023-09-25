@@ -11,9 +11,14 @@
 @import'clients.scss/clients.scss';
 @import'home/contact.scss';
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   margin : 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 

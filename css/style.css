@@ -79,7 +79,7 @@ ul {
 }
 
 .item2 {
-  background-image: url("../clientes_logos/via-italia-logo.jpg");
+  background-image: url("../clientes_logos/cwb-logo.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -2602,11 +2602,11 @@ footer {
 }
 
 .cloud2 {
-  background-image: url("../clientes_logos/via-italia-logo.jpg");
+  background-image: url("../../clientes_logos/cohab-logo.jpg");
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .cloud3 {
@@ -3300,9 +3300,14 @@ textarea {
     height: auto;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .First-Container {
