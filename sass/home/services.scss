@@ -33,7 +33,7 @@
 .h3-service{
     text-align : center;
     color      : #2E78FF; overflow: hidden;
-    font-family: 'Noto Sans',       sans-serif;
+    font-family: FontBold;
     font-weight: bold; font-size  : 3rem;
     
 }
@@ -154,8 +154,9 @@
 
 
 .security{
-    width: 20vw;
+    width: auto;
 }
+
 
 @media screen and (max-width: 1274px){
     .services .card:hover {
@@ -207,10 +208,11 @@
 @media screen and (max-width: 465px){
 
     .services .card {
-        height: 65vh;
+        height: auto;
     }
     .ptext-service{
         width    : auto;
+        height: auto;
         font-size: small;
     }
 
