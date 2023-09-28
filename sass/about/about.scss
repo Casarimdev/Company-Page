@@ -259,6 +259,8 @@
 // }
 
 .vantagenscontainer{
+  background     : rgb(16,76,186);
+  background     : linear-gradient(50deg, rgba(16,76,186,1) 43%, rgba(15,123,179,1) 64%);
   width           : 100%;
   height          : auto;
   padding         : 20px;
@@ -268,13 +270,17 @@
   flex-wrap       : wrap;
   overflow        : hidden;
   overflow-x      : hidden;
-  background-color: #fafafa;
+  
+}
+
+.h5-vantagens{
+  color: #fafafa !important;
 }
 
 .h1-vantagens{
   text-align      : center;
-  color           : #2E78FF;
-  background-color: #fafafa;
+  color           : #fafafa;
+  background-color: #2e77ff00;
   padding-top     : 1vh;
   font-family     : FontBold;
   font-size       : 2.4rem;
@@ -292,7 +298,7 @@
 
 .quality{
   width          : 20vw;
-  height         : 22vh;
+  height         : auto;
   display        : flex;
   flex-direction : column;
   align-items    : center;
@@ -302,12 +308,12 @@
 .h5-quality,.p-quality{
   font-family: 'Noto Sans', sans-serif;
   text-align : center;
-  color      : black;
+  color      : #fafafa;
 }
 
 .h5-quality{
   font-weight: bold;
-  color      : #2E78FF;
+  color      : #fafafa;
 }
 
 .p-quality{

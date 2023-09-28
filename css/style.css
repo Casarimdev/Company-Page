@@ -2022,6 +2022,8 @@ footer {
 }
 
 .vantagenscontainer {
+  background: rgb(16, 76, 186);
+  background: linear-gradient(50deg, rgb(16, 76, 186) 43%, rgb(15, 123, 179) 64%);
   width: 100%;
   height: auto;
   padding: 20px;
@@ -2031,13 +2033,16 @@ footer {
   flex-wrap: wrap;
   overflow: hidden;
   overflow-x: hidden;
-  background-color: #fafafa;
+}
+
+.h5-vantagens {
+  color: #fafafa !important;
 }
 
 .h1-vantagens {
   text-align: center;
-  color: #2E78FF;
-  background-color: #fafafa;
+  color: #fafafa;
+  background-color: rgba(46, 119, 255, 0);
   padding-top: 1vh;
   font-family: FontBold;
   font-size: 2.4rem;
@@ -2055,7 +2060,7 @@ footer {
 
 .quality {
   width: 20vw;
-  height: 22vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2065,12 +2070,12 @@ footer {
 .h5-quality, .p-quality {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
-  color: black;
+  color: #fafafa;
 }
 
 .h5-quality {
   font-weight: bold;
-  color: #2E78FF;
+  color: #fafafa;
 }
 
 .p-quality {
