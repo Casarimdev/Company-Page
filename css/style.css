@@ -1978,7 +1978,7 @@ footer {
 
 .container-infra {
   height: auto;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -1988,7 +1988,7 @@ footer {
 }
 
 .h1-infra {
-  font-family: "Noto Sans", sans-serif;
+  font-family: FontBold;
   color: #fafafa;
   font-weight: 600;
   letter-spacing: 3px;
@@ -2021,15 +2021,6 @@ footer {
   border-radius: 12px;
 }
 
-.imginfra {
-  width: 50%;
-  height: 60vh;
-  background-image: url("../images/12677.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
 .vantagenscontainer {
   width: 100%;
   height: auto;
@@ -2045,10 +2036,10 @@ footer {
 
 .h1-vantagens {
   text-align: center;
-  color: #43b5ee;
+  color: #2E78FF;
   background-color: #fafafa;
   padding-top: 1vh;
-  font-family: "Nunito", sans-serif;
+  font-family: FontBold;
   font-size: 2.4rem;
 }
 
@@ -2079,7 +2070,7 @@ footer {
 
 .h5-quality {
   font-weight: bold;
-  color: #43b5ee;
+  color: #2E78FF;
 }
 
 .p-quality {

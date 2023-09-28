@@ -30,21 +30,21 @@
   <!-- HEADER -->
   <header class="header-content fixed-top" style="width: auto">
     <!-- NAVBAR DESKTOP -->
-    <nav class="navbardesktopabout">
+    <nav class="navbardesktop ">
       <div class="logodesktop">
-        <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="padding-right: 10px;"></a>
+        <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2"></a>
       </div>
       <div class="menudesktop">
-        <div class="menudesktop-links-about">
-          <a href="../pages/index.html" class="linkdesktop-about">Home</a>
-          <a href="../pages/clients.html" class="linkdesktop-about">Clientes/Parceiros</a>
-          <a class="nav-link dropdown-toggle linkdesktop-about" href="#" role="button" aria-expanded="true"
+        <div class="menudesktop-links">
+          <a href="../pages/about.html" class="linkdesktop" style="width: auto;">Home</a>
+          <a href="../pages/clients.html" class="linkdesktop">Clientes/Parceiros</a>
+          <a class="nav-link dropdown-toggle linkdesktop" href="#" role="button" aria-expanded="true"
             data-bs-toggle="dropdown">
             Serviços
           </a>
           <ul class="dropdown-menu dropwdown-services"
             style="background-color: #0F7BB3; border-radius: 20px; padding: 0;">
-            <li><a class="nav-services dropdown-item drop-item" href="#">Cloud Computing</a></li>
+            <li><a class="nav-services dropdown-item drop-item" href="services/cloud.html">Cloud Computing</a></li>
             <hr>
             <li><a class="nav-services dropdown-item" href="#">Consultoria</a></li>
             <hr>
@@ -56,7 +56,7 @@
             <hr>
             <li><a class="nav-services dropdown-item" href="#">Segurança Web</a></li>
           </ul>
-          <a class="nav-link dropdown-toggle linkdesktop-about" href="#" role="button" aria-expanded="true"
+          <a class="nav-link dropdown-toggle linkdesktop" href="#" role="button" aria-expanded="true"
             data-bs-toggle="dropdown">
             Soluções
           </a>
@@ -75,74 +75,75 @@
             <li><a class="nav-services dropdown-item" href="#">Wifi-Corporativa</a></li>
           </ul>
         </div>
-        <a href="#footer_content"><button class="log-in-about buttondesk">Fale Conosco</button></a>
+        <a href="#footer_content"><button class="log-in buttondesk">Fale Conosco</button></a>
       </div>
     </nav>
+  
     <!-- NAVBAR MOBILE -->
     <div class="about">
       <a class="bg_links social portfolio ms-5"
         href="https://wa.me/558005917374?text=Estou%20navegando%20no%20site%20e%20gostaria%20de%20conversar%20com%20a%20Ultra%20IT."
-        target="_blank">
+        target="_blank" aria-label="Talk to us">
         <i class="fa-brands fa-whatsapp icon fa-xl" style="color: #ffffff;"></i>
       </a>
-      <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" target="_blank"
+      <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" aria-label="Talk to us" target="_blank"
         style="color: white;">
         <i class="fa-brands fa-instagram icon fa-xl" style="color: #ffffff;"></i>
       </a>
-      <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" target="_blank">
+      <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" aria-label="Talk to us" target="_blank">
         <i class="fa-brands fa-linkedin linke icon fa-xl" style="color: #ffffff;"></i>
       </a>
       <a class="bg_links"><i class="fa-regular fa-heart fa-xl" style="color: #ffffff;"></i></a>
     </div>
-    <!-- end about -->
-    <nav class="fixed-top nav-mobile">
-      <div class="menubar">
-        <a href="../pages/about.html" class="home"><img src="../images/Ultra-logowhite.png" alt="logo-ultraIT"
-            style="width: auto; height: 30px;" class="imgultra"></a>
-        <a href="#Services-C"><i class="fa-solid fa-home fa-xl pe-5 homelogo" style="color: #fafafa;"></i></i>
-        </a>
-        <div class="icons">
-          <div class="secondary-icons">
-            <a href="#Services-C"><i class="fa-solid fa-screwdriver-wrench fa-xl me-4 pt-3"
-                style="color: #fafafa;"></i></i>
-            </a>
-            <a href="#Services-S"><i class="fa-solid fa-circle-check fa-xl me-4 pt-3" style="color: #fafafa;"></i>
-            </a>
-            <a href="#footer_content"><i class="fa-solid fa-phone-volume fa-xl me-5 pt-3" style="color: #fafafa;"></i>
-            </a>
-          </div>
-          <i class="icon-menu ms-3"><span></span></i>
+  <!-- end about -->
+  <nav class="fixed-top nav-mobile">
+    <div class="menubar">
+      <a href="../pages/about.html"><img src="../images/Ultra-logowhite.png" alt="logo-ultraIT"
+          style="width: auto; height: 30px;" class="imgultra"></a>
+      <a href="#Services-C"><i class="fa-solid fa-home fa-xl pe-5 homelogo" style="color: #fafafa;"></i></i>
+      </a>
+      <div class="icons">
+        <div class="secondary-icons">
+          <a href="#Services-C"><i class="fa-solid fa-screwdriver-wrench fa-xl pe-4" style="color: #fafafa;"></i></i>
+          </a>
+          <a href="#Services-S"><i class="fa-solid fa-circle-check fa-xl pe-4" style="color: #fafafa;"></i>
+          </a>
+          <a href="#footer_content"><i class="fa-solid fa-phone-volume fa-xl pe-4" style="color: #fafafa;"></i>
+          </a>
         </div>
+        <i class="icon-menu ms-3"><span></span></i>
       </div>
-      <ul class="menu">
-
-        <li class="menu-link"><a href="#0" class="text-item">Ultra IT</a></li>
-        <li class="menu-link sub">
-          <a href="#0" class="text-item">Soluções<span class="icon"></span></a>
-          <ul class="submenu">
-            <li class="sub-item"><a href="#0" style="color: white;">Anti-Spam</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Arquivos em Nuvem</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Comunicador</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Wi-fi Corporativa</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Servidor de E-mail</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Firewall UTM</a></li>
-          </ul>
-        </li>
-        <li class="menu-link sub">
-          <a href="#0" class="text-item">Serviços<span class="icon"></span></a>
-          <ul class="submenu">
-            <li class="sub-item"><a href="#0" style="color:white"></a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Backup Off-Site</a></li>
-            <li class="sub-item"><a href="services/cloud.html" style="color:white">Cloud Computing</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Consultoria</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Hospedagem</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Segurança Web</a></li>
-            <li class="sub-item"><a href="#0" style="color:white">Suporte Técnico</a></li>
-          </ul>
-        </li>
-        <li class="menu-link"><a href="#" class="text-item">Contato</a></li>
-      </ul>
-    </nav>
+    </div>
+    <ul class="menu">
+  
+      <li class="menu-link"><a href="#0" class="text-item">Ultra IT</a></li>
+      <li class="menu-link sub">
+        <a href="#0" class="text-item">Soluções<span class="icon"></span></a>
+        <ul class="submenu">
+          <li class="sub-item"><a href="#0" style="color: white;">Anti-Spam</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Arquivos em Nuvem</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Comunicador</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Wi-fi Corporativa</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Servidor de E-mail</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Firewall UTM</a></li>
+        </ul>
+      </li>
+      <li class="menu-link sub">
+        <a href="#0" class="text-item">Serviços<span class="icon"></span></a>
+        <ul class="submenu">
+          <li class="sub-item"><a href="#0" style="color:white"></a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Backup Off-Site</a></li>
+          <li class="sub-item"><a href="services/cloud.html" style="color:white">Cloud Computing</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Consultoria</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Hospedagem</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Segurança Web</a></li>
+          <li class="sub-item"><a href="#0" style="color:white">Suporte Técnico</a></li>
+        </ul>
+      </li>
+      <li class="menu-link"><a href="#" class="text-item">Contato</a></li>
+    </ul>
+  </nav>
+  
   </header>
 
   <!-- CONTAINER ABOUT -->
@@ -175,41 +176,41 @@
       </h1>
       <br>
       <h3 class="h5-vantagens mb-5"
-        style=" text-align: center; color:  #43b5ee; background-color: #fafafa; padding-top: 1vh; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+        style=" text-align: center; color:  #1c69f8; background-color: #fafafa; padding-top: 1vh; font-family:'Montserrat', sans-serif;"
         data-aos="fade-down" data-aos-duration="2000">Tenha um T.I de qualidade, com experiência, agilidade e com os
         melhores preços. <br>Tenha a Ultra IT</os></span>
       </h3>
     </div>
-    <article 'class="itens-container">
+    <article class="itens-container">
       <div class="quality qualidade1">
-        <i class="fa-solid fa-shield-heart fa-3x pb-4" style="color: #43b5ee"></i>
+        <i class="fa-solid fa-shield-heart fa-3x pb-4" style="color: #1c69f8"></i>
         <h5 class="h5-quality">Segurança Total</h5>
         <p class="p-quality">Proteja seus dados com criptografia avançada, garantindo total confidencialidade.</p>
       </div>
       <div class="quality qualidade2">
-        <i class="fa-solid fa-globe fa-3x pb-4" style="color: #43b5ee"></i>
+        <i class="fa-solid fa-globe fa-3x pb-4" style="color: #1c69f8"></i>
         <h5 class="h5-quality">Suporte 24/7:</h5>
         <p class="p-quality">Nossa equipe está sempre disponível para resolver qualquer problema, a qualquer hora.</p>
       </div>
       <div class="quality qualidade3">
-        <i class="fa-regular fa-handshake fa-3x pb-4" style="color: #43b5ee;"></i>
+        <i class="fa-regular fa-handshake fa-3x pb-4" style="color: #1c69f8;"></i>
         <h5 class="h5-quality">Escalabilidade Garantida</h5>
         <p class="p-quality">Aumente ou diminua recursos conforme sua demanda, sem preocupações, a Ultra realiza.</p>
       </div>
 
       <div class="quality qualidade5">
-        <i class="fa-solid fa-download fa-3x pb-4" style="color: #43b5ee;"></i>
+        <i class="fa-solid fa-download fa-3x pb-4" style="color: #1c69f8;"></i>
         <h5 class="h5-quality">Atualizações Contínuas</h5>
         <p class="p-quality">Beneficie-se das últimas inovações, mantendo sua empresa semmpre à frente da concorrência.
         </p>
       </div>
       <div class="quality qualidade4">
-        <i class="fa-solid fa-hand-holding-dollar fa-3x pb-4" style="color: #43b5ee;"></i>
+        <i class="fa-solid fa-hand-holding-dollar fa-3x pb-4" style="color: #1c69f8;"></i>
         <h5 class="h5-quality">Melhores preços</h5>
         <p class="p-quality">Possuimos os melhores preços do mercado de TI, com segurança e sem comparação!</p>
       </div>
       <div class="quality qualidade6">
-        <i class="fa-regular fa-clock fa-3x pb-4" style="color: #43b5ee;"></i>
+        <i class="fa-regular fa-clock fa-3x pb-4" style="color: #1c69f8;"></i>
         <h5 class="h5-quality">Agilidade</h5>
         <p class="p-quality">Atendimento rápido e seguro para seu suporte em TI.</p>
       </div>
@@ -230,7 +231,7 @@
           atuação, nós temos a solução.
         </h4>
         <div class="buttonctn">
-          <button class="call-action2">Quero entrar em contato com a Ultra IT</button>
+          <button class="call-action">Quero entrar em contato com a Ultra IT</button>
         </div>
     </div>
     </article>
@@ -243,30 +244,30 @@
 
   <section class="segments-container2 pb-5">
     <h1 class="h1-middle-cloud pt-5 mb-4"
-      style="text-align: center; color: #43b5ee; font-family: 'Rubik', sans-serif; font-weight: 500; overflow-x: hidden;"
+      style="text-align: center; color: #104CBA; font-family: FontBold"
       data-aos="fade-up" data-aos-duration="2000">
       Segmentos Ultra</h1>
     <h5 class="h5-middle-cloud mb-5"
-      style="text-align: center; color: #43b5ee; font-family: 'Rubik', sans-serif; font-weight: 500; overflow-x: hidden;"
+      style="text-align: center; color:  #1c69f8; background-color: #fafafa; padding-top: 1vh; font-family:'Montserrat', sans-serif;"
       data-aos="fade-right" data-aos-duration="2000">
       Segmentos atendidos e suportados em 13 anos de existência pela nossa infraestrutura</h5>
     <article class="box-icons2" data-aos="fade-up" data-aos-duration="2000">
-      <div class="icon-2 icon1"><i class="fa-solid fa-scale-balanced fa-3x" style="color: #43b5ee;"></i>Advocacia</div>
-      <div class="icon-2 icon2"><i class="fa-solid fa-compass-drafting fa-3x" style="color: #43b5ee;"></i>Arquitetura
+      <div class="icon-2 icon1"><i class="fa-solid fa-scale-balanced fa-3x" style="color: #1c69f8;"></i>Advocacia</div>
+      <div class="icon-2 icon2"><i class="fa-solid fa-compass-drafting fa-3x" style="color: #1c69f8;"></i>Arquitetura
       </div>
-      <div class="icon-2 icon3"><i class="fa-solid fa-person-digging fa-3x" style="color: #43b5ee;"></i>Construtoras
+      <div class="icon-2 icon3"><i class="fa-solid fa-person-digging fa-3x" style="color: #1c69f8;"></i>Construtoras
       </div>
-      <div class="icon-2 icon4"><i class="fa-solid fa-calculator fa-3x" style="color: #43b5ee;"></i>Contabilidade</div>
-      <div class="icon-2 icon5"><i class="fa-solid fa-bolt fa-3x" style="color: #43b5ee;"></i>Energia</div>
-      <div class="icon-2 icon6"><i class="fa-solid fa-building-user fa-3x" style="color: #43b5ee;"></i>Engenharia</div>
-      <div class="icon-2 icon7"><i class="fa-solid fa-hand-holding-dollar fa-3x" style="color: #43b5ee;"></i>Finanças
+      <div class="icon-2 icon4"><i class="fa-solid fa-calculator fa-3x" style="color: #1c69f8;"></i>Contabilidade</div>
+      <div class="icon-2 icon5"><i class="fa-solid fa-bolt fa-3x" style="color: #1c69f8;"></i>Energia</div>
+      <div class="icon-2 icon6"><i class="fa-solid fa-building-user fa-3x" style="color: #1c69f8;"></i>Engenharia</div>
+      <div class="icon-2 icon7"><i class="fa-solid fa-hand-holding-dollar fa-3x" style="color: #1c69f8;"></i>Finanças
       </div>
-      <div class="icon-2 icon8"><i class="fa-solid fa-truck-arrow-right fa-3x" style="color: #43b5ee;"></i>Transporte
+      <div class="icon-2 icon8"><i class="fa-solid fa-truck-arrow-right fa-3x" style="color: #1c69f8;"></i>Transporte
       </div>
-      <div class="icon-2 icon8"><i class="fa-solid fa-microchip fa-3x" style="color: #43b5ee;"></i>Tecnologia</div>
-      <div class="icon-2 icon8"><i class="fa-solid fa-car-side fa-3x" style="color: #43b5ee;"></i>Automóveis</div>
-      <div class="icon-2 icon8"><i class="fa-solid fa-kit-medical fa-3x" style="color: #43b5ee;"></i>Farmacia</div>
-      <div class="icon-2 icon8"><i class="fa-solid fa-chart-simple fa-3x" style="color: #43b5ee;"></i>Logística</div>
+      <div class="icon-2 icon8"><i class="fa-solid fa-microchip fa-3x" style="color: #1c69f8;"></i>Tecnologia</div>
+      <div class="icon-2 icon8"><i class="fa-solid fa-car-side fa-3x" style="color: #1c69f8;"></i>Automóveis</div>
+      <div class="icon-2 icon8"><i class="fa-solid fa-kit-medical fa-3x" style="color: #1c69f8;"></i>Farmacia</div>
+      <div class="icon-2 icon8"><i class="fa-solid fa-chart-simple fa-3x" style="color: #1c69f8;"></i>Logística</div>
     </article>
   </section>
 
@@ -318,18 +319,18 @@
       <div id="footer_contacts">
         <h1><img src="../images/Ultra-logowhite.png" alt="logo-ultraIT" class="w-35 mb-4"></h1>
         <p>A Ultra IT cuida da sua TI.</p>
-
+  
         <div id="footer_social_media">
-          <a href="https://www.instagram.com/Ultra.IT/" class="footer-link" id="instagram" target="_blank">
+          <a href="https://www.instagram.com/Ultra.IT/"  aria-label="See more abour our Instagram" class="footer-link" id="instagram" target="_blank">
             <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
           </a>
-
-          <a href="https://br.linkedin.com/company/ultrait" class="footer-link" id="facebook" target="_blank">
+  
+          <a href="https://br.linkedin.com/company/ultrait" aria-label="See more about our linkedin" class="footer-link" id="facebook" target="_blank">
             <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
           </a>
-
+  
           <a href="https://wa.me/558005917374?text=Estou%20navegando%20no%20site%20e%20gostaria%20de%20conversar%20com%20a%20Ultra%20IT."
-            class="footer-link" id="whatsapp" target="_blank">
+          aria-label="Talk to Us" class="footer-link" id="whatsapp" target="_blank">
             <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
           </a>
         </div>
@@ -350,104 +351,119 @@
           <h3 class="pb-4">Telefones</h3>
         </li>
         <li>
-          SUPORTE: <span style="font-weight: bolder;">(11) 98220-6465</span> <br>
+          SUPORTE: <span style="font-weight: bolder;"><i href="tel" style="color: white !important; text-decoration: none;">(11) 98220-6465</i></span> <br>
         </li>
         <li class="pt-3">
-          COMERCIAL: <span style="font-weight: bolder;">0800-591-7374</span>
+          COMERCIAL: <span style="font-weight: bolder;"><i href="tel" style="color: white !important; text-decoration: none;">0800-591-7374</i></span>
         </li>
-        <!-- <li>
-              <a href = "#" class = "footer-link">Cloud</a>
-          </li> -->
       </ul>
-
+  
       </ul>
       <ul class="footer-list emails">
         <li>
           <h3 class="pb-1 mt-5">Seviços: </h3>
         </li>
-        <a href="">
-          <li class="a-footer">
-            Cloud
-          </li>
-        </a>
+          <ul>
+            <li class="a-footer">
+              Cloud
+            </li>
+          </ul>
+    
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Consultoria
-          </li>
-        </a>
+      
+          <ul>
+            <li class="a-footer">
+              Consultoria
+            </li>
+          </ul>
+        
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Suporte Técnico
-          </li>
-        </a>
+      
+          <ul>
+            <li class="a-footer">
+              Suporte Técnico
+            </li>
+          </ul>
+       
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Web Hosting
-          </li>
-        </a>
+      
+          <ul>
+            <li class="a-footer">
+              Web Hosting
+            </li>
+          </ul>
+       
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Backup Off-site
-          </li>
-        </a>
+    
+          <ul>
+            <li class="a-footer">
+              Backup Off-site
+            </li>
+          </ul>
+        
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Segurança Web
-          </li>
-        </a>
+       
+          <ul>
+            <li class="a-footer">
+              Segurança Web
+            </li>
+          </ul>
+        
         <hr>
       </ul>
       <ul class="footer-list emails">
         <li>
           <h3 class="pb-1 mt-5">Soluções:</h3>
         </li>
-        <a href="">
-          <li class="a-footer">
-            Anti-Spam
-          </li>
-        </a>
+        
+          <ul>
+            <li class="a-footer">
+              Anti-Spam
+            </li>
+          </ul>
+        
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Arquivos em Nuvem
-          </li>
-        </a>
+        
+          <ul>
+            <li class="a-footer">
+              Arquivos em Nuvem
+            </li>
+          </ul>
+       
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Comunicador
-          </li>
-        </a>
+        
+          <ul>
+            <li class="a-footer">
+              Comunicador
+            </li>
+          </ul>
+        
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Firewall UTM
-          </li>
-        </a>
+        
+          <ul>
+            <li class="a-footer">
+              Firewall UTM
+            </li>
+          </ul>
+        
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Servidor de e-mail
-          </li>
-        </a>
+            <ul>
+              <li class="a-footer">
+                Servidor de e-mail
+              </li>
+            </ul>
         <hr>
-        <a href="">
-          <li class="a-footer">
-            Wifi Corporativa
-          </li>
-        </a>
+          <ul>
+            <li class="a-footer">
+              Wifi Corporativa
+            </li>
+          </ul>
         <hr>
       </ul>
-
       <div id="footer_subscribe" style="overflow-x: hidden;">
       </div>
     </div>
-
+  
     <div id="footer_copyright" style="overflow-x: hidden;">
       &#169
       2010-2023 Todos direitos reservados a Ultra IT
