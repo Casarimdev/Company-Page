@@ -49,7 +49,7 @@ function carousel() {
    requestAnimationFrame(moveFirst);
    requestAnimationFrame(moveSecond);
   
-  carouselSlider.addEventListener("mouseleave");
+  
 }
 
 carousel();
