@@ -9,6 +9,7 @@
 @font-face {
   font-family: FontBold;
   src: url("../fontes/the_bold_font/THEBOLDFONT.ttf");
+  font-display: swap;
 }
 ul {
   margin: 0;
