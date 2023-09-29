@@ -149,7 +149,8 @@
   justify-content: center;
   align-items    : center;
   border-radius  : 12px;
-  box-shadow     : 16px 16px 16px #43b5ee;
+  // box-shadow     : 16px 16px 16px #43b5ee;
+  box-shadow: 0px 10px 18px 7px #43b5ee
 }
 
 
@@ -422,7 +423,12 @@
   }
   
   .text-infra{
-    height: 65vh !important;
+    height: auto !important;
+  }
+
+  .infra-ultra{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
   }
 
   .menudesktop{
@@ -518,8 +524,13 @@
 
 @media (max-width: 784px){
 
-.text-infra{
-  flex-direction: column !important;
+.infra-ultra{
+  flex-direction: column-reverse!important;
+  justify-content: center !important;
+}
+
+.p-infra{
+  width: auto;
 }
 }
 
