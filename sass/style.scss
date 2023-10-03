@@ -29,12 +29,12 @@ html{
 .PrimaryContent {
   width                : 100vw;
   height               : 80vh;
-  // background-image     : url("../images/background-container1-teste.jpg");
-  background-image   : url('../images/Fundo\ sobre\ 2.jpg');
-  background-repeat    : no-repeat;
-  background-attachment: fixed;
-  background-position  : center;
-  background-size      : cover;
+  background-image     : url("../images/background-container1-teste.jpg");
+  // background-image   : url('../images/Fundo\ sobre\ 2.jpg');
+  background-repeat  : no-repeat;
+  background-position: center top;
+  background-repeat  : no-repeat;
+  background-size    : cover;
   display              : flex;
   justify-content      : center;
   align-items          : center;
