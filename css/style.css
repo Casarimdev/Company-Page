@@ -1807,7 +1807,8 @@ footer {
   }
 }
 .containerAB {
-  height: 85vh;
+  min-height: 85vh;
+  height: auto;
   width: 100%;
   background-image: url("../images/Fundo sobre 2.jpg");
   background-repeat: no-repeat;
@@ -1815,8 +1816,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-content: center;
   flex-wrap: wrap-reverse;
 }
@@ -1841,7 +1842,8 @@ footer {
 }
 
 .texts-about {
-  width: 45vw;
+  margin-top: 14vh;
+  width: 50vw;
   height: auto;
   background: rgba(16, 75, 186, 0.67);
   background: linear-gradient(47deg, rgba(16, 75, 186, 0.698) 32%, rgba(15, 124, 179, 0.693) 50%);
