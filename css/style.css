@@ -1806,78 +1806,8 @@ footer {
     height: auto;
   }
 }
-.navbardesktopabout {
-  height: 90px;
-  width: auto;
-  overflow-x: hidden;
-  top: 0;
-  left: 0;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow-y: hidden;
-  background: rgb(16, 76, 186);
-  background: linear-gradient(47deg, rgb(16, 76, 186) 32%, rgb(15, 123, 179) 50%);
-}
-
-.linkdesktop-about {
-  text-decoration: none;
-  font-weight: 500;
-  margin: 10px;
-  color: white;
-  background-color: rgba(16, 75, 186, 0);
-  border-radius: 10px;
-  padding: 8px 16px;
-  transition: 0.8s;
-}
-
-.linkdesktop-about:hover {
-  background-color: #03e9f4;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
-  font-weight: 500;
-  text-decoration: none;
-  border-bottom: 2px solid #fafafa;
-  transition: 0.8s;
-}
-
-.menudesktop-links-about {
-  display: flex;
-  gap: 24px;
-  border-right: 3px solid rgb(255, 255, 255);
-  padding-inline: 24px;
-}
-
-.menudesktop-links-about:hover {
-  color: rgb(16, 76, 186);
-}
-
-.log-in-about {
-  font-weight: 500;
-  padding: 12px 22px;
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  border: 2px solid rgb(255, 255, 255);
-  transition: 2s;
-}
-
-.log-in-about:hover {
-  background: #03e9f4;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
-  font-weight: 500;
-  text-decoration: none;
-  background-color: white;
-  border: 2px solid white;
-  transition: 0.8s;
-}
-
 .containerAB {
-  height: auto;
+  height: 85vh;
   width: 100%;
   background-image: url("../images/Fundo sobre 2.jpg");
   background-repeat: no-repeat;
@@ -1885,16 +1815,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-}
-
-.container-about {
-  height: auto;
-  min-height: 80vh;
-  width: 100%;
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   align-content: center;
   flex-wrap: wrap-reverse;
 }
@@ -1919,7 +1841,7 @@ footer {
 }
 
 .texts-about {
-  width: 80vh;
+  width: 45vw;
   height: auto;
   background: rgba(16, 75, 186, 0.67);
   background: linear-gradient(47deg, rgba(16, 75, 186, 0.698) 32%, rgba(15, 124, 179, 0.693) 50%);
@@ -1965,7 +1887,7 @@ footer {
 }
 
 .infra-ultra {
-  min-height: 65vh;
+  min-height: 80vh;
   height: auto;
   width: 100%;
   background: rgb(21, 92, 182);
@@ -3150,6 +3072,8 @@ footer {
 }
 
 .contact-us {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   height: 100vh;
   width: 100%;
   font-family: sans-serif;
@@ -3162,7 +3086,7 @@ footer {
   position: relative;
   top: 50%;
   left: 50%;
-  width: 500px;
+  width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgb(16, 76, 186);
