@@ -2,7 +2,8 @@
 <html lang="pt-br">
 
 <head>
-  <meta name="description" content="Explore o futuro da inovação tecnológica conosco. Navegue por artigos, análises e tendências que revelam o universo em constante evolução da tecnologia. Descubra as últimas notícias, insights profundos e guias práticos para impulsionar seu conhecimento digital. Seja parte da revolução tecnológica - informação, inspiração e inovação em um só lugar." />
+  <meta name="description"
+    content="Explore o futuro da inovação tecnológica conosco. Navegue por artigos, análises e tendências que revelam o universo em constante evolução da tecnologia. Descubra as últimas notícias, insights profundos e guias práticos para impulsionar seu conhecimento digital. Seja parte da revolução tecnológica - informação, inspiração e inovação em um só lugar." />
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +17,18 @@
     rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="../css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- ------ -->
+  <script src="../scripts/clientes.js" defer></script>
+  <script src="../scripts/scriptmenu.js" defer></script>
+  <script src="../scripts/typing.js" defer></script>
 </head>
 
 <body>
@@ -31,12 +39,12 @@
     <!-- NAVBAR DESKTOP -->
     <nav class="navbardesktop ">
       <div class="logodesktop">
-        <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2"></a>
+        <a href="#"><img src="../logos/logo_ultraIT2.png" alt="logo_ultraIT2" style="height: auto; width: auto;"></a>
       </div>
       <div class="menudesktop">
         <div class="menudesktop-links">
+          <a href="../pages/index.html" class="linkdesktop">Home</a>
           <a href="../pages/about.html" class="linkdesktop" style="width: auto;">Sobre a Ultra</a>
-          <a href="../pages/clients.html" class="linkdesktop">Clientes/Parceiros</a>
           <a class="nav-link dropdown-toggle linkdesktop" href="#" role="button" aria-expanded="true"
             data-bs-toggle="dropdown">
             Serviços
@@ -77,7 +85,7 @@
         <a href="#footer_content"><button class="log-in buttondesk">Fale Conosco</button></a>
       </div>
     </nav>
-  
+
     <!-- NAVBAR MOBILE -->
     <div class="about">
       <a class="bg_links social portfolio ms-5"
@@ -85,70 +93,76 @@
         target="_blank" aria-label="Talk to us">
         <i class="fa-brands fa-whatsapp icon fa-xl" style="color: #ffffff;"></i>
       </a>
-      <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" aria-label="Talk to us" target="_blank"
-        style="color: white;">
+      <a class="bg_links social dribbble" href="https://www.instagram.com/Ultra.IT/" aria-label="Talk to us"
+        target="_blank" style="color: white;">
         <i class="fa-brands fa-instagram icon fa-xl" style="color: #ffffff;"></i>
       </a>
-      <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" aria-label="Talk to us" target="_blank">
+      <a class="bg_links social linkedin" href="https://br.linkedin.com/company/ultrait" aria-label="Talk to us"
+        target="_blank">
         <i class="fa-brands fa-linkedin linke icon fa-xl" style="color: #ffffff;"></i>
       </a>
-      <a class="bg_links"><i class="fa-regular fa-heart fa-xl" style="color: #ffffff;"></i></a>
+      <i class="bg_links"><i class="fa-regular fa-heart fa-xl" style="color: #ffffff;"></i></i>
     </div>
-  <!-- end about -->
-  <nav class="fixed-top nav-mobile">
-    <div class="menubar">
-      <a href="../pages/about.html"><img src="../images/Ultra-logowhite.png" alt="logo-ultraIT"
-          style="width: auto; height: 30px;" class="imgultra"></a>
-      <a href="#Services-C"><i class="fa-solid fa-home fa-xl pe-5 homelogo" style="color: #fafafa;"></i></i>
-      </a>
-      <div class="icons">
-        <div class="secondary-icons">
-          <a href="#Services-C"><i class="fa-solid fa-screwdriver-wrench fa-xl pe-4" style="color: #fafafa;"></i></i>
-          </a>
-          <a href="#Services-S"><i class="fa-solid fa-circle-check fa-xl pe-4" style="color: #fafafa;"></i>
-          </a>
-          <a href="#footer_content"><i class="fa-solid fa-phone-volume fa-xl pe-4" style="color: #fafafa;"></i>
-          </a>
+    <!-- end about -->
+    <nav class="fixed-top nav-mobile">
+      <div class="menubar">
+        <a href="../pages/about.html" aria-label="Volte para última pagina..."><img src="../images/Ultra-logowhite.png"
+            alt="logo-ultraIT" style="width: auto; height: 30px;" class="imgultra"
+            aria-label="Volte para última pagina..."></a>
+        <a href="#Services-C" aria-label="Volte para última pagina..."><i class="fa-solid fa-home fa-xl pe-5 homelogo"
+            style="color: #fafafa;"></i></i>
+        </a>
+        <div class="icons">
+          <div class="secondary-icons">
+            <a href="#Services-C" aria-label="Volte para última pagina..."><i
+                class="fa-solid fa-screwdriver-wrench fa-xl pe-4" style="color: #fafafa;"></i></i>
+            </a>
+            <a href="#Services-S" aria-label="Volte para última pagina..."><i
+                class="fa-solid fa-circle-check fa-xl pe-4" style="color: #fafafa;"></i>
+            </a>
+            <a href="#footer_content" aria-label="Volte para última pagina..."><i
+                class="fa-solid fa-phone-volume fa-xl pe-4" style="color: #fafafa;"></i>
+            </a>
+          </div>
+          <i class="icon-menu ms-3"><span></span></i>
         </div>
-        <i class="icon-menu ms-3"><span></span></i>
       </div>
-    </div>
-    <ul class="menu">
-  
-      <li class="menu-link"><a href="#0" class="text-item">Ultra IT</a></li>
-      <li class="menu-link sub">
-        <a href="#0" class="text-item">Soluções<span class="icon"></span></a>
-        <ul class="submenu">
-          <li class="sub-item"><a href="soluctions/antispam.html" style="color: white;">Anti-Spam</a></li>
-          <li class="sub-item"><a href="soluctions/files.html" style="color:white">Arquivos em Nuvem</a></li>
-          <li class="sub-item"><a href="soluctions/comunicate.html" style="color:white">Comunicador</a></li>
-          <li class="sub-item"><a href="soluctions/wifi.html" style="color:white">Wi-fi Corporativa</a></li>
-          <li class="sub-item"><a href="soluctions/email.html" style="color:white">Servidor de E-mail</a></li>
-          <li class="sub-item"><a href="soluctions/firewall.html" style="color:white">Firewall UTM</a></li>
-        </ul>
-      </li>
-      <li class="menu-link sub">
-        <a href="#0" class="text-item">Serviços<span class="icon"></span></a>
-        <ul class="submenu">
-          <li class="sub-item"><a href="#0" style="color:white"></a></li>
-          <li class="sub-item"><a href="services/backup.html" style="color:white">Backup Off-Site</a></li>
-          <li class="sub-item"><a href="services/cloud.html" style="color:white">Cloud Computing</a></li>
-          <li class="sub-item"><a href="services/consultoria.html" style="color:white">Consultoria</a></li>
-          <li class="sub-item"><a href="services/webhosting.html" style="color:white">Hospedagem</a></li>
-          <li class="sub-item"><a href="services/security.html" style="color:white">Segurança Web</a></li>
-          <li class="sub-item"><a href="services/support.html" style="color:white">Suporte Técnico</a></li>
-        </ul>
-      </li>
-      <li class="menu-link"><a href="#" class="text-item">Contato</a></li>
-    </ul>
-  </nav>
-  
+      <ul class="menu">
+
+        <li class="menu-link"><a href="about.html" class="text-item">Sobre a Ultra</a></li>
+        <li class="menu-link sub">
+          <a href="#0" class="text-item">Soluções<span class="icon"></span></a>
+          <ul class="submenu">
+            <li class="sub-item"><a href="soluctions/antispam.html" style="color: white;">Anti-Spam</a></li>
+            <li class="sub-item"><a href="soluctions/files.html" style="color:white">Arquivos em Nuvem</a></li>
+            <li class="sub-item"><a href="soluctions/comunicate.html" style="color:white">Comunicador</a></li>
+            <li class="sub-item"><a href="soluctions/wifi.html" style="color:white">Wi-fi Corporativa</a></li>
+            <li class="sub-item"><a href="soluctions/email.html" style="color:white">Servidor de E-mail</a></li>
+            <li class="sub-item"><a href="soluctions/firewall.html" style="color:white">Firewall UTM</a></li>
+          </ul>
+        </li>
+        <li class="menu-link sub">
+          <a href="#0" class="text-item">Serviços<span class="icon"></span></a>
+          <ul class="submenu">
+            <li class="sub-item"><a href="#0" style="color:white"></a></li>
+            <li class="sub-item"><a href="services/backup.html" style="color:white">Backup Off-Site</a></li>
+            <li class="sub-item"><a href="services/cloud.html" style="color:white">Cloud Computing</a></li>
+            <li class="sub-item"><a href="services/consultoria.html" style="color:white">Consultoria</a></li>
+            <li class="sub-item"><a href="services/webhosting.html" style="color:white">Hospedagem</a></li>
+            <li class="sub-item"><a href="services/security.html" style="color:white">Segurança Web</a></li>
+            <li class="sub-item"><a href="services/support.html" style="color:white">Suporte Técnico</a></li>
+          </ul>
+        </li>
+        <li class="menu-link"><a href="#footer_content" class="text-item">Contato</a></li>
+      </ul>
+    </nav>
+
   </header>
 
 
   <!-- CONTAINER-CLIENTS -->
   <section class="container-clients">
-    <h1 class="h1-client" style="margin-top: 14vh; text-align: center;">Clientes e Parceiros que confiam na Ultra</h1>
+    <h1 class="h1-client" style="margin-top: 14vh; text-align: center; font-family: FontBold;">Clientes e Parceiros que confiam na Ultra</h1>
     <div class="content-client">
       <div class="card-clients card1" data-aos="flip-right" data-aos-duration="1500"></div>
       <div class="card-clients card2" data-aos="flip-right" data-aos-duration="1500"></div>
@@ -183,7 +197,6 @@
       <div class="card-clients card31" data-aos="fade-right" data-aos-duration="1500"></div>
       <div class="card-clients card32" data-aos="fade-right" data-aos-duration="1500"></div>
       <div class="card-clients card33" data-aos="fade-right" data-aos-duration="1500"></div>
-      <div class="card-clients card34" data-aos="fade-right" data-aos-duration="1500"></div>
     </div>
   </section>
 
