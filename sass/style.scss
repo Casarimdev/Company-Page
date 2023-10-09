@@ -94,4 +94,15 @@ html{
   }
 }
 
+@media (max-width: 800px){
+  .typing{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px){
+  .typing{
+    font-size: 1.8rem;
+  }
+}
 
