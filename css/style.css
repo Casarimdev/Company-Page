@@ -1109,7 +1109,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .a-service:hover {
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 30px #03e9f4;
 }
 
 .services .card:hover {
@@ -1351,7 +1351,7 @@ nav .menu.close .menu-link .text-item {
 }
 
 .a-soluction:hover {
-  box-shadow: 0 0 5px #1D71ED, 0 0 25px #1D71ED, 0 0 50px #1D71ED, 0 0 100px #1D71ED;
+  box-shadow: 0 0 5px #1D71ED, 0 0 15px #1D71ED, 0 0 30px #1D71ED, 0 0 30px #1D71ED;
 }
 
 .soluction .card-sol:hover .content .p-solu {
@@ -1703,7 +1703,7 @@ footer {
 }
 
 .a-service:hover {
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 30px #03e9f4;
 }
 
 .services .card:hover {
