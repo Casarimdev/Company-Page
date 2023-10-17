@@ -3,7 +3,7 @@ let inputNumber = document.getElementById("inputNum")
 let inputEmpresa = document.getElementById("inputEmp")
 let inputEmail = document.getElementById("inputEmail")
 let areaMensagem = document.getElementById("textArea")
-let buttonSubmit = document.getElementById("submit")
+let buttonSubmit = document.getElementById("Submit")
 
 function Send(){
     if (inputName.value == ""){
