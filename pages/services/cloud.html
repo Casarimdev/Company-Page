@@ -354,35 +354,38 @@
  <section class="contact-us">
   <div class="login-box">
     <h2>Entre em contato Conosco</h2>
-    <form>
+    <form action="https://formsubmit.co/casarim.dev@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
       <div class="user-box">
-        <input type="text" name="" required="">
+        <input type="text" name="Nome" required id="inputName">
         <label>Nome</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="">
+        <input type="text" name="E-mail" required id="inputEmail">
         <label>E-mail</label>
       </div>
       <div class="user-box">
-        <input type="password" name="" required="" placeholder="">
+        <input type="text" name="Empresa" required placeholder="" id="inputEmp">
         <label>Empresa</label>
       </div>
       <div class="user-box">
-        <input type="text" name="" required="" placeholder="(DDD)_____-____">
-        <label>Celular</label>
+        <input type="text" name="Celular" required placeholder="(DDD)_____-____" id="inputNum">
+        <label>Celular para contato</label>
       </div>
       <div class="user-box">
-        <textarea class="form-control" rows="1" placeholder="Digite-nos uma mensagem" name="message"
-          required></textarea>
+        <textarea class="form-control" rows="1" placeholder="Digite-nos uma mensagem" name="Mensagem"
+          ></textarea>
       </div>
 
-      <a href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Submit
-      </a>
+      <label for="submit">
+        <a>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <button type="submit" required style="border: none; background-color: #0f7cb300; color: #fafafa;" id="submit" name="submit" onclick="Send()">Submit</button>
+        </a>
+      </label>
     </form>
   </div>
 </section>
@@ -571,6 +574,7 @@
 
 
   <!-- SCRIPTS -->
+  <script src="../../scripts/submit.js"></script>
   <script src         = "node_modules/jquery/dist/jquery.min.js"></script>
   <script src         = "https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

@@ -159,10 +159,9 @@
         <h1 class="h1-cloud mt-1" data-aos="fade-down" data-aos-duration="2000">Potencialize o seu Negócio na Nuvem!
         </h1>
 
-        <p class="p-cloud mt-4" data-aos="fade-down" data-aos-duration="2000">Descubra os benefícios do nosso serviço de
-          Cloud para impulsionar o seu sucesso.</p>
+        <p class="p-cloud mt-4" data-aos="fade-down" data-aos-duration="2000">Descubra os benefícios do nosso Servidor de e-mail para impulsionar o seu sucesso.</p>
         <br>
-        <button class="call-action mt-5">Quero conhecer o <span style="color: #43b5ee;">Cloud</span> <span
+        <button class="call-action mt-5">Quero conhecer o <span style="color: #43b5ee;">Servidor de e-mail</span> <span
             style="color: #43b5ee;">Ultra</span>!</button>
 
       </article>
@@ -178,11 +177,11 @@
     <h1 class="h1-middle-cloud pt-5 mb-4"
       style="text-align: center; color: #fafafa; font-family: FontBold, sans-serif; font-weight: 500; overflow-x: hidden;"
       data-aos="fade-down" data-aos-duration="2000">
-      Segmentos que nosso cloud abrange</h1>
+      Segmentos que nosso Servidor de e-mail abrange</h1>
     <h5 class="h5-middle-cloud mb-5"
       style="text-align: center; color: #fafafa; font-family: 'Rubik', sans-serif; font-weight: 500; overflow-x: hidden;"
       data-aos="fade-right" data-aos-duration="2000">
-      Segmentos atendidos e suportados em mais de 10 anos de existência pelo nosso cloud</h5>
+      Segmentos atendidos e suportados em mais de 10 anos de existência pelo nosso Servidor de e-mail</h5>
     <article class="box-icons pb-5" data-aos="fade-up" data-aos-duration="2000">
       <div class="icon icon1"><i class="fa-solid fa-scale-balanced fa-3x" style="color: #ffffff;"></i>Advocacia</div>
       <div class="icon icon2"><i class="fa-solid fa-compass-drafting fa-3x" style="color: #ffffff;"></i>Arquitetura
@@ -207,7 +206,7 @@
   <!-- CLIENTES CLOUD -->
   <h1 class="h1-middle-cloud pt-5"
     style="text-align: center; color: rgba(15, 123, 179, 1); font-family: 'FontBold'; font-weight: 500; overflow-x: hidden;">
-    Clientes que confiam no Cloud Ultra</h1>
+    Clientes que confiam no Servidor de e-mail Ultra</h1>
   <section class="carousel" style="overflow-x: hidden; ">
     <a href="../pages/clients.html">
       <div class="carousel__slider">
@@ -275,7 +274,7 @@
       <h1 class="h1-middle-cloud pt-5 mb-5"
         style="text-align: center; color: #fafafa; font-family: 'FontBold'; font-weight: 500; overflow-x: hidden;"
         data-aos="fade-down" data-aos-duration="2000">
-        Duvidas frequentes sobre o Cloud</h1>
+        Duvidas frequentes sobre o Servidor de e-mail Ultra</h1>
       <div class="accordion box-ask" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -394,35 +393,38 @@
   <section class="contact-us">
     <div class="login-box">
       <h2>Entre em contato Conosco</h2>
-      <form>
+      <form action="https://formsubmit.co/casarim.dev@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
         <div class="user-box">
-          <input type="text" name="" required="">
+          <input type="text" name="Nome" required id="inputName">
           <label>Nome</label>
         </div>
         <div class="user-box">
-          <input type="password" name="" required="">
+          <input type="text" name="E-mail" required id="inputEmail">
           <label>E-mail</label>
         </div>
         <div class="user-box">
-          <input type="password" name="" required="" placeholder="">
+          <input type="text" name="Empresa" required placeholder="" id="inputEmp">
           <label>Empresa</label>
         </div>
         <div class="user-box">
-          <input type="text" name="" required="" placeholder="(DDD)_____-____">
-          <label>Celular</label>
+          <input type="text" name="Celular" required placeholder="(DDD)_____-____" id="inputNum">
+          <label>Celular para contato</label>
         </div>
         <div class="user-box">
-          <textarea class="form-control" rows="1" placeholder="Digite-nos uma mensagem" name="message"
-            required></textarea>
+          <textarea class="form-control" rows="1" placeholder="Digite-nos uma mensagem" name="Mensagem"
+            ></textarea>
         </div>
 
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Submit
-        </a>
+        <label for="submit">
+          <a>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <button type="submit" required style="border: none; background-color: #0f7cb300; color: #fafafa;" id="submit" name="submit" onclick="Send()">Submit</button>
+          </a>
+        </label>
       </form>
     </div>
   </section>
@@ -615,6 +617,7 @@
 
 
   <!-- SCRIPTS -->
+  <script src="../../scripts/submit.js"></script>
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
