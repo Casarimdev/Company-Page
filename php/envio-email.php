@@ -53,3 +53,5 @@ if (isset($_POST['Submit'])){
         echo "Erro ao enviar o e-mail: {$mail->ErrorInfo}";
     }
 }
+;
+?>
