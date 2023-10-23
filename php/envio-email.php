@@ -1,13 +1,12 @@
 <?php
-
-
 $nome = $_POST['Nome'];
-  $email = $_POST['Email'];
-  $number = $_POST['Celular'];
-  $empresa = $_POST['Empresa'];
-  $mensagem = $_POST['Mensagem'];
-  $data_envio = date('d/m/Y');
-  $hora_envio = date('H:i:s');
+$email = $_POST['Email'];
+$number = $_POST['Celular'];
+$empresa = $_POST['Empresa'];
+$mensagem = $_POST['Mensagem'];
+$data_envio = date('d/m/Y');
+$hora_envio = date('H:i:s');
+
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -21,6 +20,14 @@ if (isset($_POST['Submit'])){
     $mail = new PHPMailer(true);
 
     try {
+
+        $nome = $_POST['Nome'];
+        $email = $_POST['Email'];
+        $number = $_POST['Celular'];
+        $empresa = $_POST['Empresa'];
+        $mensagem = $_POST['Mensagem'];
+        $data_envio = date('d/m/Y');
+        $hora_envio = date('H:i:s');
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
