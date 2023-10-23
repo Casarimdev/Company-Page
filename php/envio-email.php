@@ -17,7 +17,7 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-if (isset($_POST['submit'])){
+if (isset($_POST['Submit'])){
     $mail = new PHPMailer(true);
 
     try {
