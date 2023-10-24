@@ -1892,8 +1892,8 @@ footer {
   min-height: 80vh;
   height: auto;
   width: 100%;
-  background: rgb(21, 92, 182);
-  background: linear-gradient(180deg, rgb(21, 92, 182) 56%, rgb(52, 130, 210) 67%, rgb(69, 151, 225) 86%, rgb(85, 172, 243) 92%);
+  background: rgb(16, 76, 186);
+  background: linear-gradient(45deg, rgb(16, 76, 186) 56%, rgb(52, 130, 210) 67%, rgb(69, 151, 225) 86%, rgb(85, 172, 243) 92%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
