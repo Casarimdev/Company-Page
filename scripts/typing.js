@@ -1,4 +1,4 @@
-let text = document.getElementById("elementEl")
+let text = document.getElementById("elementEl1")
 let text2 = document.getElementById("elementEl1") 
 
         function typeWriter(el) {
@@ -10,7 +10,7 @@ let text2 = document.getElementById("elementEl1")
 
 
             text.style.content = "" 
-            // setInterval(() => typeWriter(el), 8000);
+            setInterval(() => typeWriter(el), 8000);
 
         }
 
