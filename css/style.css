@@ -3196,6 +3196,12 @@ html {
   animation: blink 0.7s infinite;
 }
 
+#elementEl1::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;
