@@ -349,7 +349,7 @@ ul {
     display: none;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .navbardesktop {
     display: none !important;
   }
@@ -537,7 +537,7 @@ nav .menubar {
   /* Logo */
   /* Icons */
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menubar {
     height: 60px;
     padding: 0 20px;
@@ -639,7 +639,7 @@ nav .menubar .icons .icon-menu.icon-closed:hover span {
   width: 0;
   opacity: 1;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menubar .icons .icon-menu.icon-closed:hover span:before {
     transform: rotate(45deg);
   }
@@ -659,7 +659,7 @@ nav .menubar .icons .secondary-icons .icon-second {
   transition: all 0.3s ease;
   padding: 5px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menubar .icons .secondary-icons .icon-second {
     margin: 0 5px;
   }
@@ -667,7 +667,7 @@ nav .menubar .icons .secondary-icons .icon-second {
 nav .menubar .icons .secondary-icons .icon-second:last-child {
   margin-right: 30px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menubar .icons .secondary-icons .icon-second:last-child {
     margin-right: 15px;
   }
@@ -677,7 +677,7 @@ nav .menubar .icons .secondary-icons .icon-second:hover {
   transform: translateY(-5px);
   opacity: 0.5;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menubar .icons .secondary-icons .icon-second:hover {
     transform: translateY(0px);
     opacity: 1;
@@ -754,7 +754,7 @@ nav .menu.open .menu-link .text-item {
   animation: text-in 0.6s ease;
   position: absolute;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link .text-item {
     transform: rotate(0deg);
     font-size: 30px;
@@ -781,7 +781,7 @@ nav .menu.open .menu-link .text-item .icon {
   transition: all 0.4s ease-in-out;
   background-image: url("https://rafaelavlucas.github.io/assets/icons/white/icon-54.svg");
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link .text-item .icon {
     opacity: 0.5;
     transform: translateY(40px);
@@ -803,7 +803,7 @@ nav .menu.open .menu-link .submenu {
   transform: translateY(50%);
   position: absolute;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link .submenu {
     padding: 0 5%;
   }
@@ -822,7 +822,7 @@ nav .menu.open .menu-link .submenu .sub-item {
   cursor: pointer;
   padding: 5px 15px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link .submenu .sub-item {
     font-size: 16px;
   }
@@ -865,7 +865,7 @@ nav .menu.open .menu-link:hover .text-item .icon {
   transform: translateY(40px);
   transition: all 0.3s 0.4s ease-in-out;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link:hover .text-item {
     width: 100%;
     font-size: 30px;
@@ -873,7 +873,7 @@ nav .menu.open .menu-link:hover .text-item .icon {
     letter-spacing: 5px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link:hover.active {
     height: 80vh;
   }
@@ -883,7 +883,7 @@ nav .menu.open .menu-link:hover.active .text-item {
   transform-origin: center center;
   transition: all 0.6s ease-in-out;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link:hover.active .text-item {
     height: 20%;
     transform: translateY(-180%);
@@ -900,7 +900,7 @@ nav .menu.open .menu-link:hover.active .submenu {
   opacity: 1;
   bottom: 0;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link:hover.active .submenu {
     height: 70%;
   }
@@ -934,7 +934,7 @@ nav .menu.open .menu-link:hover.active .submenu .sub-item:nth-child(2) {
 nav .menu.open .menu-link:hover.active .submenu .sub-item:nth-child(3) {
   animation-duration: 1.4s;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open .menu-link {
     width: 100%;
     height: 25%;
@@ -955,7 +955,7 @@ nav .menu.open .menu-link:hover.active .submenu .sub-item:nth-child(3) {
     text-decoration: none;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   nav .menu.open {
     height: 100vh;
     flex-direction: column;
