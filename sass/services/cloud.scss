@@ -2,7 +2,8 @@
     // FIM DO HEADER
   
   .container-sky{
-  height          : 80vh;
+  min-height          : 80vh;
+  height: auto;
   width           : 100%;
   background-image: url('../images/background-sky.jpg');
     // background-color: #fafafa;
@@ -399,6 +400,9 @@
     }
   }
   
+  
+
+
 @media (max-width: 768px){
   .call-action{
     width  : auto;
@@ -407,8 +411,12 @@
   }
 
   .content-sky{
-    justify-content: center;
+    min-height: 100vh !important;
+    height         : auto !important;
   }
+  // .content-sky{
+  //   justify-content: center;
+  // }
 
   .p-schildren, .p-sson{
     display: flex;
@@ -426,6 +434,12 @@
   .carac1, .carac2, .carac3{
     align-items    : center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 768px){
+  .h1-cloud, .p-cloud{
+    width: 65vw !important;
   }
 }
 
