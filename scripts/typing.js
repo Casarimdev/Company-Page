@@ -10,7 +10,7 @@ let text2 = document.getElementById("elementEl1")
 
 
             text.style.content = "" 
-            setInterval(() => typeWriter(el), 8000);
+            // setInterval(() => typeWriter(text2), 8000);
 
         }
 
