@@ -67,25 +67,63 @@ footer {
 
 .a-footer{
     color: white;
-
+    transition: 1.0s;
+    
 }
 
 .a-footer:hover{
+    transition: 1.0s;
     color: rgb(218, 210, 210);
+    transform: scale(0.9);
 
 }
 
-#instagram:hover {
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+
+#instagram{
+    transition: 1.0s;
+
+    &:hover {
+        transition: 1.0s;
+        transform: scale(1.2);
+        background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    }
 }
 
-#facebook:hover {
-    background-color: #467ff1;
+
+#facebook{
+    transition: 1.0s;
+
+    &:hover {
+        transition: 1.0s;
+        transform: scale(1.2);
+        background: linear-gradient(135deg, #0077B5, #0A66C2);
+    }
 }
 
-#whatsapp:hover {
-    background-color: #25d366;
+
+
+#whatsapp{
+    transition: 1.0s;
+    &:hover {
+        transition: 1.0s;
+        transform: scale(1.2);
+        background: linear-gradient(135deg, #25D366, #128C7E);
+    }
 }
+
+
+#e-mail{
+    transition: 1.0s;
+    
+    &:hover{
+        transition: 1.0s;
+        transform: scale(1.2);
+        background: linear-gradient(135deg, #0077B5, #0A66C2);
+    }
+}
+
+
+
 
 .footer-list {
     display       : flex;

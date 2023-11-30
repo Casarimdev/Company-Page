@@ -231,11 +231,10 @@ ul {
 }
 
 .menudesktop-links .linkdesktop:hover {
-  background: #03e9f4;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
   transition: 0.8s;
+  transform: scale(1.2);
 }
 
 .log-in {
@@ -256,6 +255,7 @@ ul {
   font-weight: 500;
   text-decoration: none;
   transition: 0.8s;
+  transform: scale(1.1);
 }
 
 .menudesktop-btn {
@@ -294,8 +294,8 @@ ul {
   color: rgb(251, 248, 248) !important;
   transition: 0.6 !important;
   border-radius: 4px !important;
-  box-shadow: 0px 7px 18px 7px #fafafa !important;
   transition: 1s !important;
+  transform: scale(0.9);
 }
 
 .nav-services:hover {
@@ -439,6 +439,14 @@ a:hover {
 }
 .about .social.linkedin {
   transition: all 0.8s ease;
+}
+.about .social.email {
+  bottom: 93%;
+  right: 75%;
+  transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+.about .social.email .icon:hover {
+  background: linear-gradient(135deg, #0077B5, #0A66C2);
 }
 .about:hover {
   width: 105px;
@@ -1486,22 +1494,49 @@ footer {
 
 .a-footer {
   color: white;
+  transition: 1s;
 }
 
 .a-footer:hover {
+  transition: 1s;
   color: rgb(218, 210, 210);
+  transform: scale(0.9);
 }
 
+#instagram {
+  transition: 1s;
+}
 #instagram:hover {
+  transition: 1s;
+  transform: scale(1.2);
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
+#facebook {
+  transition: 1s;
+}
 #facebook:hover {
-  background-color: #467ff1;
+  transition: 1s;
+  transform: scale(1.2);
+  background: linear-gradient(135deg, #0077B5, #0A66C2);
 }
 
+#whatsapp {
+  transition: 1s;
+}
 #whatsapp:hover {
-  background-color: #25d366;
+  transition: 1s;
+  transform: scale(1.2);
+  background: linear-gradient(135deg, #25D366, #128C7E);
+}
+
+#e-mail {
+  transition: 1s;
+}
+#e-mail:hover {
+  transition: 1s;
+  transform: scale(1.2);
+  background: linear-gradient(135deg, #0077B5, #0A66C2);
 }
 
 .footer-list {
