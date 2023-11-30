@@ -233,7 +233,6 @@ ul {
 
 .menudesktop-links .linkdesktop:hover {
   color: #fff;
-  border-radius: 5px;
   transition: 0.8s;
   transform: scale(1.2);
 }
@@ -2378,7 +2377,7 @@ footer {
 }
 .call-action:hover {
   transition: 0.6s linear;
-  transform: scale(1.2);
+  transform: scale(0.9);
   font-weight: 700;
   text-decoration: none;
   border: 2px solid yellow;
