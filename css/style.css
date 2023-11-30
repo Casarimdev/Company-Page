@@ -1108,10 +1108,13 @@ nav .menu.close .menu-link .text-item {
   outline: none;
   margin-top: 20px;
   overflow-x: hidden;
+  transition: 1s;
 }
 
 .a-service:hover {
   box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 30px #03e9f4;
+  transition: 1s;
+  transform: scale(1.1);
 }
 
 .services .card:hover {
@@ -1342,6 +1345,7 @@ nav .menu.close .menu-link .text-item {
   outline: none;
   margin-top: 20px;
   overflow-x: hidden;
+  transition: 1s;
 }
 
 .soluction .card-sol:hover {
@@ -1353,6 +1357,8 @@ nav .menu.close .menu-link .text-item {
 }
 
 .a-soluction:hover {
+  transition: 1s;
+  transform: scale(1.1);
   box-shadow: 0 0 5px #1D71ED, 0 0 15px #1D71ED, 0 0 30px #1D71ED, 0 0 30px #1D71ED;
 }
 
@@ -1729,10 +1735,13 @@ footer {
   outline: none;
   margin-top: 20px;
   overflow-x: hidden;
+  transition: 1s;
 }
 
 .a-service:hover {
   box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 30px #03e9f4, 0 0 30px #03e9f4;
+  transition: 1s;
+  transform: scale(1.1);
 }
 
 .services .card:hover {

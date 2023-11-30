@@ -133,6 +133,7 @@
     outline         : none;
     margin-top      : 20px;
     overflow-x      : hidden;
+    transition: 1.0s;
 }
 
 .soluction .card-sol:hover {
@@ -144,6 +145,8 @@
 }
 
 .a-soluction:hover{
+    transition: 1.0s;
+    transform: scale(1.1);
     box-shadow: 0 0 5px #1D71ED,
                 0 0 15px #1D71ED,
                 0 0 30px #1D71ED,
