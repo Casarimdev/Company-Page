@@ -1,8 +1,8 @@
 ### Olá, sou Lucas Casarim || Casarim.dev 👋
 
-# Projeto Website Ultra IT / Acesse: https://casarimdev.github.io/UltraIT-site/pages/index.html
+# Projeto Website Ultra IT / Acesse: https://casarimdev.github.io/Company-Page/pages/index
 
-Projeto de WebSite profissional para empresa Ultra IT
+Projeto de WebSite profissional
 
 ## 🛠️ Construído com
 
